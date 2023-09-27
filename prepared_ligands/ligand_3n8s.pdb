@@ -1,0 +1,72 @@
+CRYST1   49.831   67.869   75.314  90.00  90.00  90.00 P 21 21 21    1
+ATOM      1  N   SER A  84     -14.859 -11.088   5.735  1.00  3.92           N  
+ATOM      2  CA  SER A  84     -14.396 -10.699   7.082  1.00  3.66           C  
+ATOM      3  C   SER A  84     -15.334  -9.815   7.892  1.00  3.41           C  
+ATOM      4  O   SER A  84     -15.032  -9.529   9.042  1.00  3.03           O  
+ATOM      5  CB  SER A  84     -13.077  -9.949   6.999  1.00  3.79           C  
+ATOM      6  OG  SER A  84     -12.014 -10.852   6.741  1.00  5.74           O  
+TER   
+HETATM    7  CAA XD2 A 308      -5.499  -4.252   0.908  1.00 45.26           C  
+HETATM    8  CAG XD2 A 308      -7.456 -11.105  -1.215  1.00 25.36           C  
+HETATM    9  CAH XD2 A 308      -8.798 -10.939  -1.196  1.00 25.83           C  
+HETATM   10  CAI XD2 A 308      -6.926 -12.002  -0.330  1.00 26.01           C  
+HETATM   11  CAJ XD2 A 308      -9.635 -11.620  -0.306  1.00 25.79           C  
+HETATM   12  CAK XD2 A 308      -7.758 -12.702   0.539  1.00 25.75           C  
+HETATM   13  CAL XD2 A 308     -11.704 -11.101   5.470  1.00 21.21           C  
+HETATM   14  CAM XD2 A 308      -8.714  -7.292   2.273  1.00 31.89           C  
+HETATM   15  CAN XD2 A 308      -8.066  -9.731   2.907  1.00 27.69           C  
+HETATM   16  CAV XD2 A 308     -10.497  -7.115   4.387  1.00 27.04           C  
+HETATM   17  CAW XD2 A 308      -9.733 -12.959   2.999  1.00 23.09           C  
+HETATM   18  CAX XD2 A 308      -8.878  -8.459   3.194  1.00 29.48           C  
+HETATM   19  CAY XD2 A 308      -9.796  -8.380   4.209  1.00 27.56           C  
+HETATM   20  CAZ XD2 A 308      -9.112 -12.512   0.569  1.00 25.19           C  
+HETATM   21  NAO XD2 A 308      -5.885  -4.466   4.347  1.00 45.78           N  
+HETATM   22  NAP XD2 A 308      -6.403  -5.555   4.130  1.00 45.16           N  
+HETATM   23  NAQ XD2 A 308      -5.521  -3.882   3.346  1.00 45.53           N  
+HETATM   24  NAR XD2 A 308     -10.483 -11.977   3.501  1.00 21.79           N  
+HETATM   25  NAS XD2 A 308     -10.004  -9.325   5.060  1.00 25.79           N  
+HETATM   26  OAB XD2 A 308     -11.209  -7.040   5.265  1.00 28.64           O  
+HETATM   27  OAC XD2 A 308      -9.009 -13.684   3.664  1.00 20.84           O  
+HETATM   28  OAD XD2 A 308     -12.521 -10.681   4.442  1.00 19.13           O  
+HETATM   29  OAE XD2 A 308     -10.433  -6.282   3.617  1.00 28.22           O  
+HETATM   30  OAF XD2 A 308      -9.916 -14.644   1.239  1.00 24.87           O  
+HETATM   31  SAT XD2 A 308      -6.985  -7.024   1.771  1.00 42.86           S  
+HETATM   32  SAU XD2 A 308      -7.754 -10.698   4.407  1.00 23.67           S  
+HETATM   33  CBA XD2 A 308      -6.364  -5.664   2.817  1.00 44.08           C  
+HETATM   34  CBB XD2 A 308      -9.992 -13.280   1.512  1.00 24.06           C  
+HETATM   35  CBC XD2 A 308     -10.428 -11.619   4.914  1.00 22.84           C  
+HETATM   36  CBD XD2 A 308      -9.374 -10.597   5.142  1.00 26.17           C  
+HETATM   37  NBE XD2 A 308      -5.762  -4.571   2.379  1.00 45.32           N  
+CONECT    6   13
+CONECT    7   37
+CONECT    8    9   10
+CONECT    9    8   11
+CONECT   10    8   12
+CONECT   11    9   20
+CONECT   12   10   20
+CONECT   13    6   35   28
+CONECT   14   18   31
+CONECT   15   18   32
+CONECT   16   19   26   29
+CONECT   17   34   24   27
+CONECT   18   14   15   19
+CONECT   19   16   18   25
+CONECT   20   11   12   34
+CONECT   21   22   23
+CONECT   22   21   33
+CONECT   23   21   37
+CONECT   24   17   35
+CONECT   25   19   36
+CONECT   26   16
+CONECT   27   17
+CONECT   28   13
+CONECT   29   16
+CONECT   30   34
+CONECT   31   14   33
+CONECT   32   15   36
+CONECT   33   22   31   37
+CONECT   34   17   20   30
+CONECT   35   13   24   36
+CONECT   36   25   32   35
+CONECT   37    7   23   33
+END

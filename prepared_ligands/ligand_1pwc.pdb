@@ -1,0 +1,85 @@
+CRYST1   50.900   66.700   99.600  90.00  90.00  90.00 P 21 21 21    1
+ATOM      1  N   SER A  62      15.179  -9.560  35.524  1.00  6.33           N  
+ANISOU    1  N   SER A  62      675    799    933    -61      0     99       N  
+ATOM      2  CA  SER A  62      14.175  -9.409  36.555  1.00  6.54           C  
+ANISOU    2  CA  SER A  62      742    872    869     75     13     10       C  
+ATOM      3  C   SER A  62      13.495  -8.038  36.534  1.00  6.31           C  
+ANISOU    3  C   SER A  62      736    908    752     54    -44     34       C  
+ATOM      4  O   SER A  62      12.513  -7.864  37.250  1.00  7.09           O  
+ANISOU    4  O   SER A  62      732    998    962     56     52     -9       O  
+ATOM      5  CB  SER A  62      14.771  -9.536  37.968  1.00  7.91           C  
+ANISOU    5  CB  SER A  62     1262    863    879    206    -84    206       C  
+ATOM      6  OG  SER A  62      15.074 -10.954  38.214  1.00  7.29           O  
+ANISOU    6  OG  SER A  62      915    853   1004     77    182    229       O  
+TER   
+HETATM    7  S1 APNM A 400      18.554 -12.499  40.936  0.75 12.45           S  
+ANISOU    7  S1 APNM A 400     1636   1456   1639    576   -402   -100       S  
+HETATM    8  C2 APNM A 400      18.974 -10.753  41.422  0.75 11.35           C  
+ANISOU    8  C2 APNM A 400     1309   1489   1514     47   -234    275       C  
+HETATM    9  C3 APNM A 400      18.215  -9.896  40.353  0.75 10.60           C  
+ANISOU    9  C3 APNM A 400     1292   1362   1374    -27   -187    102       C  
+HETATM   10  N4 APNM A 400      16.928 -10.579  40.187  0.75  9.42           N  
+ANISOU   10  N4 APNM A 400     1160   1018   1403    193   -133     78       N  
+HETATM   11  C5 APNM A 400      17.011 -12.050  40.194  0.75  7.47           C  
+ANISOU   11  C5 APNM A 400     1081    885    871    259    164    209       C  
+HETATM   12  C6 APNM A 400      16.765 -12.518  38.757  0.75  6.28           C  
+ANISOU   12  C6 APNM A 400      525    838   1022    135    219    193       C  
+HETATM   13  C7 APNM A 400      16.441 -11.304  37.956  0.75  6.35           C  
+ANISOU   13  C7 APNM A 400      844    697    871     27     65     94       C  
+HETATM   14  O8 APNM A 400      17.133 -10.677  37.249  0.75  5.76           O  
+ANISOU   14  O8 APNM A 400      504    702    984    -24    -28    184       O  
+HETATM   15  C9 APNM A 400      18.483 -10.470  42.828  0.75 12.35           C  
+ANISOU   15  C9 APNM A 400     2017   1219   1455    415   -412     82       C  
+HETATM   16  C10APNM A 400      20.440 -10.477  41.399  0.75 17.71           C  
+ANISOU   16  C10APNM A 400     1514   3656   1561   -832   -679   1136       C  
+HETATM   17  C11APNM A 400      17.900  -8.410  40.747  0.75 10.68           C  
+ANISOU   17  C11APNM A 400     1259   1291   1510     32     24    175       C  
+HETATM   18  O12APNM A 400      16.768  -8.170  41.252  0.75 14.27           O  
+ANISOU   18  O12APNM A 400     1831   1623   1966    144    800    261       O  
+HETATM   19  O13APNM A 400      18.868  -7.666  40.594  0.75 19.38           O  
+ANISOU   19  O13APNM A 400     1708   1210   4446     65    774    560       O  
+HETATM   20  N14APNM A 400      17.875 -13.173  38.104  0.75  5.62           N  
+ANISOU   20  N14APNM A 400      516    840    781     32    -12     52       N  
+HETATM   21  C15APNM A 400      18.083 -14.479  38.239  0.75  7.92           C  
+ANISOU   21  C15APNM A 400      728    838   1443     80    312    166       C  
+HETATM   22  O16APNM A 400      17.233 -15.263  38.707  0.75 21.95           O  
+ANISOU   22  O16APNM A 400     1887   1121   5331     99   2018    816       O  
+HETATM   23  C17APNM A 400      19.267 -15.055  37.497  0.75  9.99           C  
+ANISOU   23  C17APNM A 400      927   1079   1792    287    405     51       C  
+HETATM   24  C18APNM A 400      20.413 -15.477  38.451  0.75 10.77           C  
+ANISOU   24  C18APNM A 400      968   1037   2089    395    311    -66       C  
+HETATM   25  C19APNM A 400      20.639 -16.803  38.721  0.75 13.96           C  
+ANISOU   25  C19APNM A 400     1311   1117   2874    215    426    554       C  
+HETATM   26  C20APNM A 400      21.728 -17.140  39.497  0.75 18.29           C  
+ANISOU   26  C20APNM A 400     1741   1534   3676    669     87    627       C  
+HETATM   27  C21APNM A 400      22.575 -16.132  39.911  0.75 19.44           C  
+ANISOU   27  C21APNM A 400     1328   2218   3839    526   -206    696       C  
+HETATM   28  C22APNM A 400      22.358 -14.804  39.732  0.75 15.07           C  
+ANISOU   28  C22APNM A 400      666   1964   3094    174    144    274       C  
+HETATM   29  C23APNM A 400      21.288 -14.473  38.947  0.75 12.62           C  
+ANISOU   29  C23APNM A 400     1113   1322   2359    115    104    125       C  
+CONECT    6   13
+CONECT    7   11    8
+CONECT    8    7   15   16    9
+CONECT    9    8   17   10
+CONECT   10    9   11
+CONECT   11    7   10   12
+CONECT   12   11   20   13
+CONECT   13    6   12   14
+CONECT   14   13
+CONECT   15    8
+CONECT   16    8
+CONECT   17    9   18   19
+CONECT   18   17
+CONECT   19   17
+CONECT   20   12   21
+CONECT   21   20   22   23
+CONECT   22   21
+CONECT   23   21   24
+CONECT   24   23   25   29
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   24   28
+END
