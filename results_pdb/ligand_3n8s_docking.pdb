@@ -1,0 +1,1120 @@
+MODEL        1
+USER    Run = 1
+USER    DPF = dpf_files/ligand_3n8s.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -8.15 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =    1.07 uM (micromol
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -11.73 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -8.35 kcal/mol
+USER        Internal Moving-Moving Receptor =   -3.38 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8s
+USER    NEWDPF about -9.121000 -9.490000 3.141000
+USER    NEWDPF tran0 -14.346352 -3.339410 8.409549
+USER    NEWDPF quaternion0 0.367263 -0.398762 -0.164461 0.824050
+USER    NEWDPF axisangle0 0.648284 -0.703884 -0.290302 69.015322
+USER    NEWDPF quat0 0.648284 -0.703884 -0.290302 69.015322
+USER    NEWDPF dihe0 94.24 3.02 141.26 84.28 131.11 -43.81 30.68 -
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAL 
+REMARK    4  A    between atoms: CAL  and  CBC 
+REMARK    5  A    between atoms: CAM  and  CAX 
+REMARK    6  A    between atoms: CAM  and  SAT 
+REMARK    7  A    between atoms: CAV  and  CAY 
+REMARK    8  A    between atoms: CAW  and  CBB 
+REMARK       I    between atoms: CAW  and  NAR 
+REMARK    9  A    between atoms: CAZ  and  CBB 
+REMARK   10  A    between atoms: NAR  and  CBC 
+REMARK   11  A    between atoms: SAT  and  CBA 
+REMARK   12  A    between atoms: CBC  and  CBD 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.396 -10.699   7.082 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.077  -9.949   6.999 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.512 -10.091   5.706 -0.34 -0.16
+BRANCH   3   4
+ATOM      4  CAL SER A  84     -11.507 -10.952   5.557 -0.29 +0.13
+ATOM      5  OAD SER A  84     -11.572 -12.222   6.090 -0.40 -0.12
+BRANCH   4   6
+ATOM      6  CBC SER A  84     -10.318 -10.841   4.675 -0.26 +0.04
+BRANCH   6   7
+ATOM      7  CBD SER A  84     -10.557  -9.738   3.709 -0.32 +0.01
+ATOM      8  SAU SER A  84     -10.853  -8.056   4.216 -0.66 -0.03
+ATOM      9  CAN SER A  84      -9.149  -7.443   4.164 -0.30 +0.01
+ATOM     10  CAX SER A  84      -8.400  -7.917   2.909 -0.22 +0.00
+ATOM     11  CAY SER A  84      -8.670  -9.110   2.292 -0.18 -0.01
+ATOM     12  NAS SER A  84      -9.622  -9.902   2.651 -0.15 +0.01
+BRANCH  10  13
+ATOM     13  CAM SER A  84      -7.276  -7.074   2.396 -0.11 -0.01
+BRANCH  13  14
+ATOM     14  SAT SER A  84      -5.665  -7.533   3.108 -0.15 +0.01
+BRANCH  14  15
+ATOM     15  CBA SER A  84      -6.037  -8.556   4.573 -0.14 -0.03
+ATOM     16  NBE SER A  84      -5.599  -8.329   5.800 -0.26 +0.04
+ATOM     17  NAQ SER A  84      -6.070  -9.187   6.514 -0.38 +0.01
+ATOM     18  CAA SER A  84      -4.714  -7.151   6.204 -0.29 -0.04
+ATOM     19  NAO SER A  84      -6.730  -9.947   5.834 -0.39 +0.00
+ATOM     20  NAP SER A  84      -6.766  -9.651   4.645 -0.23 +0.01
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+BRANCH  11  21
+ATOM     21  CAV SER A  84      -7.897  -9.444   1.103 -0.13 -0.03
+ATOM     22  OAE SER A  84      -7.064 -10.216   1.128 +0.03 +0.14
+ATOM     23  OAB SER A  84      -8.242  -8.995   0.121 +0.01 +0.07
+ENDBRANCH  11  21
+ENDBRANCH   6   7
+BRANCH   6  24
+ATOM     24  NAR SER A  84      -9.975 -12.067   3.962 -0.15 +0.01
+ATOM     25  CAW SER A  84      -8.806 -12.681   4.150 -0.17 -0.01
+ATOM     26  OAC SER A  84      -7.968 -12.335   4.968 -0.27 +0.01
+BRANCH  25  27
+ATOM     27  CBB SER A  84      -8.648 -14.021   3.402 -0.20 -0.03
+ATOM     28  OAF SER A  84      -7.365 -14.551   3.520 -0.77 -0.01
+BRANCH  27  29
+ATOM     29  CAZ SER A  84      -9.050 -13.954   1.957 -0.24 -0.00
+ATOM     30  CAK SER A  84      -9.492 -15.061   1.285 -0.22 +0.00
+ATOM     31  CAI SER A  84      -9.873 -15.018  -0.053 -0.34 +0.00
+ATOM     32  CAG SER A  84      -9.839 -13.836  -0.739 -0.34 +0.00
+ATOM     33  CAH SER A  84      -9.424 -12.741  -0.062 -0.29 +0.00
+ATOM     34  CAJ SER A  84      -9.014 -12.785   1.274 -0.24 +0.00
+ENDBRANCH  27  29
+ENDBRANCH  25  27
+ENDBRANCH   6  24
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        2
+USER    Run = 2
+USER    DPF = dpf_files/ligand_3n8s.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -8.68 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  431.57 nM (nanomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -12.26 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -8.58 kcal/mol
+USER        Internal Moving-Moving Receptor =   -3.69 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8s
+USER    NEWDPF about -9.121000 -9.490000 3.141000
+USER    NEWDPF tran0 -1.116511 -3.381302 2.774492
+USER    NEWDPF quaternion0 0.413093 -0.736471 0.207047 0.494061
+USER    NEWDPF axisangle0 0.475133 -0.847076 0.238141 120.784345
+USER    NEWDPF quat0 0.475133 -0.847076 0.238141 120.784345
+USER    NEWDPF dihe0 -118.70 26.80 64.17 71.25 -44.06 -105.01 71.4
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAL 
+REMARK    4  A    between atoms: CAL  and  CBC 
+REMARK    5  A    between atoms: CAM  and  CAX 
+REMARK    6  A    between atoms: CAM  and  SAT 
+REMARK    7  A    between atoms: CAV  and  CAY 
+REMARK    8  A    between atoms: CAW  and  CBB 
+REMARK       I    between atoms: CAW  and  NAR 
+REMARK    9  A    between atoms: CAZ  and  CBB 
+REMARK   10  A    between atoms: NAR  and  CBC 
+REMARK   11  A    between atoms: SAT  and  CBA 
+REMARK   12  A    between atoms: CBC  and  CBD 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.396 -10.699   7.082 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.077  -9.949   6.999 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.823  -9.548   5.662 -0.37 -0.18
+BRANCH   3   4
+ATOM      4  CAL SER A  84     -11.992 -10.293   4.936 -0.25 +0.13
+ATOM      5  OAD SER A  84     -12.458 -11.084   3.908 -1.23 -0.03
+BRANCH   4   6
+ATOM      6  CBC SER A  84     -10.508 -10.264   4.911 -0.27 +0.07
+BRANCH   6   7
+ATOM      7  CBD SER A  84     -10.080  -9.076   4.128 -0.33 +0.02
+ATOM      8  SAU SER A  84      -9.211  -7.701   4.855 -0.33 -0.03
+ATOM      9  CAN SER A  84      -7.512  -8.248   4.546 -0.23 -0.00
+ATOM     10  CAX SER A  84      -7.333  -8.816   3.130 -0.19 -0.00
+ATOM     11  CAY SER A  84      -8.343  -9.450   2.453 -0.18 -0.01
+ATOM     12  NAS SER A  84      -9.546  -9.556   2.901 -0.16 +0.00
+BRANCH  10  13
+ATOM     13  CAM SER A  84      -5.976  -8.743   2.505 -0.13 -0.02
+BRANCH  13  14
+ATOM     14  SAT SER A  84      -5.658  -7.147   1.689 -0.07 +0.01
+BRANCH  14  15
+ATOM     15  CBA SER A  84      -7.285  -6.530   1.142 -0.06 -0.02
+ATOM     16  NBE SER A  84      -7.754  -6.590  -0.093 -0.11 +0.02
+ATOM     17  NAQ SER A  84      -8.870  -6.118  -0.077 -0.67 -0.01
+ATOM     18  CAA SER A  84      -7.012  -7.208  -1.277 -0.07 -0.04
+ATOM     19  NAO SER A  84      -9.120  -5.737   1.049 -0.65 -0.01
+ATOM     20  NAP SER A  84      -8.221  -5.937   1.856 -0.24 -0.00
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+BRANCH  11  21
+ATOM     21  CAV SER A  84      -8.053  -9.937   1.111 -0.14 -0.04
+ATOM     22  OAE SER A  84      -8.485  -9.438   0.187 +0.01 +0.08
+ATOM     23  OAB SER A  84      -7.279 -10.760   1.018 +0.04 +0.15
+ENDBRANCH  11  21
+ENDBRANCH   6   7
+BRANCH   6  24
+ATOM     24  NAR SER A  84      -9.887 -11.470   4.372 -0.14 -0.01
+ATOM     25  CAW SER A  84      -9.787 -12.587   5.094 -0.19 +0.06
+ATOM     26  OAC SER A  84     -10.260 -12.732   6.211 -0.52 -0.23
+BRANCH  25  27
+ATOM     27  CBB SER A  84      -9.203 -13.799   4.339 -0.20 +0.00
+ATOM     28  OAF SER A  84      -7.953 -14.178   4.823 -0.46 -0.01
+BRANCH  27  29
+ATOM     29  CAZ SER A  84      -9.148 -13.611   2.851 -0.25 -0.00
+ATOM     30  CAK SER A  84      -8.003 -13.847   2.142 -0.21 +0.00
+ATOM     31  CAI SER A  84      -7.933 -13.681   0.761 -0.15 +0.00
+ATOM     32  CAG SER A  84      -9.040 -13.295   0.059 -0.23 +0.00
+ATOM     33  CAH SER A  84     -10.175 -13.085   0.763 -0.29 +0.00
+ATOM     34  CAJ SER A  84     -10.243 -13.224   2.154 -0.20 +0.00
+ENDBRANCH  27  29
+ENDBRANCH  25  27
+ENDBRANCH   6  24
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        3
+USER    Run = 3
+USER    DPF = dpf_files/ligand_3n8s.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -8.20 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  972.78 nM (nanomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -11.78 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -10.06 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.72 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8s
+USER    NEWDPF about -9.121000 -9.490000 3.141000
+USER    NEWDPF tran0 -13.378508 1.610082 13.881101
+USER    NEWDPF quaternion0 -0.215214 0.531114 -0.598145 -0.560199
+USER    NEWDPF axisangle0 -0.259808 0.641165 -0.722086 -111.860855
+USER    NEWDPF quat0 -0.259808 0.641165 -0.722086 -111.860855
+USER    NEWDPF dihe0 85.90 33.95 -114.36 -24.69 129.93 38.12 -24.5
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAL 
+REMARK    4  A    between atoms: CAL  and  CBC 
+REMARK    5  A    between atoms: CAM  and  CAX 
+REMARK    6  A    between atoms: CAM  and  SAT 
+REMARK    7  A    between atoms: CAV  and  CAY 
+REMARK    8  A    between atoms: CAW  and  CBB 
+REMARK       I    between atoms: CAW  and  NAR 
+REMARK    9  A    between atoms: CAZ  and  CBB 
+REMARK   10  A    between atoms: NAR  and  CBC 
+REMARK   11  A    between atoms: SAT  and  CBA 
+REMARK   12  A    between atoms: CBC  and  CBD 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.396 -10.699   7.082 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.077  -9.949   6.999 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -11.993 -10.863   6.972 -0.28 -0.33
+BRANCH   3   4
+ATOM      4  CAL SER A  84     -11.593 -11.319   5.786 -0.28 +0.15
+ATOM      5  OAD SER A  84     -11.944 -12.580   5.353 -0.49 -0.03
+BRANCH   4   6
+ATOM      6  CBC SER A  84     -10.951 -10.570   4.676 -0.32 +0.05
+BRANCH   6   7
+ATOM      7  CBD SER A  84      -9.568 -11.085   4.509 -0.28 +0.01
+ATOM      8  SAU SER A  84      -9.031 -12.649   5.171 -0.46 -0.01
+ATOM      9  CAN SER A  84      -9.364 -13.693   3.728 -0.25 -0.01
+ATOM     10  CAX SER A  84      -8.910 -13.035   2.417 -0.29 -0.00
+ATOM     11  CAY SER A  84      -8.901 -11.676   2.235 -0.22 -0.03
+ATOM     12  NAS SER A  84      -9.190 -10.829   3.162 -0.13 +0.02
+BRANCH  10  13
+ATOM     13  CAM SER A  84      -8.543 -13.922   1.270 -0.20 -0.03
+BRANCH  13  14
+ATOM     14  SAT SER A  84      -9.964 -14.325   0.205 -0.43 +0.04
+BRANCH  14  15
+ATOM     15  CBA SER A  84     -10.031 -16.147   0.128 -0.25 -0.14
+ATOM     16  NBE SER A  84      -9.485 -16.897  -0.814 -0.25 +0.18
+ATOM     17  NAQ SER A  84      -9.702 -18.053  -0.523 -0.83 +0.00
+ATOM     18  CAA SER A  84      -8.682 -16.360  -1.998 -0.14 -0.18
+ATOM     19  NAO SER A  84     -10.365 -18.086   0.493 -0.67 +0.00
+ATOM     20  NAP SER A  84     -10.620 -16.982   0.960 -0.90 +0.03
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+BRANCH  11  21
+ATOM     21  CAV SER A  84      -8.439 -11.171   0.949 -0.16 -0.06
+ATOM     22  OAE SER A  84      -9.164 -10.901   0.117 -0.04 +0.16
+ATOM     23  OAB SER A  84      -7.334 -10.941   0.852 +0.04 +0.16
+ENDBRANCH  11  21
+ENDBRANCH   6   7
+BRANCH   6  24
+ATOM     24  NAR SER A  84     -10.931  -9.123   4.854 -0.53 -0.12
+ATOM     25  CAW SER A  84     -10.507  -8.306   3.888 -0.26 +0.06
+ATOM     26  OAC SER A  84     -10.180  -8.671   2.769 +0.07 -0.01
+BRANCH  25  27
+ATOM     27  CBB SER A  84     -10.653  -6.801   4.198 -0.31 +0.06
+ATOM     28  OAF SER A  84     -11.718  -6.216   3.517 -0.45 -0.05
+BRANCH  27  29
+ATOM     29  CAZ SER A  84      -9.395  -6.016   3.968 -0.37 +0.00
+ATOM     30  CAK SER A  84      -8.192  -6.428   4.471 -0.26 -0.00
+ATOM     31  CAI SER A  84      -7.014  -5.715   4.266 -0.17 +0.00
+ATOM     32  CAG SER A  84      -7.025  -4.572   3.516 -0.18 +0.00
+ATOM     33  CAH SER A  84      -8.214  -4.182   3.002 -0.29 +0.00
+ATOM     34  CAJ SER A  84      -9.404  -4.881   3.228 -0.42 -0.00
+ENDBRANCH  27  29
+ENDBRANCH  25  27
+ENDBRANCH   6  24
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        4
+USER    Run = 4
+USER    DPF = dpf_files/ligand_3n8s.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -8.82 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  340.44 nM (nanomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -12.40 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -9.65 kcal/mol
+USER        Internal Moving-Moving Receptor =   -2.76 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8s
+USER    NEWDPF about -9.121000 -9.490000 3.141000
+USER    NEWDPF tran0 -0.470918 -20.549608 -8.041569
+USER    NEWDPF quaternion0 0.853175 -0.276395 0.031825 0.441232
+USER    NEWDPF axisangle0 0.950726 -0.307998 0.035463 127.635010
+USER    NEWDPF quat0 0.950726 -0.307998 0.035463 127.635010
+USER    NEWDPF dihe0 -103.42 27.32 -163.96 48.90 17.58 -105.76 91.
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAL 
+REMARK    4  A    between atoms: CAL  and  CBC 
+REMARK    5  A    between atoms: CAM  and  CAX 
+REMARK    6  A    between atoms: CAM  and  SAT 
+REMARK    7  A    between atoms: CAV  and  CAY 
+REMARK    8  A    between atoms: CAW  and  CBB 
+REMARK       I    between atoms: CAW  and  NAR 
+REMARK    9  A    between atoms: CAZ  and  CBB 
+REMARK   10  A    between atoms: NAR  and  CBC 
+REMARK   11  A    between atoms: SAT  and  CBA 
+REMARK   12  A    between atoms: CBC  and  CBD 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.396 -10.699   7.082 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.077  -9.949   6.999 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.041 -10.823   6.581 -0.33 -0.24
+BRANCH   3   4
+ATOM      4  CAL SER A  84     -11.654 -10.765   5.308 -0.31 +0.12
+ATOM      5  OAD SER A  84     -12.575 -10.761   4.283 -1.31 -0.08
+BRANCH   4   6
+ATOM      6  CBC SER A  84     -10.301 -10.481   4.765 -0.26 +0.05
+BRANCH   6   7
+ATOM      7  CBD SER A  84     -10.384  -9.250   3.937 -0.34 +0.02
+ATOM      8  SAU SER A  84     -10.507  -7.617   4.640 -0.64 -0.04
+ATOM      9  CAN SER A  84      -8.744  -7.203   4.697 -0.29 +0.02
+ATOM     10  CAX SER A  84      -8.011  -7.606   3.409 -0.21 -0.00
+ATOM     11  CAY SER A  84      -8.391  -8.679   2.645 -0.17 -0.00
+ATOM     12  NAS SER A  84      -9.437  -9.392   2.886 -0.16 +0.00
+BRANCH  10  13
+ATOM     13  CAM SER A  84      -6.783  -6.843   3.026 -0.10 -0.01
+BRANCH  13  14
+ATOM     14  SAT SER A  84      -6.728  -5.177   3.757 -0.22 +0.01
+BRANCH  14  15
+ATOM     15  CBA SER A  84      -8.328  -4.399   3.352 -0.14 -0.02
+ATOM     16  NBE SER A  84      -8.532  -3.520   2.385 -0.27 +0.10
+ATOM     17  NAQ SER A  84      -9.713  -3.250   2.390 -0.36 +0.02
+ATOM     18  CAA SER A  84      -7.456  -3.018   1.423 -0.18 -0.12
+ATOM     19  NAO SER A  84     -10.252  -3.852   3.296 -0.59 -0.00
+ATOM     20  NAP SER A  84      -9.495  -4.570   3.939 -0.66 -0.02
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+BRANCH  11  21
+ATOM     21  CAV SER A  84      -7.621  -8.955   1.440 -0.12 -0.03
+ATOM     22  OAE SER A  84      -7.922  -8.536   0.428 +0.00 +0.07
+ATOM     23  OAB SER A  84      -6.639  -9.504   1.571 +0.01 +0.12
+ENDBRANCH  11  21
+ENDBRANCH   6   7
+BRANCH   6  24
+ATOM     24  NAR SER A  84      -9.717 -11.569   3.990 -0.14 +0.01
+ATOM     25  CAW SER A  84      -9.544 -12.785   4.512 -0.17 +0.01
+ATOM     26  OAC SER A  84      -9.918 -13.117   5.626 -0.34 -0.10
+BRANCH  25  27
+ATOM     27  CBB SER A  84      -9.016 -13.847   3.525 -0.18 -0.03
+ATOM     28  OAF SER A  84      -7.719 -14.257   3.826 -0.56 +0.00
+BRANCH  27  29
+ATOM     29  CAZ SER A  84      -9.108 -13.430   2.086 -0.25 -0.00
+ATOM     30  CAK SER A  84     -10.136 -13.845   1.285 -0.25 +0.00
+ATOM     31  CAI SER A  84     -10.240 -13.467  -0.050 -0.36 +0.00
+ATOM     32  CAG SER A  84      -9.311 -12.629  -0.601 -0.28 +0.00
+ATOM     33  CAH SER A  84      -8.311 -12.203   0.203 -0.18 +0.00
+ATOM     34  CAJ SER A  84      -8.186 -12.602   1.537 -0.15 +0.00
+ENDBRANCH  27  29
+ENDBRANCH  25  27
+ENDBRANCH   6  24
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        5
+USER    Run = 5
+USER    DPF = dpf_files/ligand_3n8s.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -8.62 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  482.61 nM (nanomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -12.20 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -9.16 kcal/mol
+USER        Internal Moving-Moving Receptor =   -3.04 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8s
+USER    NEWDPF about -9.121000 -9.490000 3.141000
+USER    NEWDPF tran0 -13.752167 -20.117938 6.446055
+USER    NEWDPF quaternion0 -0.423987 -0.146629 0.483383 -0.751716
+USER    NEWDPF axisangle0 -0.642903 -0.222338 0.732967 -82.521593
+USER    NEWDPF quat0 -0.642903 -0.222338 0.732967 -82.521593
+USER    NEWDPF dihe0 55.81 -138.21 80.59 95.89 -52.93 -122.81 97.0
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAL 
+REMARK    4  A    between atoms: CAL  and  CBC 
+REMARK    5  A    between atoms: CAM  and  CAX 
+REMARK    6  A    between atoms: CAM  and  SAT 
+REMARK    7  A    between atoms: CAV  and  CAY 
+REMARK    8  A    between atoms: CAW  and  CBB 
+REMARK       I    between atoms: CAW  and  NAR 
+REMARK    9  A    between atoms: CAZ  and  CBB 
+REMARK   10  A    between atoms: NAR  and  CBC 
+REMARK   11  A    between atoms: SAT  and  CBA 
+REMARK   12  A    between atoms: CBC  and  CBD 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.396 -10.699   7.082 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.077  -9.949   6.999 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.826  -9.544   5.663 -0.37 -0.18
+BRANCH   3   4
+ATOM      4  CAL SER A  84     -11.942 -10.246   4.956 -0.27 +0.13
+ATOM      5  OAD SER A  84     -12.344 -11.048   3.909 -1.18 -0.03
+BRANCH   4   6
+ATOM      6  CBC SER A  84     -10.460 -10.153   4.973 -0.24 +0.07
+BRANCH   6   7
+ATOM      7  CBD SER A  84     -10.049  -9.122   3.985 -0.33 +0.02
+ATOM      8  SAU SER A  84     -10.588  -7.426   4.076 -0.62 -0.02
+ATOM      9  CAN SER A  84      -9.211  -6.745   5.037 -0.33 +0.03
+ATOM     10  CAX SER A  84      -7.850  -7.262   4.549 -0.28 +0.00
+ATOM     11  CAY SER A  84      -7.687  -8.502   3.987 -0.17 -0.00
+ATOM     12  NAS SER A  84      -8.661  -9.310   3.742 -0.11 -0.00
+BRANCH  10  13
+ATOM     13  CAM SER A  84      -6.645  -6.405   4.774 -0.19 -0.00
+BRANCH  13  14
+ATOM     14  SAT SER A  84      -6.265  -5.331   3.355 -0.17 +0.01
+BRANCH  14  15
+ATOM     15  CBA SER A  84      -7.455  -5.785   2.049 -0.06 -0.02
+ATOM     16  NBE SER A  84      -8.619  -5.196   1.832 -0.19 -0.01
+ATOM     17  NAQ SER A  84      -9.121  -5.736   0.870 -0.66 -0.02
+ATOM     18  CAA SER A  84      -9.160  -4.014   2.635 -0.35 -0.03
+ATOM     19  NAO SER A  84      -8.390  -6.631   0.494 -0.55 -0.00
+ATOM     20  NAP SER A  84      -7.360  -6.743   1.148 -0.11 +0.01
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+BRANCH  11  21
+ATOM     21  CAV SER A  84      -6.347  -8.875   3.554 -0.12 -0.03
+ATOM     22  OAE SER A  84      -5.499  -9.026   4.295 +0.05 +0.10
+ATOM     23  OAB SER A  84      -6.212  -9.129   2.458 +0.00 +0.11
+ENDBRANCH  11  21
+ENDBRANCH   6   7
+BRANCH   6  24
+ATOM     24  NAR SER A  84      -9.770 -11.409   4.705 -0.15 -0.03
+ATOM     25  CAW SER A  84     -10.055 -12.522   5.382 -0.21 +0.09
+ATOM     26  OAC SER A  84     -10.948 -12.617   6.210 -0.44 -0.23
+BRANCH  25  27
+ATOM     27  CBB SER A  84      -9.312 -13.786   4.900 -0.24 +0.02
+ATOM     28  OAF SER A  84      -8.148 -14.029   5.625 -0.42 -0.01
+BRANCH  27  29
+ATOM     29  CAZ SER A  84      -9.016 -13.784   3.428 -0.27 -0.00
+ATOM     30  CAK SER A  84      -7.878 -14.354   2.927 -0.29 +0.00
+ATOM     31  CAI SER A  84      -7.588 -14.366   1.565 -0.18 +0.00
+ATOM     32  CAG SER A  84      -8.465 -13.819   0.671 -0.18 +0.00
+ATOM     33  CAH SER A  84      -9.599 -13.278   1.172 -0.29 +0.00
+ATOM     34  CAJ SER A  84      -9.882 -13.239   2.541 -0.25 +0.00
+ENDBRANCH  27  29
+ENDBRANCH  25  27
+ENDBRANCH   6  24
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        6
+USER    Run = 6
+USER    DPF = dpf_files/ligand_3n8s.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -8.51 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  582.47 nM (nanomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -12.09 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -9.34 kcal/mol
+USER        Internal Moving-Moving Receptor =   -2.75 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8s
+USER    NEWDPF about -9.121000 -9.490000 3.141000
+USER    NEWDPF tran0 -10.784588 -18.788587 -5.820117
+USER    NEWDPF quaternion0 -0.743579 0.091526 0.333940 -0.572011
+USER    NEWDPF axisangle0 -0.906532 0.111583 0.407122 -110.218832
+USER    NEWDPF quat0 -0.906532 0.111583 0.407122 -110.218832
+USER    NEWDPF dihe0 -89.99 -21.70 76.19 57.93 -28.70 -121.46 90.8
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAL 
+REMARK    4  A    between atoms: CAL  and  CBC 
+REMARK    5  A    between atoms: CAM  and  CAX 
+REMARK    6  A    between atoms: CAM  and  SAT 
+REMARK    7  A    between atoms: CAV  and  CAY 
+REMARK    8  A    between atoms: CAW  and  CBB 
+REMARK       I    between atoms: CAW  and  NAR 
+REMARK    9  A    between atoms: CAZ  and  CBB 
+REMARK   10  A    between atoms: NAR  and  CBC 
+REMARK   11  A    between atoms: SAT  and  CBA 
+REMARK   12  A    between atoms: CBC  and  CBD 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.396 -10.699   7.082 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.077  -9.949   6.999 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.860  -9.482   5.677 -0.39 -0.18
+BRANCH   3   4
+ATOM      4  CAL SER A  84     -12.015 -10.164   4.907 -0.23 +0.13
+ATOM      5  OAD SER A  84     -12.474 -11.044   3.950 -1.25 -0.04
+BRANCH   4   6
+ATOM      6  CBC SER A  84     -10.549  -9.978   4.752 -0.26 +0.07
+BRANCH   6   7
+ATOM      7  CBD SER A  84     -10.322  -8.916   3.739 -0.32 +0.02
+ATOM      8  SAU SER A  84     -10.941  -7.255   3.923 -0.59 -0.02
+ATOM      9  CAN SER A  84      -9.497  -6.505   4.720 -0.38 +0.02
+ATOM     10  CAX SER A  84      -8.179  -6.937   4.060 -0.27 +0.00
+ATOM     11  CAY SER A  84      -8.016  -8.160   3.462 -0.15 -0.00
+ATOM     12  NAS SER A  84      -8.966  -9.020   3.325 -0.12 -0.00
+BRANCH  10  13
+ATOM     13  CAM SER A  84      -7.006  -6.014   4.151 -0.17 -0.00
+BRANCH  13  14
+ATOM     14  SAT SER A  84      -7.219  -4.499   3.165 -0.26 +0.01
+BRANCH  14  15
+ATOM     15  CBA SER A  84      -7.950  -5.031   1.580 -0.13 -0.03
+ATOM     16  NBE SER A  84      -7.773  -4.434   0.413 -0.15 +0.08
+ATOM     17  NAQ SER A  84      -8.377  -5.079  -0.415 -0.32 +0.00
+ATOM     18  CAA SER A  84      -6.903  -3.197   0.191 -0.12 -0.13
+ATOM     19  NAO SER A  84      -8.944  -6.000   0.139 -0.72 -0.01
+ATOM     20  NAP SER A  84      -8.751  -6.052   1.347 -0.62 -0.02
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+BRANCH  11  21
+ATOM     21  CAV SER A  84      -6.720  -8.450   2.862 -0.09 -0.03
+ATOM     22  OAE SER A  84      -6.430  -8.046   1.841 +0.04 +0.11
+ATOM     23  OAB SER A  84      -5.964  -8.993   3.507 +0.01 +0.10
+ENDBRANCH  11  21
+ENDBRANCH   6   7
+BRANCH   6  24
+ATOM     24  NAR SER A  84      -9.820 -11.187   4.385 -0.15 -0.01
+ATOM     25  CAW SER A  84      -9.860 -12.284   5.142 -0.20 +0.06
+ATOM     26  OAC SER A  84     -10.551 -12.409   6.141 -0.42 -0.22
+BRANCH  25  27
+ATOM     27  CBB SER A  84      -9.122 -13.506   4.555 -0.22 +0.01
+ATOM     28  OAF SER A  84      -7.827 -13.636   5.051 -0.40 +0.00
+BRANCH  27  29
+ATOM     29  CAZ SER A  84      -9.109 -13.537   3.054 -0.26 -0.00
+ATOM     30  CAK SER A  84      -8.009 -13.956   2.357 -0.23 +0.00
+ATOM     31  CAI SER A  84      -7.979 -13.995   0.966 -0.16 +0.00
+ATOM     32  CAG SER A  84      -9.082 -13.632   0.244 -0.23 +0.00
+ATOM     33  CAH SER A  84     -10.173 -13.240   0.941 -0.31 +0.00
+ATOM     34  CAJ SER A  84     -10.199 -13.174   2.338 -0.18 +0.00
+ENDBRANCH  27  29
+ENDBRANCH  25  27
+ENDBRANCH   6  24
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        7
+USER    Run = 7
+USER    DPF = dpf_files/ligand_3n8s.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -6.99 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =    7.53 uM (micromol
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -10.57 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -8.55 kcal/mol
+USER        Internal Moving-Moving Receptor =   -2.02 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8s
+USER    NEWDPF about -9.121000 -9.490000 3.141000
+USER    NEWDPF tran0 -19.291521 -12.835477 -6.979625
+USER    NEWDPF quaternion0 -0.045931 0.386293 -0.181617 -0.903152
+USER    NEWDPF axisangle0 -0.106985 0.899776 -0.423033 -50.848997
+USER    NEWDPF quat0 -0.106985 0.899776 -0.423033 -50.848997
+USER    NEWDPF dihe0 59.23 12.83 -56.51 -23.05 137.27 -176.68 -143
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAL 
+REMARK    4  A    between atoms: CAL  and  CBC 
+REMARK    5  A    between atoms: CAM  and  CAX 
+REMARK    6  A    between atoms: CAM  and  SAT 
+REMARK    7  A    between atoms: CAV  and  CAY 
+REMARK    8  A    between atoms: CAW  and  CBB 
+REMARK       I    between atoms: CAW  and  NAR 
+REMARK    9  A    between atoms: CAZ  and  CBB 
+REMARK   10  A    between atoms: NAR  and  CBC 
+REMARK   11  A    between atoms: SAT  and  CBA 
+REMARK   12  A    between atoms: CBC  and  CBD 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.396 -10.699   7.082 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.077  -9.949   6.999 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.815  -9.563   5.659 -0.36 -0.18
+BRANCH   3   4
+ATOM      4  CAL SER A  84     -12.030 -10.352   4.927 -0.24 +0.12
+ATOM      5  OAD SER A  84     -12.093 -11.724   5.041 -0.46 -0.03
+BRANCH   4   6
+ATOM      6  CBC SER A  84     -11.170  -9.986   3.773 +0.09 +0.04
+BRANCH   6   7
+ATOM      7  CBD SER A  84      -9.817 -10.554   4.004 -0.29 +0.00
+ATOM      8  SAU SER A  84      -9.541 -12.046   4.937 -0.40 -0.01
+ATOM      9  CAN SER A  84      -9.575 -13.239   3.573 -0.26 -0.01
+ATOM     10  CAX SER A  84      -8.784 -12.748   2.352 -0.28 -0.00
+ATOM     11  CAY SER A  84      -8.657 -11.420   2.037 -0.20 -0.03
+ATOM     12  NAS SER A  84      -9.113 -10.464   2.771 -0.15 +0.02
+BRANCH  10  13
+ATOM     13  CAM SER A  84      -8.202 -13.770   1.428 -0.18 -0.03
+BRANCH  13  14
+ATOM     14  SAT SER A  84      -9.255 -14.097  -0.020 -0.33 +0.04
+BRANCH  14  15
+ATOM     15  CBA SER A  84      -9.589 -15.891  -0.003 -0.19 -0.14
+ATOM     16  NBE SER A  84      -9.193 -16.755  -0.921 -0.21 +0.17
+ATOM     17  NAQ SER A  84      -9.565 -17.852  -0.566 -0.89 +0.01
+ATOM     18  CAA SER A  84      -8.366 -16.397  -2.155 -0.15 -0.16
+ATOM     19  NAO SER A  84     -10.188 -17.741   0.471 -0.75 +0.01
+ATOM     20  NAP SER A  84     -10.262 -16.591   0.889 -0.85 +0.03
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+BRANCH  11  21
+ATOM     21  CAV SER A  84      -7.873 -11.078   0.857 -0.11 -0.06
+ATOM     22  OAE SER A  84      -8.240 -11.312  -0.193 +0.00 +0.21
+ATOM     23  OAB SER A  84      -6.939 -10.459   1.021 +0.08 +0.15
+ENDBRANCH  11  21
+ENDBRANCH   6   7
+BRANCH   6  24
+ATOM     24  NAR SER A  84     -11.076  -8.553   3.517 -0.07 -0.04
+ATOM     25  CAW SER A  84     -10.457  -7.730   4.365 -0.30 +0.09
+ATOM     26  OAC SER A  84      -9.858  -8.093   5.365 -0.16 -0.18
+BRANCH  25  27
+ATOM     27  CBB SER A  84     -10.353  -6.265   3.891 -0.28 +0.06
+ATOM     28  OAF SER A  84     -11.522  -5.818   3.278 -0.35 -0.07
+BRANCH  27  29
+ATOM     29  CAZ SER A  84      -9.169  -6.001   3.006 -0.31 +0.00
+ATOM     30  CAK SER A  84      -8.392  -7.020   2.529 -0.19 -0.00
+ATOM     31  CAI SER A  84      -7.292  -6.796   1.706 -0.12 +0.00
+ATOM     32  CAG SER A  84      -6.970  -5.525   1.321 -0.09 +0.00
+ATOM     33  CAH SER A  84      -7.757  -4.524   1.777 -0.22 +0.00
+ATOM     34  CAJ SER A  84      -8.846  -4.742   2.627 -0.36 +0.00
+ENDBRANCH  27  29
+ENDBRANCH  25  27
+ENDBRANCH   6  24
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        8
+USER    Run = 8
+USER    DPF = dpf_files/ligand_3n8s.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -8.86 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  318.87 nM (nanomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -12.44 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -8.85 kcal/mol
+USER        Internal Moving-Moving Receptor =   -3.59 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8s
+USER    NEWDPF about -9.121000 -9.490000 3.141000
+USER    NEWDPF tran0 -13.355308 -16.048056 9.794586
+USER    NEWDPF quaternion0 0.248906 -0.203255 -0.532260 -0.783219
+USER    NEWDPF axisangle0 0.400334 -0.326910 -0.856074 -76.887451
+USER    NEWDPF quat0 0.400334 -0.326910 -0.856074 -76.887451
+USER    NEWDPF dihe0 52.10 -122.41 -122.46 62.33 -29.45 -37.11 9.7
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAL 
+REMARK    4  A    between atoms: CAL  and  CBC 
+REMARK    5  A    between atoms: CAM  and  CAX 
+REMARK    6  A    between atoms: CAM  and  SAT 
+REMARK    7  A    between atoms: CAV  and  CAY 
+REMARK    8  A    between atoms: CAW  and  CBB 
+REMARK       I    between atoms: CAW  and  NAR 
+REMARK    9  A    between atoms: CAZ  and  CBB 
+REMARK   10  A    between atoms: NAR  and  CBC 
+REMARK   11  A    between atoms: SAT  and  CBA 
+REMARK   12  A    between atoms: CBC  and  CBD 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.396 -10.699   7.082 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.077  -9.949   6.999 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.023 -10.843   6.678 -0.33 -0.26
+BRANCH   3   4
+ATOM      4  CAL SER A  84     -11.590 -10.866   5.419 -0.30 +0.12
+ATOM      5  OAD SER A  84     -12.447 -10.632   4.365 -1.31 -0.08
+BRANCH   4   6
+ATOM      6  CBC SER A  84     -10.190 -10.905   4.924 -0.26 +0.05
+BRANCH   6   7
+ATOM      7  CBD SER A  84      -9.948  -9.680   4.118 -0.31 +0.02
+ATOM      8  SAU SER A  84      -9.151  -8.230   4.779 -0.30 -0.02
+ATOM      9  CAN SER A  84      -7.442  -8.613   4.315 -0.22 -0.00
+ATOM     10  CAX SER A  84      -7.338  -9.160   2.883 -0.19 -0.00
+ATOM     11  CAY SER A  84      -8.340  -9.885   2.292 -0.19 -0.02
+ATOM     12  NAS SER A  84      -9.483 -10.106   2.844 -0.17 +0.01
+BRANCH  10  13
+ATOM     13  CAM SER A  84      -6.055  -8.957   2.141 -0.10 -0.02
+BRANCH  13  14
+ATOM     14  SAT SER A  84      -5.771  -7.220   1.679 -0.08 +0.01
+BRANCH  14  15
+ATOM     15  CBA SER A  84      -7.404  -6.551   1.213 -0.06 -0.02
+ATOM     16  NBE SER A  84      -8.102  -5.673   1.912 -0.13 +0.01
+ATOM     17  NAQ SER A  84      -9.112  -5.437   1.286 -0.54 -0.01
+ATOM     18  CAA SER A  84      -7.647  -5.050   3.231 -0.17 -0.02
+ATOM     19  NAO SER A  84      -9.120  -6.118   0.280 -0.72 -0.01
+ATOM     20  NAP SER A  84      -8.131  -6.829   0.150 -0.28 -0.00
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+BRANCH  11  21
+ATOM     21  CAV SER A  84      -8.126 -10.341   0.925 -0.15 -0.04
+ATOM     22  OAE SER A  84      -7.288 -11.061   0.659 +0.04 +0.17
+ATOM     23  OAB SER A  84      -8.904 -10.047   0.156 +0.03 +0.09
+ENDBRANCH  11  21
+ENDBRANCH   6   7
+BRANCH   6  24
+ATOM     24  NAR SER A  84      -9.855 -12.092   4.145 -0.14 +0.00
+ATOM     25  CAW SER A  84      -8.685 -12.715   4.289 -0.18 -0.01
+ATOM     26  OAC SER A  84      -7.837 -12.412   5.115 -0.29 +0.01
+BRANCH  25  27
+ATOM     27  CBB SER A  84      -8.535 -14.015   3.470 -0.21 -0.02
+ATOM     28  OAF SER A  84      -7.300 -14.629   3.665 -0.81 -0.02
+BRANCH  27  29
+ATOM     29  CAZ SER A  84      -8.800 -13.836   2.004 -0.23 -0.00
+ATOM     30  CAK SER A  84      -9.988 -13.337   1.547 -0.28 +0.00
+ATOM     31  CAI SER A  84     -10.252 -13.160   0.192 -0.34 +0.00
+ATOM     32  CAG SER A  84      -9.297 -13.464  -0.738 -0.26 +0.00
+ATOM     33  CAH SER A  84      -8.115 -13.935  -0.279 -0.13 +0.00
+ATOM     34  CAJ SER A  84      -7.856 -14.139   1.080 -0.16 +0.00
+ENDBRANCH  27  29
+ENDBRANCH  25  27
+ENDBRANCH   6  24
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        9
+USER    Run = 9
+USER    DPF = dpf_files/ligand_3n8s.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -8.56 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  534.80 nM (nanomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -12.14 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -9.41 kcal/mol
+USER        Internal Moving-Moving Receptor =   -2.73 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8s
+USER    NEWDPF about -9.121000 -9.490000 3.141000
+USER    NEWDPF tran0 -15.280137 -8.053688 11.118418
+USER    NEWDPF quaternion0 0.438017 0.245091 0.298282 -0.811850
+USER    NEWDPF axisangle0 0.750200 0.419772 0.510873 -71.445912
+USER    NEWDPF quat0 0.750200 0.419772 0.510873 -71.445912
+USER    NEWDPF dihe0 -85.73 -20.23 71.27 52.05 -23.43 -114.43 85.7
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAL 
+REMARK    4  A    between atoms: CAL  and  CBC 
+REMARK    5  A    between atoms: CAM  and  CAX 
+REMARK    6  A    between atoms: CAM  and  SAT 
+REMARK    7  A    between atoms: CAV  and  CAY 
+REMARK    8  A    between atoms: CAW  and  CBB 
+REMARK       I    between atoms: CAW  and  NAR 
+REMARK    9  A    between atoms: CAZ  and  CBB 
+REMARK   10  A    between atoms: NAR  and  CBC 
+REMARK   11  A    between atoms: SAT  and  CBA 
+REMARK   12  A    between atoms: CBC  and  CBD 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.396 -10.699   7.082 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.077  -9.949   6.999 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.836  -9.525   5.667 -0.38 -0.18
+BRANCH   3   4
+ATOM      4  CAL SER A  84     -12.011 -10.257   4.921 -0.24 +0.13
+ATOM      5  OAD SER A  84     -12.496 -11.190   4.029 -1.21 -0.03
+BRANCH   4   6
+ATOM      6  CBC SER A  84     -10.549 -10.088   4.722 -0.27 +0.06
+BRANCH   6   7
+ATOM      7  CBD SER A  84     -10.338  -9.000   3.732 -0.32 +0.02
+ATOM      8  SAU SER A  84     -10.961  -7.347   3.965 -0.60 -0.02
+ATOM      9  CAN SER A  84      -9.510  -6.611   4.762 -0.37 +0.03
+ATOM     10  CAX SER A  84      -8.198  -7.022   4.075 -0.27 +0.00
+ATOM     11  CAY SER A  84      -8.039  -8.229   3.444 -0.15 -0.00
+ATOM     12  NAS SER A  84      -8.987  -9.089   3.298 -0.12 -0.00
+BRANCH  10  13
+ATOM     13  CAM SER A  84      -7.028  -6.096   4.174 -0.17 -0.00
+BRANCH  13  14
+ATOM     14  SAT SER A  84      -7.319  -4.496   3.356 -0.26 +0.01
+BRANCH  14  15
+ATOM     15  CBA SER A  84      -7.992  -4.891   1.707 -0.14 -0.03
+ATOM     16  NBE SER A  84      -7.811  -4.173   0.611 -0.16 +0.09
+ATOM     17  NAQ SER A  84      -8.372  -4.752  -0.294 -0.39 +0.01
+ATOM     18  CAA SER A  84      -6.986  -2.890   0.537 -0.11 -0.14
+ATOM     19  NAO SER A  84      -8.915  -5.744   0.149 -0.67 -0.01
+ATOM     20  NAP SER A  84      -8.747  -5.912   1.351 -0.62 -0.02
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+BRANCH  11  21
+ATOM     21  CAV SER A  84      -6.750  -8.499   2.821 -0.09 -0.03
+ATOM     22  OAE SER A  84      -6.446  -8.012   1.841 +0.04 +0.11
+ATOM     23  OAB SER A  84      -6.011  -9.119   3.415 +0.00 +0.10
+ENDBRANCH  11  21
+ENDBRANCH   6   7
+BRANCH   6  24
+ATOM     24  NAR SER A  84      -9.851 -11.296   4.296 -0.14 -0.01
+ATOM     25  CAW SER A  84      -9.800 -12.382   5.068 -0.19 +0.06
+ATOM     26  OAC SER A  84     -10.379 -12.498   6.138 -0.45 -0.22
+BRANCH  25  27
+ATOM     27  CBB SER A  84      -9.117 -13.607   4.424 -0.21 +0.00
+ATOM     28  OAF SER A  84      -7.824 -13.809   4.900 -0.43 -0.00
+BRANCH  27  29
+ATOM     29  CAZ SER A  84      -9.118 -13.575   2.923 -0.26 -0.00
+ATOM     30  CAK SER A  84      -8.009 -13.915   2.199 -0.22 +0.00
+ATOM     31  CAI SER A  84      -7.991 -13.895   0.807 -0.15 +0.00
+ATOM     32  CAG SER A  84      -9.117 -13.553   0.111 -0.24 +0.00
+ATOM     33  CAH SER A  84     -10.218 -13.241   0.833 -0.31 +0.00
+ATOM     34  CAJ SER A  84     -10.232 -13.233   2.231 -0.18 +0.00
+ENDBRANCH  27  29
+ENDBRANCH  25  27
+ENDBRANCH   6  24
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL       10
+USER    Run = 10
+USER    DPF = dpf_files/ligand_3n8s.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -9.10 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  213.98 nM (nanomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -12.68 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -9.86 kcal/mol
+USER        Internal Moving-Moving Receptor =   -2.82 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8s
+USER    NEWDPF about -9.121000 -9.490000 3.141000
+USER    NEWDPF tran0 -17.101759 -13.313749 11.464576
+USER    NEWDPF quaternion0 -0.208542 0.462066 0.642550 -0.574574
+USER    NEWDPF axisangle0 -0.254800 0.564561 0.785078 -109.860413
+USER    NEWDPF quat0 -0.254800 0.564561 0.785078 -109.860413
+USER    NEWDPF dihe0 65.17 -8.39 175.47 39.14 -30.97 -71.87 52.39 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAL 
+REMARK    4  A    between atoms: CAL  and  CBC 
+REMARK    5  A    between atoms: CAM  and  CAX 
+REMARK    6  A    between atoms: CAM  and  SAT 
+REMARK    7  A    between atoms: CAV  and  CAY 
+REMARK    8  A    between atoms: CAW  and  CBB 
+REMARK       I    between atoms: CAW  and  NAR 
+REMARK    9  A    between atoms: CAZ  and  CBB 
+REMARK   10  A    between atoms: NAR  and  CBC 
+REMARK   11  A    between atoms: SAT  and  CBA 
+REMARK   12  A    between atoms: CBC  and  CBD 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.396 -10.699   7.082 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.077  -9.949   6.999 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.051 -10.810   6.532 -0.33 -0.23
+BRANCH   3   4
+ATOM      4  CAL SER A  84     -11.727 -10.749   5.242 -0.31 +0.11
+ATOM      5  OAD SER A  84     -12.698 -10.671   4.266 -1.30 -0.09
+BRANCH   4   6
+ATOM      6  CBC SER A  84     -10.390 -10.531   4.634 -0.27 +0.04
+BRANCH   6   7
+ATOM      7  CBD SER A  84     -10.457  -9.308   3.792 -0.33 +0.02
+ATOM      8  SAU SER A  84     -11.024  -7.737   4.413 -0.70 -0.03
+ATOM      9  CAN SER A  84      -9.429  -7.042   4.918 -0.34 +0.03
+ATOM     10  CAX SER A  84      -8.332  -7.286   3.871 -0.26 +0.00
+ATOM     11  CAY SER A  84      -8.321  -8.385   3.052 -0.16 -0.00
+ATOM     12  NAS SER A  84      -9.261  -9.266   3.025 -0.14 -0.00
+BRANCH  10  13
+ATOM     13  CAM SER A  84      -7.189  -6.323   3.807 -0.16 -0.01
+BRANCH  13  14
+ATOM     14  SAT SER A  84      -7.666  -4.704   3.123 -0.30 +0.01
+BRANCH  14  15
+ATOM     15  CBA SER A  84      -8.251  -5.030   1.426 -0.15 -0.02
+ATOM     16  NBE SER A  84      -7.954  -4.308   0.359 -0.17 +0.08
+ATOM     17  NAQ SER A  84      -8.488  -4.836  -0.592 -0.39 +0.01
+ATOM     18  CAA SER A  84      -7.046  -3.078   0.365 -0.10 -0.14
+ATOM     19  NAO SER A  84      -9.120  -5.798  -0.205 -0.58 -0.01
+ATOM     20  NAP SER A  84      -9.043  -5.994   1.002 -0.65 -0.05
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+BRANCH  11  21
+ATOM     21  CAV SER A  84      -7.230  -8.499   2.092 -0.09 -0.03
+ATOM     22  OAE SER A  84      -6.184  -8.807   2.409 +0.01 +0.11
+ATOM     23  OAB SER A  84      -7.495  -8.388   0.996 +0.02 +0.08
+ENDBRANCH  11  21
+ENDBRANCH   6   7
+BRANCH   6  24
+ATOM     24  NAR SER A  84      -9.890 -11.654   3.848 -0.14 +0.01
+ATOM     25  CAW SER A  84      -9.055 -12.554   4.368 -0.17 -0.00
+ATOM     26  OAC SER A  84      -8.699 -12.572   5.537 -0.27 -0.04
+BRANCH  25  27
+ATOM     27  CBB SER A  84      -8.710 -13.735   3.438 -0.20 -0.03
+ATOM     28  OAF SER A  84      -7.402 -14.185   3.608 -0.61 -0.00
+BRANCH  27  29
+ATOM     29  CAZ SER A  84      -8.978 -13.456   1.987 -0.24 -0.00
+ATOM     30  CAK SER A  84      -9.869 -14.204   1.268 -0.25 +0.00
+ATOM     31  CAI SER A  84     -10.133 -13.959  -0.077 -0.37 +0.00
+ATOM     32  CAG SER A  84      -9.515 -12.923  -0.721 -0.30 +0.00
+ATOM     33  CAH SER A  84      -8.652 -12.174   0.003 -0.22 +0.00
+ATOM     34  CAJ SER A  84      -8.363 -12.433   1.346 -0.19 +0.00
+ENDBRANCH  27  29
+ENDBRANCH  25  27
+ENDBRANCH   6  24
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL

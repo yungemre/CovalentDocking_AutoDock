@@ -1,0 +1,1050 @@
+MODEL        1
+USER    Run = 1
+USER    DPF = dpf_files/ligand_2wj1.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -12.46 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  730.62 pM (picomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -16.04 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -14.70 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.34 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2wj1
+USER    NEWDPF about 22.810000 -14.938000 32.135000
+USER    NEWDPF tran0 21.818149 -26.149543 22.439679
+USER    NEWDPF quaternion0 0.022786 -0.790798 0.229393 -0.567008
+USER    NEWDPF axisangle0 0.027663 -0.960042 0.278486 -110.916267
+USER    NEWDPF quat0 0.027663 -0.960042 0.278486 -110.916267
+USER    NEWDPF dihe0 180.00 -90.72 54.87 -69.76 -40.89 -2.97 4.57 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER B 241
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAZ 
+REMARK    4  A    between atoms: CAM  and  CAN 
+REMARK    5  A    between atoms: CAM  and  CAO 
+REMARK    6  A    between atoms: CAN  and  CAP 
+REMARK    7  A    between atoms: CAO  and  CAQ 
+REMARK    8  A    between atoms: CAP  and  CAR 
+REMARK    9  A    between atoms: CAQ  and  CAV 
+REMARK   10  A    between atoms: CAR  and  CAZ 
+REMARK   11  A    between atoms: CAW  and  CAX 
+REMARK   12  A    between atoms: CAY  and  CAZ 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER B 241      28.428 -13.058  30.171 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER B 241      27.927 -14.353  30.797 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER B 241      26.848 -14.043  31.689 -0.50 -0.09
+BRANCH   3   4
+ATOM      4  CAZ SER B 241      25.560 -14.462  31.265 -0.45 +0.13
+ATOM      5  OAA SER B 241      25.389 -14.189  29.885 -1.93 -0.18
+BRANCH   4   6
+ATOM      6  CAY SER B 241      25.384 -15.976  31.467 -0.38 +0.13
+ATOM      7  OAU SER B 241      26.253 -16.914  30.972 -0.52 -0.24
+ATOM      8  CAL SER B 241      25.692 -18.125  31.372 -0.47 +0.11
+ATOM      9  CAX SER B 241      24.597 -17.888  32.091 -0.42 +0.07
+ATOM     10  NAT SER B 241      24.392 -16.558  32.148 -0.35 -0.10
+BRANCH   9  11
+ATOM     11  CAW SER B 241      23.782 -18.870  32.661 -0.42 +0.05
+ATOM     12  NAS SER B 241      22.863 -18.537  33.614 -0.34 -0.10
+ATOM     13  CAH SER B 241      22.059 -19.442  34.195 -0.46 +0.03
+ATOM     14  CAD SER B 241      22.171 -20.790  33.828 -0.41 +0.01
+ATOM     15  CAG SER B 241      23.097 -21.159  32.849 -0.41 +0.00
+ATOM     16  CAK SER B 241      23.929 -20.196  32.271 -0.39 +0.01
+ENDBRANCH   9  11
+ENDBRANCH   4   6
+BRANCH   4  17
+ATOM     17  CAR SER B 241      24.520 -13.691  32.120 -0.66 +0.02
+BRANCH  17  18
+ATOM     18  CAP SER B 241      24.477 -12.168  31.735 -0.74 +0.00
+BRANCH  18  19
+ATOM     19  CAN SER B 241      23.904 -11.328  32.924 -0.66 +0.00
+BRANCH  19  20
+ATOM     20  CAM SER B 241      22.411 -11.089  32.761 -0.61 +0.00
+BRANCH  20  21
+ATOM     21  CAO SER B 241      21.593 -11.709  33.893 -0.60 +0.00
+BRANCH  21  22
+ATOM     22  CAQ SER B 241      20.962 -10.550  34.719 -0.52 +0.01
+BRANCH  22  23
+ATOM     23  CAV SER B 241      21.339 -10.561  36.225 -0.49 -0.01
+ATOM     24  CAI SER B 241      20.667 -11.391  37.135 -0.47 -0.00
+ATOM     25  CAE SER B 241      21.033 -11.352  38.486 -0.59 -0.00
+ATOM     26  CAC SER B 241      22.063 -10.522  38.921 -0.61 -0.00
+ATOM     27  CAF SER B 241      22.736  -9.682  38.025 -0.62 -0.00
+ATOM     28  CAJ SER B 241      22.368  -9.713  36.667 -0.54 -0.00
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER B 241
+TER
+ENDMDL
+MODEL        2
+USER    Run = 2
+USER    DPF = dpf_files/ligand_2wj1.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -12.53 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  649.85 pM (picomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -16.11 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -14.56 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.55 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2wj1
+USER    NEWDPF about 22.810000 -14.938000 32.135000
+USER    NEWDPF tran0 22.276954 -20.665704 42.627616
+USER    NEWDPF quaternion0 0.357018 -0.633318 0.088576 -0.680883
+USER    NEWDPF axisangle0 0.487467 -0.864725 0.120941 -94.174690
+USER    NEWDPF quat0 0.487467 -0.864725 0.120941 -94.174690
+USER    NEWDPF dihe0 -118.11 -22.70 -75.97 166.73 -37.59 54.83 9.7
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER B 241
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAZ 
+REMARK    4  A    between atoms: CAM  and  CAN 
+REMARK    5  A    between atoms: CAM  and  CAO 
+REMARK    6  A    between atoms: CAN  and  CAP 
+REMARK    7  A    between atoms: CAO  and  CAQ 
+REMARK    8  A    between atoms: CAP  and  CAR 
+REMARK    9  A    between atoms: CAQ  and  CAV 
+REMARK   10  A    between atoms: CAR  and  CAZ 
+REMARK   11  A    between atoms: CAW  and  CAX 
+REMARK   12  A    between atoms: CAY  and  CAZ 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER B 241      28.428 -13.058  30.171 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER B 241      27.927 -14.353  30.797 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER B 241      26.852 -14.042  31.694 -0.50 -0.09
+BRANCH   3   4
+ATOM      4  CAZ SER B 241      25.556 -14.415  31.252 -0.45 +0.13
+ATOM      5  OAA SER B 241      25.433 -14.190  29.858 -1.97 -0.18
+BRANCH   4   6
+ATOM      6  CAY SER B 241      25.299 -15.909  31.509 -0.38 +0.12
+ATOM      7  OAU SER B 241      26.182 -16.900  31.164 -0.49 -0.24
+ATOM      8  CAL SER B 241      25.532 -18.069  31.558 -0.46 +0.11
+ATOM      9  CAX SER B 241      24.373 -17.757  32.134 -0.41 +0.07
+ATOM     10  NAT SER B 241      24.215 -16.419  32.099 -0.33 -0.10
+BRANCH   9  11
+ATOM     11  CAW SER B 241      23.462 -18.679  32.655 -0.42 +0.05
+ATOM     12  NAS SER B 241      22.134 -18.582  32.355 -0.26 -0.10
+ATOM     13  CAH SER B 241      21.216 -19.439  32.830 -0.38 +0.04
+ATOM     14  CAD SER B 241      21.626 -20.470  33.688 -0.46 +0.01
+ATOM     15  CAG SER B 241      22.980 -20.599  34.006 -0.49 +0.00
+ATOM     16  CAK SER B 241      23.910 -19.684  33.504 -0.46 +0.01
+ENDBRANCH   9  11
+ENDBRANCH   4   6
+BRANCH   4  17
+ATOM     17  CAR SER B 241      24.535 -13.559  32.047 -0.66 +0.02
+BRANCH  17  18
+ATOM     18  CAP SER B 241      25.073 -12.104  32.293 -0.77 +0.00
+BRANCH  18  19
+ATOM     19  CAN SER B 241      23.879 -11.117  32.514 -0.71 +0.00
+BRANCH  19  20
+ATOM     20  CAM SER B 241      22.704 -11.465  31.614 -0.63 +0.00
+BRANCH  20  21
+ATOM     21  CAO SER B 241      21.431 -11.766  32.405 -0.55 +0.00
+BRANCH  21  22
+ATOM     22  CAQ SER B 241      21.817 -11.886  33.908 -0.59 +0.01
+BRANCH  22  23
+ATOM     23  CAV SER B 241      21.371 -10.681  34.779 -0.49 -0.01
+ATOM     24  CAI SER B 241      20.938  -9.482  34.192 -0.46 -0.00
+ATOM     25  CAE SER B 241      20.561  -8.419  35.021 -0.54 -0.00
+ATOM     26  CAC SER B 241      20.591  -8.551  36.406 -0.55 -0.00
+ATOM     27  CAF SER B 241      21.028  -9.738  37.006 -0.54 -0.00
+ATOM     28  CAJ SER B 241      21.414 -10.809  36.177 -0.46 -0.00
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER B 241
+TER
+ENDMDL
+MODEL        3
+USER    Run = 3
+USER    DPF = dpf_files/ligand_2wj1.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -11.55 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =    3.39 nM (nanomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -15.13 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -13.86 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.27 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2wj1
+USER    NEWDPF about 22.810000 -14.938000 32.135000
+USER    NEWDPF tran0 32.256504 -5.038014 30.188868
+USER    NEWDPF quaternion0 0.223176 0.832317 0.457128 0.220171
+USER    NEWDPF axisangle0 0.228790 0.853255 0.468628 154.561824
+USER    NEWDPF quat0 0.228790 0.853255 0.468628 154.561824
+USER    NEWDPF dihe0 -2.35 117.74 65.07 -35.13 29.47 -93.30 67.31 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER B 241
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAZ 
+REMARK    4  A    between atoms: CAM  and  CAN 
+REMARK    5  A    between atoms: CAM  and  CAO 
+REMARK    6  A    between atoms: CAN  and  CAP 
+REMARK    7  A    between atoms: CAO  and  CAQ 
+REMARK    8  A    between atoms: CAP  and  CAR 
+REMARK    9  A    between atoms: CAQ  and  CAV 
+REMARK   10  A    between atoms: CAR  and  CAZ 
+REMARK   11  A    between atoms: CAW  and  CAX 
+REMARK   12  A    between atoms: CAY  and  CAZ 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER B 241      28.428 -13.058  30.171 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER B 241      27.927 -14.353  30.797 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER B 241      26.722 -14.749  30.128 -0.56 -0.18
+BRANCH   3   4
+ATOM      4  CAZ SER B 241      25.619 -15.045  30.972 -0.44 +0.16
+ATOM      5  OAA SER B 241      24.407 -14.683  30.334 -0.88 -0.15
+BRANCH   4   6
+ATOM      6  CAY SER B 241      25.555 -16.550  31.278 -0.39 +0.15
+ATOM      7  OAU SER B 241      26.547 -17.436  30.944 -0.70 -0.29
+ATOM      8  CAL SER B 241      26.055 -18.662  31.386 -0.47 +0.12
+ATOM      9  CAX SER B 241      24.877 -18.477  31.979 -0.42 +0.08
+ATOM     10  NAT SER B 241      24.554 -17.171  31.908 -0.34 -0.12
+BRANCH   9  11
+ATOM     11  CAW SER B 241      24.097 -19.488  32.547 -0.39 +0.05
+ATOM     12  NAS SER B 241      24.332 -20.797  32.237 -0.20 -0.12
+ATOM     13  CAH SER B 241      23.611 -21.806  32.752 -0.34 +0.05
+ATOM     14  CAD SER B 241      22.559 -21.513  33.631 -0.40 +0.01
+ATOM     15  CAG SER B 241      22.301 -20.184  33.973 -0.52 +0.00
+ATOM     16  CAK SER B 241      23.062 -19.154  33.411 -0.51 +0.01
+ENDBRANCH   9  11
+ENDBRANCH   4   6
+BRANCH   4  17
+ATOM     17  CAR SER B 241      25.818 -14.246  32.287 -0.64 +0.02
+BRANCH  17  18
+ATOM     18  CAP SER B 241      25.077 -12.862  32.236 -0.77 +0.00
+BRANCH  18  19
+ATOM     19  CAN SER B 241      23.644 -12.996  32.851 -0.66 +0.00
+BRANCH  19  20
+ATOM     20  CAM SER B 241      22.955 -11.643  32.940 -0.65 +0.00
+BRANCH  20  21
+ATOM     21  CAO SER B 241      21.641 -11.706  33.717 -0.60 +0.00
+BRANCH  21  22
+ATOM     22  CAQ SER B 241      21.453 -10.349  34.454 -0.54 +0.01
+BRANCH  22  23
+ATOM     23  CAV SER B 241      21.552 -10.443  36.000 -0.49 -0.01
+ATOM     24  CAI SER B 241      22.428  -9.619  36.723 -0.55 -0.00
+ATOM     25  CAE SER B 241      22.491  -9.753  38.116 -0.58 -0.00
+ATOM     26  CAC SER B 241      21.684 -10.672  38.780 -0.62 -0.00
+ATOM     27  CAF SER B 241      20.812 -11.507  38.071 -0.54 -0.00
+ATOM     28  CAJ SER B 241      20.748 -11.381  36.670 -0.46 -0.00
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER B 241
+TER
+ENDMDL
+MODEL        4
+USER    Run = 4
+USER    DPF = dpf_files/ligand_2wj1.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -12.47 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  718.72 pM (picomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -16.05 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -14.64 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.41 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2wj1
+USER    NEWDPF about 22.810000 -14.938000 32.135000
+USER    NEWDPF tran0 15.709446 -20.385072 32.663289
+USER    NEWDPF quaternion0 -0.267147 0.480240 -0.404392 -0.731074
+USER    NEWDPF axisangle0 -0.391540 0.703856 -0.592692 -86.046988
+USER    NEWDPF quat0 -0.391540 0.703856 -0.592692 -86.046988
+USER    NEWDPF dihe0 -176.54 75.50 94.95 45.26 167.24 23.91 7.46 6
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER B 241
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAZ 
+REMARK    4  A    between atoms: CAM  and  CAN 
+REMARK    5  A    between atoms: CAM  and  CAO 
+REMARK    6  A    between atoms: CAN  and  CAP 
+REMARK    7  A    between atoms: CAO  and  CAQ 
+REMARK    8  A    between atoms: CAP  and  CAR 
+REMARK    9  A    between atoms: CAQ  and  CAV 
+REMARK   10  A    between atoms: CAR  and  CAZ 
+REMARK   11  A    between atoms: CAW  and  CAX 
+REMARK   12  A    between atoms: CAY  and  CAZ 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER B 241      28.428 -13.058  30.171 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER B 241      27.927 -14.353  30.797 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER B 241      26.852 -14.042  31.694 -0.50 -0.09
+BRANCH   3   4
+ATOM      4  CAZ SER B 241      25.566 -14.489  31.290 -0.45 +0.13
+ATOM      5  OAA SER B 241      25.354 -14.188  29.922 -1.88 -0.18
+BRANCH   4   6
+ATOM      6  CAY SER B 241      25.439 -16.012  31.459 -0.38 +0.13
+ATOM      7  OAU SER B 241      26.354 -16.908  30.968 -0.54 -0.25
+ATOM      8  CAL SER B 241      25.826 -18.146  31.331 -0.48 +0.12
+ATOM      9  CAX SER B 241      24.705 -17.962  32.026 -0.42 +0.07
+ATOM     10  NAT SER B 241      24.452 -16.641  32.102 -0.35 -0.10
+BRANCH   9  11
+ATOM     11  CAW SER B 241      23.912 -18.984  32.556 -0.42 +0.05
+ATOM     12  NAS SER B 241      22.912 -18.693  33.438 -0.35 -0.10
+ATOM     13  CAH SER B 241      22.123 -19.636  33.978 -0.46 +0.03
+ATOM     14  CAD SER B 241      22.339 -20.980  33.643 -0.43 +0.01
+ATOM     15  CAG SER B 241      23.350 -21.306  32.736 -0.40 +0.00
+ATOM     16  CAK SER B 241      24.162 -20.303  32.200 -0.38 +0.01
+ENDBRANCH   9  11
+ENDBRANCH   4   6
+BRANCH   4  17
+ATOM     17  CAR SER B 241      24.526 -13.769  32.188 -0.66 +0.02
+BRANCH  17  18
+ATOM     18  CAP SER B 241      23.649 -12.764  31.359 -0.65 +0.00
+BRANCH  18  19
+ATOM     19  CAN SER B 241      23.893 -11.300  31.855 -0.72 +0.00
+BRANCH  19  20
+ATOM     20  CAM SER B 241      23.341 -11.094  33.256 -0.64 +0.00
+BRANCH  20  21
+ATOM     21  CAO SER B 241      22.074 -11.909  33.511 -0.62 +0.00
+BRANCH  21  22
+ATOM     22  CAQ SER B 241      21.016 -10.964  34.152 -0.53 +0.01
+BRANCH  22  23
+ATOM     23  CAV SER B 241      21.178 -10.770  35.683 -0.48 -0.01
+ATOM     24  CAI SER B 241      22.060  -9.811  36.203 -0.55 -0.00
+ATOM     25  CAE SER B 241      22.182  -9.685  37.592 -0.61 -0.00
+ATOM     26  CAC SER B 241      21.426 -10.480  38.449 -0.60 -0.00
+ATOM     27  CAF SER B 241      20.548 -11.447  37.944 -0.53 -0.00
+ATOM     28  CAJ SER B 241      20.425 -11.582  36.548 -0.47 -0.00
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER B 241
+TER
+ENDMDL
+MODEL        5
+USER    Run = 5
+USER    DPF = dpf_files/ligand_2wj1.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -11.70 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =    2.65 nM (nanomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -15.28 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -13.88 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.40 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2wj1
+USER    NEWDPF about 22.810000 -14.938000 32.135000
+USER    NEWDPF tran0 19.387645 -24.114131 29.635440
+USER    NEWDPF quaternion0 0.348282 0.801428 -0.466180 -0.138164
+USER    NEWDPF axisangle0 0.351654 0.809188 -0.470694 -164.116722
+USER    NEWDPF quat0 0.351654 0.809188 -0.470694 -164.116722
+USER    NEWDPF dihe0 -5.86 25.37 -102.86 -75.30 160.30 -73.82 64.2
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER B 241
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAZ 
+REMARK    4  A    between atoms: CAM  and  CAN 
+REMARK    5  A    between atoms: CAM  and  CAO 
+REMARK    6  A    between atoms: CAN  and  CAP 
+REMARK    7  A    between atoms: CAO  and  CAQ 
+REMARK    8  A    between atoms: CAP  and  CAR 
+REMARK    9  A    between atoms: CAQ  and  CAV 
+REMARK   10  A    between atoms: CAR  and  CAZ 
+REMARK   11  A    between atoms: CAW  and  CAX 
+REMARK   12  A    between atoms: CAY  and  CAZ 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER B 241      28.428 -13.058  30.171 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER B 241      27.927 -14.353  30.797 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER B 241      26.745 -14.771  30.100 -0.55 -0.18
+BRANCH   3   4
+ATOM      4  CAZ SER B 241      25.639 -15.118  30.919 -0.42 +0.17
+ATOM      5  OAA SER B 241      24.426 -14.794  30.262 -0.89 -0.15
+BRANCH   4   6
+ATOM      6  CAY SER B 241      25.626 -16.628  31.209 -0.39 +0.15
+ATOM      7  OAU SER B 241      26.630 -17.482  30.832 -0.79 -0.30
+ATOM      8  CAL SER B 241      26.186 -18.726  31.274 -0.45 +0.13
+ATOM      9  CAX SER B 241      25.023 -18.580  31.907 -0.42 +0.08
+ATOM     10  NAT SER B 241      24.663 -17.283  31.863 -0.35 -0.12
+BRANCH   9  11
+ATOM     11  CAW SER B 241      24.290 -19.619  32.488 -0.38 +0.05
+ATOM     12  NAS SER B 241      24.500 -20.911  32.102 -0.19 -0.12
+ATOM     13  CAH SER B 241      23.821 -21.945  32.624 -0.33 +0.05
+ATOM     14  CAD SER B 241      22.840 -21.697  33.595 -0.42 +0.01
+ATOM     15  CAG SER B 241      22.609 -20.385  34.015 -0.50 +0.00
+ATOM     16  CAK SER B 241      23.324 -19.328  33.443 -0.51 +0.01
+ENDBRANCH   9  11
+ENDBRANCH   4   6
+BRANCH   4  17
+ATOM     17  CAR SER B 241      25.783 -14.327  32.246 -0.64 +0.02
+BRANCH  17  18
+ATOM     18  CAP SER B 241      24.567 -13.359  32.472 -0.72 +0.00
+BRANCH  18  19
+ATOM     19  CAN SER B 241      24.930 -11.915  31.989 -0.78 +0.00
+BRANCH  19  20
+ATOM     20  CAM SER B 241      23.922 -10.895  32.495 -0.70 +0.00
+BRANCH  20  21
+ATOM     21  CAO SER B 241      22.485 -11.406  32.421 -0.61 +0.00
+BRANCH  21  22
+ATOM     22  CAQ SER B 241      22.010 -11.717  33.870 -0.60 +0.01
+BRANCH  22  23
+ATOM     23  CAV SER B 241      21.566 -10.469  34.678 -0.49 -0.01
+ATOM     24  CAI SER B 241      20.925  -9.389  34.051 -0.45 -0.00
+ATOM     25  CAE SER B 241      20.558  -8.279  34.821 -0.52 -0.00
+ATOM     26  CAC SER B 241      20.803  -8.250  36.192 -0.55 -0.00
+ATOM     27  CAF SER B 241      21.449  -9.317  36.828 -0.58 -0.00
+ATOM     28  CAJ SER B 241      21.826 -10.434  36.058 -0.46 -0.00
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER B 241
+TER
+ENDMDL
+MODEL        6
+USER    Run = 6
+USER    DPF = dpf_files/ligand_2wj1.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -12.52 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  670.38 pM (picomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -16.09 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -14.56 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.53 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2wj1
+USER    NEWDPF about 22.810000 -14.938000 32.135000
+USER    NEWDPF tran0 31.218941 -15.050269 36.073635
+USER    NEWDPF quaternion0 0.354484 0.613776 0.550933 -0.440559
+USER    NEWDPF axisangle0 0.394870 0.683703 0.613700 -127.720919
+USER    NEWDPF quat0 0.394870 0.683703 0.613700 -127.720919
+USER    NEWDPF dihe0 -129.90 166.07 -71.05 151.96 -22.63 55.41 2.8
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER B 241
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAZ 
+REMARK    4  A    between atoms: CAM  and  CAN 
+REMARK    5  A    between atoms: CAM  and  CAO 
+REMARK    6  A    between atoms: CAN  and  CAP 
+REMARK    7  A    between atoms: CAO  and  CAQ 
+REMARK    8  A    between atoms: CAP  and  CAR 
+REMARK    9  A    between atoms: CAQ  and  CAV 
+REMARK   10  A    between atoms: CAR  and  CAZ 
+REMARK   11  A    between atoms: CAW  and  CAX 
+REMARK   12  A    between atoms: CAY  and  CAZ 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER B 241      28.428 -13.058  30.171 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER B 241      27.927 -14.353  30.797 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER B 241      26.836 -14.045  31.676 -0.50 -0.09
+BRANCH   3   4
+ATOM      4  CAZ SER B 241      25.550 -14.432  31.218 -0.45 +0.13
+ATOM      5  OAA SER B 241      25.434 -14.188  29.827 -1.97 -0.19
+BRANCH   4   6
+ATOM      6  CAY SER B 241      25.317 -15.934  31.450 -0.38 +0.12
+ATOM      7  OAU SER B 241      26.152 -16.913  30.977 -0.51 -0.24
+ATOM      8  CAL SER B 241      25.545 -18.095  31.399 -0.46 +0.11
+ATOM      9  CAX SER B 241      24.457 -17.802  32.109 -0.41 +0.07
+ATOM     10  NAT SER B 241      24.302 -16.464  32.138 -0.35 -0.10
+BRANCH   9  11
+ATOM     11  CAW SER B 241      23.604 -18.742  32.694 -0.43 +0.05
+ATOM     12  NAS SER B 241      22.259 -18.511  32.753 -0.27 -0.10
+ATOM     13  CAH SER B 241      21.397 -19.379  33.306 -0.40 +0.04
+ATOM     14  CAD SER B 241      21.889 -20.566  33.867 -0.44 +0.01
+ATOM     15  CAG SER B 241      23.259 -20.832  33.815 -0.48 +0.00
+ATOM     16  CAK SER B 241      24.133 -19.904  33.242 -0.43 +0.01
+ENDBRANCH   9  11
+ENDBRANCH   4   6
+BRANCH   4  17
+ATOM     17  CAR SER B 241      24.509 -13.606  32.018 -0.66 +0.02
+BRANCH  17  18
+ATOM     18  CAP SER B 241      24.905 -12.087  32.079 -0.77 +0.00
+BRANCH  18  19
+ATOM     19  CAN SER B 241      23.641 -11.211  32.366 -0.71 +0.00
+BRANCH  19  20
+ATOM     20  CAM SER B 241      22.414 -11.767  31.660 -0.61 +0.00
+BRANCH  20  21
+ATOM     21  CAO SER B 241      21.177 -11.774  32.557 -0.53 +0.00
+BRANCH  21  22
+ATOM     22  CAQ SER B 241      21.655 -11.836  34.036 -0.58 +0.01
+BRANCH  22  23
+ATOM     23  CAV SER B 241      21.381 -10.544  34.851 -0.48 -0.01
+ATOM     24  CAI SER B 241      21.664 -10.479  36.224 -0.49 -0.00
+ATOM     25  CAE SER B 241      21.384  -9.295  36.918 -0.57 -0.00
+ATOM     26  CAC SER B 241      20.855  -8.190  36.256 -0.54 -0.00
+ATOM     27  CAF SER B 241      20.560  -8.244  34.889 -0.52 -0.00
+ATOM     28  CAJ SER B 241      20.834  -9.433  34.187 -0.46 -0.00
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER B 241
+TER
+ENDMDL
+MODEL        7
+USER    Run = 7
+USER    DPF = dpf_files/ligand_2wj1.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -12.43 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  770.55 pM (picomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -16.01 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -14.72 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.29 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2wj1
+USER    NEWDPF about 22.810000 -14.938000 32.135000
+USER    NEWDPF tran0 24.794503 -25.279836 36.348748
+USER    NEWDPF quaternion0 0.547955 0.251161 -0.385398 -0.698664
+USER    NEWDPF axisangle0 0.765889 0.351053 -0.538679 -91.360167
+USER    NEWDPF quat0 0.765889 0.351053 -0.538679 -91.360167
+USER    NEWDPF dihe0 -169.00 94.99 79.95 25.76 59.05 -171.11 1.20 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER B 241
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAZ 
+REMARK    4  A    between atoms: CAM  and  CAN 
+REMARK    5  A    between atoms: CAM  and  CAO 
+REMARK    6  A    between atoms: CAN  and  CAP 
+REMARK    7  A    between atoms: CAO  and  CAQ 
+REMARK    8  A    between atoms: CAP  and  CAR 
+REMARK    9  A    between atoms: CAQ  and  CAV 
+REMARK   10  A    between atoms: CAR  and  CAZ 
+REMARK   11  A    between atoms: CAW  and  CAX 
+REMARK   12  A    between atoms: CAY  and  CAZ 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER B 241      28.428 -13.058  30.171 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER B 241      27.927 -14.353  30.797 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER B 241      26.840 -14.044  31.680 -0.50 -0.09
+BRANCH   3   4
+ATOM      4  CAZ SER B 241      25.561 -14.493  31.261 -0.45 +0.13
+ATOM      5  OAA SER B 241      25.362 -14.188  29.892 -1.90 -0.18
+BRANCH   4   6
+ATOM      6  CAY SER B 241      25.437 -16.018  31.423 -0.38 +0.13
+ATOM      7  OAU SER B 241      26.291 -16.915  30.834 -0.55 -0.24
+ATOM      8  CAL SER B 241      25.790 -18.153  31.231 -0.48 +0.11
+ATOM      9  CAX SER B 241      24.744 -17.969  32.035 -0.42 +0.07
+ATOM     10  NAT SER B 241      24.512 -16.648  32.151 -0.35 -0.10
+BRANCH   9  11
+ATOM     11  CAW SER B 241      23.997 -18.992  32.626 -0.42 +0.05
+ATOM     12  NAS SER B 241      22.985 -18.694  33.492 -0.35 -0.10
+ATOM     13  CAH SER B 241      22.239 -19.637  34.090 -0.46 +0.03
+ATOM     14  CAD SER B 241      22.514 -20.988  33.835 -0.40 +0.01
+ATOM     15  CAG SER B 241      23.539 -21.322  32.946 -0.42 +0.00
+ATOM     16  CAK SER B 241      24.306 -20.318  32.349 -0.38 +0.01
+ENDBRANCH   9  11
+ENDBRANCH   4   6
+BRANCH   4  17
+ATOM     17  CAR SER B 241      24.508 -13.781  32.151 -0.66 +0.02
+BRANCH  17  18
+ATOM     18  CAP SER B 241      24.265 -12.302  31.680 -0.72 +0.00
+BRANCH  18  19
+ATOM     19  CAN SER B 241      22.775 -11.895  31.932 -0.63 +0.00
+BRANCH  19  20
+ATOM     20  CAM SER B 241      22.625 -11.138  33.242 -0.64 +0.00
+BRANCH  20  21
+ATOM     21  CAO SER B 241      21.338 -11.498  33.981 -0.58 +0.00
+BRANCH  21  22
+ATOM     22  CAQ SER B 241      20.912 -10.267  34.832 -0.51 +0.01
+BRANCH  22  23
+ATOM     23  CAV SER B 241      21.349 -10.338  36.320 -0.50 -0.01
+ATOM     24  CAI SER B 241      22.429  -9.578  36.796 -0.57 -0.00
+ATOM     25  CAE SER B 241      22.794  -9.688  38.143 -0.62 -0.00
+ATOM     26  CAC SER B 241      22.086 -10.520  39.007 -0.60 -0.00
+ATOM     27  CAF SER B 241      21.012 -11.290  38.544 -0.59 -0.00
+ATOM     28  CAJ SER B 241      20.644 -11.187  37.189 -0.49 -0.00
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER B 241
+TER
+ENDMDL
+MODEL        8
+USER    Run = 8
+USER    DPF = dpf_files/ligand_2wj1.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -12.39 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  829.17 pM (picomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -15.97 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -14.60 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.37 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2wj1
+USER    NEWDPF about 22.810000 -14.938000 32.135000
+USER    NEWDPF tran0 34.012608 -8.803409 40.314719
+USER    NEWDPF quaternion0 -0.560101 -0.364000 0.332000 0.666008
+USER    NEWDPF axisangle0 -0.750861 -0.487973 0.445073 96.480521
+USER    NEWDPF quat0 -0.750861 -0.487973 0.445073 96.480521
+USER    NEWDPF dihe0 -106.32 179.95 -109.78 1.60 80.82 51.67 15.69
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER B 241
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAZ 
+REMARK    4  A    between atoms: CAM  and  CAN 
+REMARK    5  A    between atoms: CAM  and  CAO 
+REMARK    6  A    between atoms: CAN  and  CAP 
+REMARK    7  A    between atoms: CAO  and  CAQ 
+REMARK    8  A    between atoms: CAP  and  CAR 
+REMARK    9  A    between atoms: CAQ  and  CAV 
+REMARK   10  A    between atoms: CAR  and  CAZ 
+REMARK   11  A    between atoms: CAW  and  CAX 
+REMARK   12  A    between atoms: CAY  and  CAZ 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER B 241      28.428 -13.058  30.171 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER B 241      27.927 -14.353  30.797 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER B 241      26.882 -14.038  31.727 -0.51 -0.09
+BRANCH   3   4
+ATOM      4  CAZ SER B 241      25.567 -14.374  31.313 -0.45 +0.12
+ATOM      5  OAA SER B 241      25.436 -14.188  29.914 -1.97 -0.17
+BRANCH   4   6
+ATOM      6  CAY SER B 241      25.258 -15.849  31.619 -0.37 +0.12
+ATOM      7  OAU SER B 241      26.146 -16.871  31.404 -0.45 -0.24
+ATOM      8  CAL SER B 241      25.441 -18.007  31.796 -0.44 +0.10
+ATOM      9  CAX SER B 241      24.242 -17.646  32.251 -0.40 +0.06
+ATOM     10  NAT SER B 241      24.116 -16.310  32.136 -0.34 -0.10
+BRANCH   9  11
+ATOM     11  CAW SER B 241      23.269 -18.526  32.734 -0.42 +0.04
+ATOM     12  NAS SER B 241      22.039 -18.585  32.146 -0.25 -0.10
+ATOM     13  CAH SER B 241      21.068 -19.409  32.571 -0.37 +0.04
+ATOM     14  CAD SER B 241      21.311 -20.235  33.678 -0.48 +0.01
+ATOM     15  CAG SER B 241      22.564 -20.202  34.296 -0.48 +0.00
+ATOM     16  CAK SER B 241      23.550 -19.324  33.836 -0.48 +0.01
+ENDBRANCH   9  11
+ENDBRANCH   4   6
+BRANCH   4  17
+ATOM     17  CAR SER B 241      24.590 -13.456  32.092 -0.66 +0.02
+BRANCH  17  18
+ATOM     18  CAP SER B 241      24.447 -12.052  31.403 -0.71 +0.00
+BRANCH  18  19
+ATOM     19  CAN SER B 241      23.995 -10.980  32.450 -0.69 +0.00
+BRANCH  19  20
+ATOM     20  CAM SER B 241      22.942 -11.542  33.392 -0.63 +0.00
+BRANCH  20  21
+ATOM     21  CAO SER B 241      21.631 -10.759  33.336 -0.55 +0.00
+BRANCH  21  22
+ATOM     22  CAQ SER B 241      20.671 -11.352  34.409 -0.52 +0.01
+BRANCH  22  23
+ATOM     23  CAV SER B 241      21.051 -10.998  35.871 -0.47 -0.01
+ATOM     24  CAI SER B 241      20.403 -11.607  36.957 -0.46 -0.00
+ATOM     25  CAE SER B 241      20.771 -11.242  38.258 -0.56 -0.00
+ATOM     26  CAC SER B 241      21.779 -10.306  38.476 -0.58 -0.00
+ATOM     27  CAF SER B 241      22.427  -9.684  37.403 -0.64 -0.00
+ATOM     28  CAJ SER B 241      22.058 -10.043  36.092 -0.53 -0.00
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER B 241
+TER
+ENDMDL
+MODEL        9
+USER    Run = 9
+USER    DPF = dpf_files/ligand_2wj1.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -12.57 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =  615.40 pM (picomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -16.15 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -14.58 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.56 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2wj1
+USER    NEWDPF about 22.810000 -14.938000 32.135000
+USER    NEWDPF tran0 13.086404 -16.445081 42.514870
+USER    NEWDPF quaternion0 0.718145 -0.570202 -0.398916 0.001883
+USER    NEWDPF axisangle0 0.718147 -0.570203 -0.398917 179.784187
+USER    NEWDPF quat0 0.718147 -0.570203 -0.398917 179.784187
+USER    NEWDPF dihe0 -118.05 165.81 -82.42 172.43 -43.23 61.25 10.
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER B 241
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAZ 
+REMARK    4  A    between atoms: CAM  and  CAN 
+REMARK    5  A    between atoms: CAM  and  CAO 
+REMARK    6  A    between atoms: CAN  and  CAP 
+REMARK    7  A    between atoms: CAO  and  CAQ 
+REMARK    8  A    between atoms: CAP  and  CAR 
+REMARK    9  A    between atoms: CAQ  and  CAV 
+REMARK   10  A    between atoms: CAR  and  CAZ 
+REMARK   11  A    between atoms: CAW  and  CAX 
+REMARK   12  A    between atoms: CAY  and  CAZ 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER B 241      28.428 -13.058  30.171 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER B 241      27.927 -14.353  30.797 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER B 241      26.857 -14.041  31.700 -0.50 -0.09
+BRANCH   3   4
+ATOM      4  CAZ SER B 241      25.558 -14.415  31.266 -0.45 +0.13
+ATOM      5  OAA SER B 241      25.426 -14.188  29.874 -1.96 -0.18
+BRANCH   4   6
+ATOM      6  CAY SER B 241      25.306 -15.910  31.522 -0.37 +0.12
+ATOM      7  OAU SER B 241      26.195 -16.898  31.184 -0.49 -0.24
+ATOM      8  CAL SER B 241      25.548 -18.069  31.574 -0.46 +0.11
+ATOM      9  CAX SER B 241      24.384 -17.761  32.143 -0.41 +0.07
+ATOM     10  NAT SER B 241      24.221 -16.425  32.106 -0.34 -0.10
+BRANCH   9  11
+ATOM     11  CAW SER B 241      23.473 -18.688  32.658 -0.42 +0.05
+ATOM     12  NAS SER B 241      22.146 -18.597  32.348 -0.26 -0.10
+ATOM     13  CAH SER B 241      21.229 -19.457  32.818 -0.38 +0.04
+ATOM     14  CAD SER B 241      21.638 -20.486  33.680 -0.46 +0.01
+ATOM     15  CAG SER B 241      22.990 -20.608  34.008 -0.49 +0.00
+ATOM     16  CAK SER B 241      23.919 -19.689  33.511 -0.46 +0.01
+ENDBRANCH   9  11
+ENDBRANCH   4   6
+BRANCH   4  17
+ATOM     17  CAR SER B 241      24.542 -13.563  32.071 -0.66 +0.02
+BRANCH  17  18
+ATOM     18  CAP SER B 241      25.126 -12.146  32.415 -0.76 +0.00
+BRANCH  18  19
+ATOM     19  CAN SER B 241      23.965 -11.109  32.579 -0.70 +0.00
+BRANCH  19  20
+ATOM     20  CAM SER B 241      22.785 -11.459  31.686 -0.63 +0.00
+BRANCH  20  21
+ATOM     21  CAO SER B 241      21.532 -11.813  32.486 -0.55 +0.00
+BRANCH  21  22
+ATOM     22  CAQ SER B 241      21.912 -11.823  33.995 -0.59 +0.01
+BRANCH  22  23
+ATOM     23  CAV SER B 241      21.507 -10.537  34.764 -0.49 -0.01
+ATOM     24  CAI SER B 241      21.686 -10.436  36.152 -0.50 -0.00
+ATOM     25  CAE SER B 241      21.290  -9.261  36.803 -0.57 -0.00
+ATOM     26  CAC SER B 241      20.747  -8.198  36.086 -0.54 -0.00
+ATOM     27  CAF SER B 241      20.555  -8.289  34.702 -0.51 -0.00
+ATOM     28  CAJ SER B 241      20.946  -9.470  34.043 -0.44 -0.00
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER B 241
+TER
+ENDMDL
+MODEL       10
+USER    Run = 10
+USER    DPF = dpf_files/ligand_2wj1.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -12.22 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =    1.10 nM (nanomola
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -15.80 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -14.43 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.38 kcal/mol
+USER    (3) Torsional Free Energy           =   +3.58 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2wj1
+USER    NEWDPF about 22.810000 -14.938000 32.135000
+USER    NEWDPF tran0 23.469699 -21.455054 30.193308
+USER    NEWDPF quaternion0 0.133758 -0.560571 -0.220768 0.786848
+USER    NEWDPF axisangle0 0.216736 -0.908327 -0.357725 76.216086
+USER    NEWDPF quat0 0.216736 -0.908327 -0.357725 76.216086
+USER    NEWDPF dihe0 -176.44 65.38 -40.37 78.55 86.40 -180.00 3.29
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER B 241
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAZ 
+REMARK    4  A    between atoms: CAM  and  CAN 
+REMARK    5  A    between atoms: CAM  and  CAO 
+REMARK    6  A    between atoms: CAN  and  CAP 
+REMARK    7  A    between atoms: CAO  and  CAQ 
+REMARK    8  A    between atoms: CAP  and  CAR 
+REMARK    9  A    between atoms: CAQ  and  CAV 
+REMARK   10  A    between atoms: CAR  and  CAZ 
+REMARK   11  A    between atoms: CAW  and  CAX 
+REMARK   12  A    between atoms: CAY  and  CAZ 
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER B 241      28.428 -13.058  30.171 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER B 241      27.927 -14.353  30.797 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER B 241      26.835 -14.045  31.674 -0.50 -0.09
+BRANCH   3   4
+ATOM      4  CAZ SER B 241      25.562 -14.515  31.258 -0.45 +0.13
+ATOM      5  OAA SER B 241      25.343 -14.188  29.897 -1.88 -0.18
+BRANCH   4   6
+ATOM      6  CAY SER B 241      25.474 -16.045  31.391 -0.39 +0.13
+ATOM      7  OAU SER B 241      26.366 -16.909  30.811 -0.56 -0.25
+ATOM      8  CAL SER B 241      25.888 -18.167  31.174 -0.48 +0.12
+ATOM      9  CAX SER B 241      24.816 -18.024  31.952 -0.42 +0.07
+ATOM     10  NAT SER B 241      24.546 -16.711  32.084 -0.35 -0.11
+BRANCH   9  11
+ATOM     11  CAW SER B 241      24.081 -19.075  32.506 -0.41 +0.05
+ATOM     12  NAS SER B 241      23.139 -18.829  33.463 -0.35 -0.09
+ATOM     13  CAH SER B 241      22.408 -19.801  34.030 -0.46 +0.03
+ATOM     14  CAD SER B 241      22.625 -21.132  33.643 -0.43 +0.01
+ATOM     15  CAG SER B 241      23.576 -21.413  32.659 -0.40 +0.00
+ATOM     16  CAK SER B 241      24.330 -20.379  32.096 -0.37 +0.01
+ENDBRANCH   9  11
+ENDBRANCH   4   6
+BRANCH   4  17
+ATOM     17  CAR SER B 241      24.502 -13.844  32.171 -0.66 +0.02
+BRANCH  17  18
+ATOM     18  CAP SER B 241      23.171 -13.555  31.389 -0.63 +0.00
+BRANCH  18  19
+ATOM     19  CAN SER B 241      22.150 -12.816  32.317 -0.59 +0.00
+BRANCH  19  20
+ATOM     20  CAM SER B 241      22.348 -11.309  32.262 -0.60 +0.00
+BRANCH  20  21
+ATOM     21  CAO SER B 241      22.810 -10.731  33.599 -0.60 +0.00
+BRANCH  21  22
+ATOM     22  CAQ SER B 241      21.566 -10.141  34.323 -0.53 +0.01
+BRANCH  22  23
+ATOM     23  CAV SER B 241      21.561 -10.355  35.860 -0.50 -0.01
+ATOM     24  CAI SER B 241      22.397  -9.603  36.700 -0.55 -0.00
+ATOM     25  CAE SER B 241      22.368  -9.845  38.079 -0.58 -0.00
+ATOM     26  CAC SER B 241      21.507 -10.798  38.616 -0.62 -0.00
+ATOM     27  CAF SER B 241      20.673 -11.561  37.790 -0.51 -0.00
+ATOM     28  CAJ SER B 241      20.703 -11.327  36.402 -0.47 -0.00
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER B 241
+TER
+ENDMDL

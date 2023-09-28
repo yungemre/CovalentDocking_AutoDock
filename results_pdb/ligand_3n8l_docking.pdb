@@ -1,0 +1,960 @@
+MODEL        1
+USER    Run = 1
+USER    DPF = dpf_files/ligand_3n8l.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -6.29 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =   24.32 uM (micromol
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -8.98 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -7.43 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.55 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.68 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8l
+USER    NEWDPF about -9.751000 -10.483000 3.217000
+USER    NEWDPF tran0 -17.143775 -2.078432 12.591669
+USER    NEWDPF quaternion0 0.774321 0.520784 0.241448 -0.266296
+USER    NEWDPF axisangle0 0.803328 0.540294 0.250493 -149.111996
+USER    NEWDPF quat0 0.803328 0.540294 0.250493 -149.111996
+USER    NEWDPF dihe0 -12.79 156.88 -157.27 42.01 88.73 -34.51 13.1
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1   and  C3  
+REMARK    1  A    between atoms: N1   and  C14 
+REMARK    2  A    between atoms: C2   and  C12 
+REMARK    3  A    between atoms: C3   and  C4  
+REMARK    4  A    between atoms: C4   and  C5  
+REMARK    5  A    between atoms: C13  and  C14 
+REMARK    6  A    between atoms: C14  and  C15 
+REMARK    7  A    between atoms: C15  and  OG  
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  OG  
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.487 -10.830   6.944 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.080 -10.254   6.891 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.621 -10.146   5.551 -0.37 -0.16
+BRANCH   3   4
+ATOM      4  C15 SER A  84     -11.195 -10.563   5.279 -0.25 +0.13
+ATOM      5  O4  SER A  84     -10.443 -10.860   6.205 -0.19 -0.22
+BRANCH   4   6
+ATOM      6  C14 SER A  84     -10.907 -10.795   3.816 -0.23 -0.01
+BRANCH   6   7
+ATOM      7  N1  SER A  84      -9.668 -10.088   3.494 -0.17 +0.02
+ATOM      8  C3  SER A  84      -9.611  -8.769   3.546 -0.18 +0.01
+ATOM      9  O3  SER A  84     -10.569  -8.068   3.883 -0.40 -0.08
+BRANCH   8  10
+ATOM     10  C4  SER A  84      -8.255  -8.174   3.147 -0.04 -0.06
+ATOM     11  N2  SER A  84      -7.820  -8.761   1.863 +0.04 -0.18
+BRANCH  10  12
+ATOM     12  C5  SER A  84      -7.191  -8.463   4.232 -0.19 -0.00
+ATOM     13  C7  SER A  84      -7.331  -9.530   5.107 -0.33 +0.00
+ATOM     14  C8  SER A  84      -6.375  -9.764   6.093 -0.41 +0.00
+ATOM     15  C9  SER A  84      -5.261  -8.943   6.216 -0.34 +0.00
+ATOM     16  C10 SER A  84      -5.110  -7.868   5.357 -0.28 +0.00
+ATOM     17  C11 SER A  84      -6.074  -7.631   4.370 -0.18 +0.00
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  18
+ATOM     18  C13 SER A  84     -10.864 -12.340   3.665 -0.15 -0.16
+ATOM     19  S1  SER A  84      -9.255 -13.200   3.508 -0.35 +0.06
+ATOM     20  C6  SER A  84      -9.394 -14.204   5.052 -0.38 -0.03
+ATOM     21  C12 SER A  84     -10.509 -13.458   5.811 -0.16 +0.07
+ATOM     22  C16 SER A  84      -9.763 -15.660   4.722 -0.48 -0.01
+ATOM     23  C1  SER A  84      -8.067 -14.157   5.829 -0.55 -0.00
+ATOM     24  N3  SER A  84     -11.512 -12.971   4.836 -0.14 -0.07
+BRANCH  21  25
+ATOM     25  C2  SER A  84     -11.260 -14.331   6.789 -0.27 +0.09
+ATOM     26  O1  SER A  84     -12.438 -14.583   6.522 -0.05 +0.04
+ATOM     27  O2  SER A  84     -10.687 -14.643   7.853 -0.28 -0.55
+ENDBRANCH  21  25
+ENDBRANCH   6  18
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        2
+USER    Run = 2
+USER    DPF = dpf_files/ligand_3n8l.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -6.39 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =   20.58 uM (micromol
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -9.08 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -7.47 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.61 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.68 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8l
+USER    NEWDPF about -9.751000 -10.483000 3.217000
+USER    NEWDPF tran0 1.427800 0.494710 -5.582089
+USER    NEWDPF quaternion0 -0.212505 0.929097 0.179934 0.243400
+USER    NEWDPF axisangle0 -0.219094 0.957905 0.185513 151.825377
+USER    NEWDPF quat0 -0.219094 0.957905 0.185513 151.825377
+USER    NEWDPF dihe0 -5.96 145.26 10.04 -133.82 -2.13 49.27 72.79 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1   and  C3  
+REMARK    1  A    between atoms: N1   and  C14 
+REMARK    2  A    between atoms: C2   and  C12 
+REMARK    3  A    between atoms: C3   and  C4  
+REMARK    4  A    between atoms: C4   and  C5  
+REMARK    5  A    between atoms: C13  and  C14 
+REMARK    6  A    between atoms: C14  and  C15 
+REMARK    7  A    between atoms: C15  and  OG  
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  OG  
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.487 -10.830   6.944 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.080 -10.254   6.891 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.564 -10.285   5.568 -0.33 -0.15
+BRANCH   3   4
+ATOM      4  C15 SER A  84     -12.047 -11.612   5.065 -0.30 +0.05
+ATOM      5  O4  SER A  84     -12.750 -12.618   5.118 -0.78 +0.00
+BRANCH   4   6
+ATOM      6  C14 SER A  84     -10.743 -11.500   4.313 -0.27 -0.02
+BRANCH   6   7
+ATOM      7  N1  SER A  84     -10.775 -12.481   3.229 -0.18 +0.15
+ATOM      8  C3  SER A  84      -9.653 -12.940   2.702 -0.16 -0.23
+ATOM      9  O3  SER A  84      -8.535 -12.595   3.095 -0.15 +0.15
+BRANCH   8  10
+ATOM     10  C4  SER A  84      -9.850 -13.935   1.552 -0.12 -0.58
+ATOM     11  N2  SER A  84      -8.808 -14.981   1.623 +0.14 -1.19
+BRANCH  10  12
+ATOM     12  C5  SER A  84      -9.762 -13.215   0.186 -0.35 -0.03
+ATOM     13  C7  SER A  84      -9.296 -11.911   0.091 -0.30 +0.00
+ATOM     14  C8  SER A  84      -9.244 -11.268  -1.144 -0.27 +0.00
+ATOM     15  C9  SER A  84      -9.648 -11.918  -2.304 -0.36 +0.00
+ATOM     16  C10 SER A  84     -10.124 -13.216  -2.227 -0.36 +0.00
+ATOM     17  C11 SER A  84     -10.181 -13.858  -0.984 -0.38 +0.00
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  18
+ATOM     18  C13 SER A  84     -10.668 -10.011   3.876 -0.18 +0.04
+ATOM     19  S1  SER A  84     -10.113  -8.735   5.065 -0.35 -0.05
+ATOM     20  C6  SER A  84      -8.612  -8.204   4.129 -0.23 -0.00
+ATOM     21  C12 SER A  84      -8.416  -9.384   3.156 -0.08 -0.07
+ATOM     22  C16 SER A  84      -8.865  -6.869   3.410 -0.30 -0.00
+ATOM     23  C1  SER A  84      -7.416  -8.072   5.088 -0.32 -0.00
+ATOM     24  N3  SER A  84      -9.746  -9.878   2.728 -0.11 -0.06
+BRANCH  21  25
+ATOM     25  C2  SER A  84      -7.679  -9.006   1.893 -0.12 -0.07
+ATOM     26  O1  SER A  84      -8.351  -8.901   0.863 +0.01 +0.20
+ATOM     27  O2  SER A  84      -6.434  -8.941   1.941 +0.02 +0.22
+ENDBRANCH  21  25
+ENDBRANCH   6  18
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        3
+USER    Run = 3
+USER    DPF = dpf_files/ligand_3n8l.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -6.29 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =   24.37 uM (micromol
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -8.98 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -7.42 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.56 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.68 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8l
+USER    NEWDPF about -9.751000 -10.483000 3.217000
+USER    NEWDPF tran0 -2.214153 -16.045139 6.263763
+USER    NEWDPF quaternion0 -0.183458 0.607802 -0.678365 -0.369785
+USER    NEWDPF axisangle0 -0.197455 0.654172 -0.730117 -136.595239
+USER    NEWDPF quat0 -0.197455 0.654172 -0.730117 -136.595239
+USER    NEWDPF dihe0 -15.87 -22.65 -158.65 41.95 88.76 -34.45 12.8
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1   and  C3  
+REMARK    1  A    between atoms: N1   and  C14 
+REMARK    2  A    between atoms: C2   and  C12 
+REMARK    3  A    between atoms: C3   and  C4  
+REMARK    4  A    between atoms: C4   and  C5  
+REMARK    5  A    between atoms: C13  and  C14 
+REMARK    6  A    between atoms: C14  and  C15 
+REMARK    7  A    between atoms: C15  and  OG  
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  OG  
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.487 -10.830   6.944 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.080 -10.254   6.891 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.621 -10.147   5.551 -0.37 -0.16
+BRANCH   3   4
+ATOM      4  C15 SER A  84     -11.196 -10.568   5.279 -0.25 +0.13
+ATOM      5  O4  SER A  84     -10.442 -10.860   6.205 -0.19 -0.22
+BRANCH   4   6
+ATOM      6  C14 SER A  84     -10.911 -10.808   3.817 -0.23 -0.01
+BRANCH   6   7
+ATOM      7  N1  SER A  84      -9.671 -10.106   3.489 -0.17 +0.02
+ATOM      8  C3  SER A  84      -9.610  -8.787   3.535 -0.18 +0.01
+ATOM      9  O3  SER A  84     -10.566  -8.081   3.870 -0.40 -0.08
+BRANCH   8  10
+ATOM     10  C4  SER A  84      -8.253  -8.197   3.131 -0.04 -0.06
+ATOM     11  N2  SER A  84      -7.806  -8.816   1.865 +0.04 -0.18
+BRANCH  10  12
+ATOM     12  C5  SER A  84      -7.196  -8.454   4.231 -0.19 -0.00
+ATOM     13  C7  SER A  84      -6.079  -7.641   4.355 -0.18 +0.00
+ATOM     14  C8  SER A  84      -5.124  -7.899   5.336 -0.28 +0.00
+ATOM     15  C9  SER A  84      -5.274  -8.966   6.215 -0.34 +0.00
+ATOM     16  C10 SER A  84      -6.379  -9.792   6.099 -0.41 +0.00
+ATOM     17  C11 SER A  84      -7.334  -9.535   5.108 -0.33 +0.00
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  18
+ATOM     18  C13 SER A  84     -10.872 -12.354   3.673 -0.15 -0.16
+ATOM     19  S1  SER A  84      -9.266 -13.219   3.517 -0.35 +0.06
+ATOM     20  C6  SER A  84      -9.403 -14.214   5.067 -0.38 -0.03
+ATOM     21  C12 SER A  84     -10.513 -13.461   5.825 -0.16 +0.08
+ATOM     22  C16 SER A  84      -9.776 -15.671   4.745 -0.48 -0.01
+ATOM     23  C1  SER A  84      -8.073 -14.166   5.840 -0.56 -0.00
+ATOM     24  N3  SER A  84     -11.518 -12.977   4.849 -0.14 -0.07
+BRANCH  21  25
+ATOM     25  C2  SER A  84     -11.264 -14.327   6.809 -0.26 +0.09
+ATOM     26  O1  SER A  84     -12.459 -14.530   6.577 -0.05 +0.02
+ATOM     27  O2  SER A  84     -10.669 -14.683   7.846 -0.28 -0.53
+ENDBRANCH  21  25
+ENDBRANCH   6  18
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        4
+USER    Run = 4
+USER    DPF = dpf_files/ligand_3n8l.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -6.28 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =   24.84 uM (micromol
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -8.97 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -7.43 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.54 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.68 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8l
+USER    NEWDPF about -9.751000 -10.483000 3.217000
+USER    NEWDPF tran0 -12.256059 -19.654644 4.301329
+USER    NEWDPF quaternion0 0.879870 -0.358041 -0.312274 0.010945
+USER    NEWDPF axisangle0 0.879923 -0.358062 -0.312293 178.745800
+USER    NEWDPF quat0 0.879923 -0.358062 -0.312293 178.745800
+USER    NEWDPF dihe0 -12.30 154.94 -154.08 42.17 85.53 -34.15 13.4
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1   and  C3  
+REMARK    1  A    between atoms: N1   and  C14 
+REMARK    2  A    between atoms: C2   and  C12 
+REMARK    3  A    between atoms: C3   and  C4  
+REMARK    4  A    between atoms: C4   and  C5  
+REMARK    5  A    between atoms: C13  and  C14 
+REMARK    6  A    between atoms: C14  and  C15 
+REMARK    7  A    between atoms: C15  and  OG  
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  OG  
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.487 -10.830   6.944 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.080 -10.254   6.891 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.620 -10.151   5.551 -0.37 -0.16
+BRANCH   3   4
+ATOM      4  C15 SER A  84     -11.191 -10.564   5.284 -0.25 +0.13
+ATOM      5  O4  SER A  84     -10.441 -10.859   6.211 -0.19 -0.22
+BRANCH   4   6
+ATOM      6  C14 SER A  84     -10.899 -10.795   3.822 -0.23 -0.01
+BRANCH   6   7
+ATOM      7  N1  SER A  84      -9.656 -10.093   3.505 -0.17 +0.02
+ATOM      8  C3  SER A  84      -9.610  -8.772   3.499 -0.18 +0.01
+ATOM      9  O3  SER A  84     -10.584  -8.065   3.773 -0.41 -0.08
+BRANCH   8  10
+ATOM     10  C4  SER A  84      -8.248  -8.183   3.114 -0.04 -0.06
+ATOM     11  N2  SER A  84      -7.804  -8.769   1.832 +0.04 -0.18
+BRANCH  10  12
+ATOM     12  C5  SER A  84      -7.195  -8.482   4.208 -0.19 -0.00
+ATOM     13  C7  SER A  84      -7.369  -9.527   5.103 -0.33 +0.00
+ATOM     14  C8  SER A  84      -6.423  -9.770   6.097 -0.41 +0.00
+ATOM     15  C9  SER A  84      -5.285  -8.979   6.207 -0.34 +0.00
+ATOM     16  C10 SER A  84      -5.100  -7.927   5.327 -0.28 +0.00
+ATOM     17  C11 SER A  84      -6.055  -7.680   4.333 -0.18 +0.00
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  18
+ATOM     18  C13 SER A  84     -10.860 -12.340   3.668 -0.15 -0.16
+ATOM     19  S1  SER A  84      -9.255 -13.207   3.521 -0.35 +0.06
+ATOM     20  C6  SER A  84      -9.408 -14.212   5.062 -0.38 -0.03
+ATOM     21  C12 SER A  84     -10.524 -13.462   5.815 -0.16 +0.07
+ATOM     22  C16 SER A  84      -9.780 -15.666   4.727 -0.48 -0.01
+ATOM     23  C1  SER A  84      -8.085 -14.172   5.848 -0.56 -0.00
+ATOM     24  N3  SER A  84     -11.519 -12.970   4.834 -0.14 -0.08
+BRANCH  21  25
+ATOM     25  C2  SER A  84     -11.286 -14.334   6.787 -0.27 +0.09
+ATOM     26  O1  SER A  84     -12.460 -14.589   6.506 -0.05 +0.05
+ATOM     27  O2  SER A  84     -10.725 -14.642   7.858 -0.27 -0.55
+ENDBRANCH  21  25
+ENDBRANCH   6  18
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        5
+USER    Run = 5
+USER    DPF = dpf_files/ligand_3n8l.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -6.29 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =   24.36 uM (micromol
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -8.98 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -7.41 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.57 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.68 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8l
+USER    NEWDPF about -9.751000 -10.483000 3.217000
+USER    NEWDPF tran0 -21.001000 -8.499334 -3.334670
+USER    NEWDPF quaternion0 0.115619 -0.458002 -0.307913 0.825867
+USER    NEWDPF axisangle0 0.205047 -0.812254 -0.546076 68.647044
+USER    NEWDPF quat0 0.205047 -0.812254 -0.546076 68.647044
+USER    NEWDPF dihe0 -17.33 154.18 -156.33 44.66 87.80 -34.18 13.0
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1   and  C3  
+REMARK    1  A    between atoms: N1   and  C14 
+REMARK    2  A    between atoms: C2   and  C12 
+REMARK    3  A    between atoms: C3   and  C4  
+REMARK    4  A    between atoms: C4   and  C5  
+REMARK    5  A    between atoms: C13  and  C14 
+REMARK    6  A    between atoms: C14  and  C15 
+REMARK    7  A    between atoms: C15  and  OG  
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  OG  
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.487 -10.830   6.944 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.080 -10.254   6.891 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.619 -10.151   5.551 -0.37 -0.16
+BRANCH   3   4
+ATOM      4  C15 SER A  84     -11.192 -10.569   5.284 -0.25 +0.13
+ATOM      5  O4  SER A  84     -10.441 -10.860   6.212 -0.19 -0.22
+BRANCH   4   6
+ATOM      6  C14 SER A  84     -10.902 -10.808   3.822 -0.23 -0.01
+BRANCH   6   7
+ATOM      7  N1  SER A  84      -9.659 -10.109   3.500 -0.17 +0.02
+ATOM      8  C3  SER A  84      -9.600  -8.789   3.530 -0.18 +0.01
+ATOM      9  O3  SER A  84     -10.561  -8.081   3.844 -0.40 -0.08
+BRANCH   8  10
+ATOM     10  C4  SER A  84      -8.240  -8.203   3.134 -0.04 -0.06
+ATOM     11  N2  SER A  84      -7.803  -8.796   1.853 +0.04 -0.18
+BRANCH  10  12
+ATOM     12  C5  SER A  84      -7.181  -8.495   4.223 -0.19 -0.00
+ATOM     13  C7  SER A  84      -7.357  -9.524   5.136 -0.33 +0.00
+ATOM     14  C8  SER A  84      -6.405  -9.760   6.126 -0.41 +0.00
+ATOM     15  C9  SER A  84      -5.259  -8.979   6.214 -0.35 +0.00
+ATOM     16  C10 SER A  84      -5.072  -7.942   5.317 -0.28 +0.00
+ATOM     17  C11 SER A  84      -6.032  -7.702   4.327 -0.18 +0.00
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  18
+ATOM     18  C13 SER A  84     -10.866 -12.354   3.677 -0.15 -0.16
+ATOM     19  S1  SER A  84      -9.261 -13.230   3.600 -0.36 +0.06
+ATOM     20  C6  SER A  84      -9.483 -14.228   5.138 -0.38 -0.03
+ATOM     21  C12 SER A  84     -10.626 -13.468   5.841 -0.16 +0.08
+ATOM     22  C16 SER A  84      -9.850 -15.681   4.794 -0.47 -0.01
+ATOM     23  C1  SER A  84      -8.194 -14.191   5.978 -0.58 -0.00
+ATOM     24  N3  SER A  84     -11.576 -12.975   4.817 -0.14 -0.08
+BRANCH  21  25
+ATOM     25  C2  SER A  84     -11.431 -14.332   6.783 -0.30 +0.08
+ATOM     26  O1  SER A  84     -12.622 -14.503   6.505 -0.06 +0.05
+ATOM     27  O2  SER A  84     -10.883 -14.717   7.835 -0.25 -0.48
+ENDBRANCH  21  25
+ENDBRANCH   6  18
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        6
+USER    Run = 6
+USER    DPF = dpf_files/ligand_3n8l.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -8.06 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =    1.23 uM (micromol
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -10.75 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -8.75 kcal/mol
+USER        Internal Moving-Moving Receptor =   -2.00 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.68 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8l
+USER    NEWDPF about -9.751000 -10.483000 3.217000
+USER    NEWDPF tran0 -20.976966 -21.722652 -2.458754
+USER    NEWDPF quaternion0 -0.201529 0.972972 -0.094264 0.061853
+USER    NEWDPF axisangle0 -0.201916 0.974839 -0.094445 172.907671
+USER    NEWDPF quat0 -0.201916 0.974839 -0.094445 172.907671
+USER    NEWDPF dihe0 -17.75 169.82 -16.39 20.41 -10.87 -2.51 7.12 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1   and  C3  
+REMARK    1  A    between atoms: N1   and  C14 
+REMARK    2  A    between atoms: C2   and  C12 
+REMARK    3  A    between atoms: C3   and  C4  
+REMARK    4  A    between atoms: C4   and  C5  
+REMARK    5  A    between atoms: C13  and  C14 
+REMARK    6  A    between atoms: C14  and  C15 
+REMARK    7  A    between atoms: C15  and  OG  
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  OG  
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.487 -10.830   6.944 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.080 -10.254   6.891 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.119 -11.271   6.646 -0.33 -0.26
+BRANCH   3   4
+ATOM      4  C15 SER A  84     -11.853 -11.630   5.203 -0.32 +0.06
+ATOM      5  O4  SER A  84     -12.600 -11.233   4.312 -1.04 -0.06
+BRANCH   4   6
+ATOM      6  C14 SER A  84     -10.509 -12.280   4.986 -0.25 +0.00
+BRANCH   6   7
+ATOM      7  N1  SER A  84     -10.533 -12.910   3.666 -0.17 +0.14
+ATOM      8  C3  SER A  84      -9.610 -13.792   3.323 -0.12 -0.24
+ATOM      9  O3  SER A  84      -8.704 -14.146   4.083 -0.24 +0.15
+BRANCH   8  10
+ATOM     10  C4  SER A  84      -9.748 -14.337   1.897 -0.07 -0.59
+ATOM     11  N2  SER A  84      -8.830 -15.481   1.717 +0.15 -1.27
+BRANCH  10  12
+ATOM     12  C5  SER A  84      -9.414 -13.241   0.858 -0.31 -0.03
+ATOM     13  C7  SER A  84      -8.412 -12.311   1.094 -0.17 +0.00
+ATOM     14  C8  SER A  84      -8.138 -11.316   0.159 -0.20 +0.00
+ATOM     15  C9  SER A  84      -8.854 -11.238  -1.031 -0.25 +0.00
+ATOM     16  C10 SER A  84      -9.863 -12.152  -1.278 -0.36 +0.00
+ATOM     17  C11 SER A  84     -10.141 -13.148  -0.334 -0.39 +0.00
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  18
+ATOM     18  C13 SER A  84      -9.482 -11.129   5.167 -0.16 +0.03
+ATOM     19  S1  SER A  84      -8.270 -10.766   3.844 -0.30 +0.03
+ATOM     20  C6  SER A  84      -8.851  -9.051   3.480 -0.23 -0.01
+ATOM     21  C12 SER A  84     -10.249  -9.051   4.130 -0.19 +0.08
+ATOM     22  C16 SER A  84      -7.900  -8.013   4.100 -0.23 -0.00
+ATOM     23  C1  SER A  84      -8.946  -8.842   1.959 -0.04 -0.00
+ATOM     24  N3  SER A  84     -10.201  -9.852   5.374 +0.04 +0.18
+BRANCH  21  25
+ATOM     25  C2  SER A  84     -10.725  -7.674   4.532 -0.38 +0.09
+ATOM     26  O1  SER A  84     -10.912  -7.478   5.736 -0.30 -0.55
+ATOM     27  O2  SER A  84     -11.009  -6.866   3.625 -0.38 -0.28
+ENDBRANCH  21  25
+ENDBRANCH   6  18
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        7
+USER    Run = 7
+USER    DPF = dpf_files/ligand_3n8l.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -5.71 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =   64.93 uM (micromol
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -8.40 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -6.88 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.51 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.68 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8l
+USER    NEWDPF about -9.751000 -10.483000 3.217000
+USER    NEWDPF tran0 -14.490617 -1.175381 -6.034141
+USER    NEWDPF quaternion0 -0.494739 -0.152545 0.458134 0.722549
+USER    NEWDPF axisangle0 -0.715644 -0.220658 0.662694 87.469302
+USER    NEWDPF quat0 -0.715644 -0.220658 0.662694 87.469302
+USER    NEWDPF dihe0 167.13 126.54 -157.66 -53.39 -16.39 81.67 12.
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1   and  C3  
+REMARK    1  A    between atoms: N1   and  C14 
+REMARK    2  A    between atoms: C2   and  C12 
+REMARK    3  A    between atoms: C3   and  C4  
+REMARK    4  A    between atoms: C4   and  C5  
+REMARK    5  A    between atoms: C13  and  C14 
+REMARK    6  A    between atoms: C14  and  C15 
+REMARK    7  A    between atoms: C15  and  OG  
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  OG  
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.487 -10.830   6.944 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.080 -10.254   6.891 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.346 -10.796   5.802 -0.34 -0.14
+BRANCH   3   4
+ATOM      4  C15 SER A  84     -11.507  -9.833   4.995 -0.27 +0.16
+ATOM      5  O4  SER A  84     -11.582  -8.622   5.191 -1.00 -0.20
+BRANCH   4   6
+ATOM      6  C14 SER A  84     -10.457 -10.515   4.152 -0.26 +0.01
+BRANCH   6   7
+ATOM      7  N1  SER A  84      -9.151 -10.168   4.710 -0.15 -0.01
+ATOM      8  C3  SER A  84      -8.039 -10.478   4.067 -0.14 -0.06
+ATOM      9  O3  SER A  84      -8.033 -11.048   2.972 -0.11 +0.10
+BRANCH   8  10
+ATOM     10  C4  SER A  84      -6.750 -10.080   4.795 -0.09 -0.10
+ATOM     11  N2  SER A  84      -6.812 -10.545   6.196 +0.05 -0.22
+BRANCH  10  12
+ATOM     12  C5  SER A  84      -6.561  -8.544   4.771 -0.25 -0.00
+ATOM     13  C7  SER A  84      -7.408  -7.729   4.034 -0.17 +0.00
+ATOM     14  C8  SER A  84      -7.211  -6.350   4.005 -0.17 +0.00
+ATOM     15  C9  SER A  84      -6.173  -5.762   4.718 -0.08 +0.00
+ATOM     16  C10 SER A  84      -5.314  -6.562   5.451 -0.25 +0.00
+ATOM     17  C11 SER A  84      -5.508  -7.948   5.475 -0.31 +0.00
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  18
+ATOM     18  C13 SER A  84     -10.834 -12.021   4.199 -0.19 -0.08
+ATOM     19  S1  SER A  84     -10.178 -13.169   2.933 -0.31 +0.09
+ATOM     20  C6  SER A  84      -9.219 -14.244   4.089 -0.33 -0.05
+ATOM     21  C12 SER A  84      -9.131 -13.352   5.343 -0.20 -0.04
+ATOM     22  C16 SER A  84      -9.962 -15.566   4.342 -0.17 -0.01
+ATOM     23  C1  SER A  84      -7.822 -14.523   3.507 -0.26 -0.01
+ATOM     24  N3  SER A  84     -10.399 -12.600   5.489 -0.10 +0.07
+BRANCH  21  25
+ATOM     25  C2  SER A  84      -8.953 -14.133   6.625 -0.36 +0.04
+ATOM     26  O1  SER A  84      -7.878 -14.720   6.777 -0.03 +0.15
+ATOM     27  O2  SER A  84      -9.935 -14.233   7.388 -0.46 -0.65
+ENDBRANCH  21  25
+ENDBRANCH   6  18
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        8
+USER    Run = 8
+USER    DPF = dpf_files/ligand_3n8l.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -6.39 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =   20.60 uM (micromol
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -9.08 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -7.44 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.63 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.68 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8l
+USER    NEWDPF about -9.751000 -10.483000 3.217000
+USER    NEWDPF tran0 -0.936197 -15.440143 -7.031810
+USER    NEWDPF quaternion0 -0.433424 -0.623878 -0.649734 0.027684
+USER    NEWDPF axisangle0 -0.433590 -0.624117 -0.649983 176.827252
+USER    NEWDPF quat0 -0.433590 -0.624117 -0.649983 176.827252
+USER    NEWDPF dihe0 -2.57 -29.26 2.08 -132.84 4.86 49.09 73.46 -1
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1   and  C3  
+REMARK    1  A    between atoms: N1   and  C14 
+REMARK    2  A    between atoms: C2   and  C12 
+REMARK    3  A    between atoms: C3   and  C4  
+REMARK    4  A    between atoms: C4   and  C5  
+REMARK    5  A    between atoms: C13  and  C14 
+REMARK    6  A    between atoms: C14  and  C15 
+REMARK    7  A    between atoms: C15  and  OG  
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  OG  
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.487 -10.830   6.944 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.080 -10.254   6.891 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.564 -10.284   5.568 -0.33 -0.15
+BRANCH   3   4
+ATOM      4  C15 SER A  84     -12.045 -11.611   5.065 -0.30 +0.05
+ATOM      5  O4  SER A  84     -12.751 -12.616   5.107 -0.78 +0.00
+BRANCH   4   6
+ATOM      6  C14 SER A  84     -10.734 -11.500   4.327 -0.27 -0.02
+BRANCH   6   7
+ATOM      7  N1  SER A  84     -10.755 -12.480   3.242 -0.18 +0.15
+ATOM      8  C3  SER A  84      -9.636 -13.042   2.819 -0.16 -0.23
+ATOM      9  O3  SER A  84      -8.532 -12.798   3.315 -0.16 +0.15
+BRANCH   8  10
+ATOM     10  C4  SER A  84      -9.816 -14.021   1.653 -0.11 -0.58
+ATOM     11  N2  SER A  84      -8.761 -15.054   1.711 +0.10 -1.16
+BRANCH  10  12
+ATOM     12  C5  SER A  84      -9.734 -13.278   0.298 -0.35 -0.03
+ATOM     13  C7  SER A  84     -10.212 -13.858  -0.868 -0.38 +0.00
+ATOM     14  C8  SER A  84     -10.110 -13.185  -2.084 -0.37 +0.00
+ATOM     15  C9  SER A  84      -9.539 -11.920  -2.153 -0.35 +0.00
+ATOM     16  C10 SER A  84      -9.050 -11.330  -1.001 -0.27 +0.00
+ATOM     17  C11 SER A  84      -9.147 -12.010   0.219 -0.29 +0.00
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  18
+ATOM     18  C13 SER A  84     -10.653 -10.011   3.893 -0.18 +0.04
+ATOM     19  S1  SER A  84     -10.083  -8.740   5.080 -0.34 -0.05
+ATOM     20  C6  SER A  84      -8.584  -8.216   4.136 -0.23 -0.00
+ATOM     21  C12 SER A  84      -8.402  -9.395   3.161 -0.08 -0.07
+ATOM     22  C16 SER A  84      -8.834  -6.878   3.422 -0.30 -0.00
+ATOM     23  C1  SER A  84      -7.382  -8.093   5.088 -0.32 -0.00
+ATOM     24  N3  SER A  84      -9.736  -9.881   2.739 -0.11 -0.06
+BRANCH  21  25
+ATOM     25  C2  SER A  84      -7.669  -9.020   1.894 -0.12 -0.07
+ATOM     26  O1  SER A  84      -8.355  -8.845   0.882 +0.01 +0.19
+ATOM     27  O2  SER A  84      -6.422  -9.024   1.917 +0.02 +0.22
+ENDBRANCH  21  25
+ENDBRANCH   6  18
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL        9
+USER    Run = 9
+USER    DPF = dpf_files/ligand_3n8l.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -6.40 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =   20.37 uM (micromol
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -9.08 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -7.51 kcal/mol
+USER        Internal Moving-Moving Receptor =   -1.58 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.68 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8l
+USER    NEWDPF about -9.751000 -10.483000 3.217000
+USER    NEWDPF tran0 -11.023265 -3.537935 13.575928
+USER    NEWDPF quaternion0 -0.798176 -0.091087 -0.571281 0.168095
+USER    NEWDPF axisangle0 -0.809698 -0.092402 -0.579527 160.645878
+USER    NEWDPF quat0 -0.809698 -0.092402 -0.579527 160.645878
+USER    NEWDPF dihe0 -10.17 140.31 14.77 -135.88 -3.03 52.24 70.37
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1   and  C3  
+REMARK    1  A    between atoms: N1   and  C14 
+REMARK    2  A    between atoms: C2   and  C12 
+REMARK    3  A    between atoms: C3   and  C4  
+REMARK    4  A    between atoms: C4   and  C5  
+REMARK    5  A    between atoms: C13  and  C14 
+REMARK    6  A    between atoms: C14  and  C15 
+REMARK    7  A    between atoms: C15  and  OG  
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  OG  
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.487 -10.830   6.944 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.080 -10.254   6.891 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.556 -10.305   5.572 -0.33 -0.15
+BRANCH   3   4
+ATOM      4  C15 SER A  84     -12.046 -11.643   5.088 -0.30 +0.05
+ATOM      5  O4  SER A  84     -12.742 -12.650   5.189 -0.78 +0.00
+BRANCH   4   6
+ATOM      6  C14 SER A  84     -10.767 -11.544   4.294 -0.27 -0.02
+BRANCH   6   7
+ATOM      7  N1  SER A  84     -10.856 -12.504   3.194 -0.16 +0.15
+ATOM      8  C3  SER A  84      -9.764 -12.963   2.609 -0.17 -0.24
+ATOM      9  O3  SER A  84      -8.626 -12.635   2.959 -0.15 +0.16
+BRANCH   8  10
+ATOM     10  C4  SER A  84     -10.021 -13.934   1.451 -0.11 -0.59
+ATOM     11  N2  SER A  84      -9.058 -15.052   1.524 +0.20 -1.28
+BRANCH  10  12
+ATOM     12  C5  SER A  84      -9.870 -13.213   0.090 -0.36 -0.03
+ATOM     13  C7  SER A  84      -9.406 -11.908   0.018 -0.31 +0.00
+ATOM     14  C8  SER A  84      -9.297 -11.264  -1.213 -0.27 +0.00
+ATOM     15  C9  SER A  84      -9.641 -11.916  -2.391 -0.36 +0.00
+ATOM     16  C10 SER A  84     -10.114 -13.215  -2.337 -0.36 +0.00
+ATOM     17  C11 SER A  84     -10.229 -13.858  -1.099 -0.38 +0.00
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  18
+ATOM     18  C13 SER A  84     -10.675 -10.049   3.881 -0.18 +0.04
+ATOM     19  S1  SER A  84     -10.106  -8.799   5.091 -0.34 -0.05
+ATOM     20  C6  SER A  84      -8.598  -8.270   4.165 -0.23 -0.00
+ATOM     21  C12 SER A  84      -8.416  -9.436   3.173 -0.08 -0.07
+ATOM     22  C16 SER A  84      -8.835  -6.920   3.467 -0.30 -0.00
+ATOM     23  C1  SER A  84      -7.401  -8.167   5.126 -0.32 -0.00
+ATOM     24  N3  SER A  84      -9.750  -9.908   2.736 -0.11 -0.06
+BRANCH  21  25
+ATOM     25  C2  SER A  84      -7.673  -9.046   1.916 -0.12 -0.07
+ATOM     26  O1  SER A  84      -8.330  -8.995   0.872 +0.00 +0.20
+ATOM     27  O2  SER A  84      -6.434  -8.917   1.986 +0.02 +0.21
+ENDBRANCH  21  25
+ENDBRANCH   6  18
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL
+MODEL       10
+USER    Run = 10
+USER    DPF = dpf_files/ligand_3n8l.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -8.05 kcal/mol  [=
+USER    Estimated Inhibition Constant, Ki   =    1.26 uM (micromol
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -10.73 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -8.69 kcal/mol
+USER        Internal Moving-Moving Receptor =   -2.05 kcal/mol
+USER    (3) Torsional Free Energy           =   +2.68 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 3n8l
+USER    NEWDPF about -9.751000 -10.483000 3.217000
+USER    NEWDPF tran0 -3.961390 -19.515197 1.730314
+USER    NEWDPF quaternion0 0.778255 0.214265 -0.577535 0.121917
+USER    NEWDPF axisangle0 0.784104 0.215875 -0.581876 165.994516
+USER    NEWDPF quat0 0.784104 0.215875 -0.581876 165.994516
+USER    NEWDPF dihe0 -10.46 -5.65 -22.83 18.63 -3.26 -1.05 5.50 -6
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A  84
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1   and  C3  
+REMARK    1  A    between atoms: N1   and  C14 
+REMARK    2  A    between atoms: C2   and  C12 
+REMARK    3  A    between atoms: C3   and  C4  
+REMARK    4  A    between atoms: C4   and  C5  
+REMARK    5  A    between atoms: C13  and  C14 
+REMARK    6  A    between atoms: C14  and  C15 
+REMARK    7  A    between atoms: C15  and  OG  
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  OG  
+USER                              x       y       z     vdW  Elec 
+USER                           _______ _______ _______ _____ _____
+ROOT
+ATOM      1  CA  SER A  84     -14.487 -10.830   6.944 +0.00 +0.00
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.080 -10.254   6.891 +0.00 +0.00
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.119 -11.271   6.647 -0.33 -0.26
+BRANCH   3   4
+ATOM      4  C15 SER A  84     -11.853 -11.631   5.204 -0.32 +0.06
+ATOM      5  O4  SER A  84     -12.617 -11.259   4.316 -1.02 -0.05
+BRANCH   4   6
+ATOM      6  C14 SER A  84     -10.494 -12.246   4.981 -0.25 +0.00
+BRANCH   6   7
+ATOM      7  N1  SER A  84     -10.497 -12.853   3.651 -0.17 +0.13
+ATOM      8  C3  SER A  84      -9.645 -13.816   3.346 -0.12 -0.24
+ATOM      9  O3  SER A  84      -8.825 -14.267   4.152 -0.24 +0.15
+BRANCH   8  10
+ATOM     10  C4  SER A  84      -9.748 -14.326   1.904 -0.07 -0.59
+ATOM     11  N2  SER A  84      -8.817 -15.458   1.716 +0.15 -1.26
+BRANCH  10  12
+ATOM     12  C5  SER A  84      -9.401 -13.202   0.900 -0.31 -0.03
+ATOM     13  C7  SER A  84     -10.130 -13.033  -0.268 -0.38 +0.00
+ATOM     14  C8  SER A  84      -9.791 -12.030  -1.173 -0.36 +0.00
+ATOM     15  C9  SER A  84      -8.725 -11.173  -0.922 -0.24 +0.00
+ATOM     16  C10 SER A  84      -7.982 -11.333   0.235 -0.18 +0.00
+ATOM     17  C11 SER A  84      -8.320 -12.346   1.140 -0.13 +0.00
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  18
+ATOM     18  C13 SER A  84      -9.494 -11.074   5.186 -0.16 +0.04
+ATOM     19  S1  SER A  84      -8.254 -10.691   3.896 -0.30 +0.02
+ATOM     20  C6  SER A  84      -8.858  -8.989   3.511 -0.24 -0.01
+ATOM     21  C12 SER A  84     -10.273  -9.014   4.122 -0.19 +0.08
+ATOM     22  C16 SER A  84      -7.945  -7.931   4.152 -0.23 -0.00
+ATOM     23  C1  SER A  84      -8.916  -8.785   1.987 -0.06 -0.00
+ATOM     24  N3  SER A  84     -10.243  -9.811   5.370 +0.06 +0.19
+BRANCH  21  25
+ATOM     25  C2  SER A  84     -10.786  -7.646   4.507 -0.38 +0.09
+ATOM     26  O1  SER A  84     -10.879  -7.403   5.714 -0.27 -0.51
+ATOM     27  O2  SER A  84     -11.192  -6.897   3.596 -0.44 -0.32
+ENDBRANCH  21  25
+ENDBRANCH   6  18
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
+TER
+ENDMDL

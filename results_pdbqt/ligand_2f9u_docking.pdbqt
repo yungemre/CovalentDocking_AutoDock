@@ -1,0 +1,1630 @@
+MODEL        1
+USER    Run = 1
+USER    DPF = dpf_files/ligand_2f9u.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -12.37 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =  857.69 pM (picomolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -18.34 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -12.14 kcal/mol
+USER        Internal Moving-Moving Receptor =   -6.20 kcal/mol
+USER    (3) Torsional Free Energy           =   +5.97 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2f9u
+USER    NEWDPF about 198.340000 -6.239000 49.576000
+USER    NEWDPF tran0 199.975462 -17.479055 60.754562
+USER    NEWDPF quaternion0 0.750689 -0.255145 0.266216 -0.548175
+USER    NEWDPF axisangle0 0.897563 -0.305065 0.318302 -113.516227
+USER    NEWDPF quat0 0.897563 -0.305065 0.318302 -113.516227
+USER    NEWDPF dihe0 102.43 -46.60 179.97 15.65 -98.11 -21.09 -18.00 -179.94 -48.13 -4.80 -154.50 -24.61 -149.21 155.57 148.93 -147.38 -36.57 22.44 10.73 4.83 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A 139
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  C34 
+REMARK    4  A    between atoms: C1   and  O3  
+REMARK       I    between atoms: C1   and  N8  
+REMARK    5  A    between atoms: O3   and  C4  
+REMARK    6  A    between atoms: N8   and  C9  
+REMARK    7  A    between atoms: C9   and  C10 
+REMARK    8  A    between atoms: C9   and  C16 
+REMARK       I    between atoms: C16  and  N20 
+REMARK    9  A    between atoms: C18  and  C21 
+REMARK       I    between atoms: C18  and  N27 
+REMARK   10  A    between atoms: N27  and  C28 
+REMARK   11  A    between atoms: C28  and  C29 
+REMARK   12  A    between atoms: C28  and  C34 
+REMARK   13  A    between atoms: C29  and  C30 
+REMARK   14  A    between atoms: C30  and  C31 
+REMARK   15  A    between atoms: C34  and  C40 
+REMARK       I    between atoms: N36  and  C40 
+REMARK   16  A    between atoms: N36  and  C37 
+REMARK   17  A    between atoms: C37  and  C38 
+REMARK       I    between atoms: C38  and  N41 
+REMARK   18  A    between atoms: N41  and  C42 
+REMARK   19  A    between atoms: C42  and  C43 
+REMARK   20  A    between atoms: C42  and  C49 
+REMARK       I    between atoms: C49  and  N51 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  SER A 139     197.956  -1.798  54.548 +0.00 +0.00    +0.395 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 139     198.575  -3.182  54.418 +0.00 +0.00    +0.193 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 139     198.106  -3.574  53.172 -0.23 -0.10    -0.322 OA
+BRANCH   3   4
+ATOM      4  C34 SER A 139     198.762  -4.735  52.643 -0.19 +0.14    +0.313 C 
+ATOM      5  O33 SER A 139     198.370  -5.923  53.448 -0.39 -0.06    -0.183 OA
+BRANCH   4   6
+ATOM      6  C28 SER A 139     198.492  -4.900  51.137 -0.22 +0.09    +0.170 C 
+BRANCH   6   7
+ATOM      7  N27 SER A 139     197.914  -6.210  50.898 -0.10 -0.12    -0.233 NA
+ATOM      8  C18 SER A 139     196.606  -6.419  50.973 -0.18 +0.13    +0.272 C 
+ATOM      9  O19 SER A 139     195.799  -5.554  51.334 -0.20 -0.11    -0.269 OA
+BRANCH   8  10
+ATOM     10  C21 SER A 139     196.153  -7.849  50.729 -0.19 +0.09    +0.164 C 
+ATOM     11  N20 SER A 139     196.153  -8.065  49.279 -0.07 -0.19    -0.314 N 
+ATOM     12  C16 SER A 139     195.614  -7.241  48.366 -0.18 +0.17    +0.256 C 
+ATOM     13  C25 SER A 139     196.917  -9.336  49.082 -0.05 +0.05    +0.084 C 
+ATOM     14  O17 SER A 139     194.969  -6.238  48.696 -0.63 -0.24    -0.270 OA
+ATOM     15  C26 SER A 139     197.990  -9.176  50.131 -0.11 +0.01    +0.025 C 
+ATOM     16  C24 SER A 139     196.116 -10.512  49.660 -0.06 +0.01    +0.022 C 
+ATOM     17  C22 SER A 139     197.010  -9.009  51.279 -0.21 +0.01    +0.032 C 
+ATOM     18  C23 SER A 139     196.218 -10.315  51.170 -0.13 +0.00    +0.004 C 
+BRANCH  12  19
+ATOM     19  C9  SER A 139     195.728  -7.633  46.893 -0.17 +0.12    +0.187 C 
+BRANCH  19  20
+ATOM     20  C10 SER A 139     194.889  -8.900  46.679 -0.18 +0.02    +0.032 C 
+ATOM     21  C15 SER A 139     194.409  -9.011  45.235 -0.11 +0.00    +0.002 C 
+ATOM     22  C14 SER A 139     193.583 -10.272  44.997 -0.14 +0.00    +0.000 C 
+ATOM     23  C13 SER A 139     192.394 -10.333  45.960 -0.22 +0.00    +0.000 C 
+ATOM     24  C12 SER A 139     192.842 -10.202  47.417 -0.19 +0.00    +0.000 C 
+ATOM     25  C11 SER A 139     193.678  -8.948  47.618 -0.24 +0.00    +0.002 C 
+ENDBRANCH  19  20
+BRANCH  19  26
+ATOM     26  N8  SER A 139     197.112  -7.894  46.544 -0.06 -0.15    -0.205 NA
+ATOM     27  C1  SER A 139     197.584  -7.749  45.313 -0.09 +0.34    +0.384 C 
+ATOM     28  O2  SER A 139     196.874  -7.514  44.332 -0.16 -0.19    -0.236 OA
+BRANCH  27  29
+ATOM     29  O3  SER A 139     198.904  -7.917  45.401 -0.10 -0.35    -0.289 OA
+BRANCH  29  30
+ATOM     30  C4  SER A 139     199.532  -9.207  45.403 -0.07 +0.10    +0.103 C 
+ATOM     31  C7  SER A 139     200.750  -9.256  44.432 -0.07 +0.04    +0.030 C 
+ATOM     32  C6  SER A 139     198.437 -10.175  44.895 -0.03 +0.02    +0.030 C 
+ATOM     33  C5  SER A 139     199.861  -9.469  46.904 -0.04 +0.03    +0.030 C 
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+ENDBRANCH  19  26
+ENDBRANCH  12  19
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  34
+ATOM     34  C29 SER A 139     197.574  -3.823  50.537 -0.48 +0.02    +0.030 C 
+BRANCH  34  35
+ATOM     35  C30 SER A 139     197.933  -3.430  49.105 -0.41 +0.00    +0.002 C 
+BRANCH  35  36
+ATOM     36  C31 SER A 139     197.496  -4.480  48.079 -0.44 +0.00    +0.000 C 
+ATOM     37  C32 SER A 139     198.591  -5.477  47.749 -0.27 +0.00    +0.000 C 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH   6  34
+ENDBRANCH   4   6
+BRANCH   4  38
+ATOM     38  C40 SER A 139     200.263  -4.526  52.678 -0.22 +0.16    +0.308 C 
+ATOM     39  N36 SER A 139     200.879  -3.557  52.019 -0.37 -0.16    -0.224 NA
+ATOM     40  O35 SER A 139     200.872  -5.333  53.372 -0.27 -0.12    -0.265 OA
+BRANCH  39  41
+ATOM     41  C37 SER A 139     202.311  -3.550  51.765 -0.35 +0.13    +0.218 C 
+BRANCH  41  42
+ATOM     42  C38 SER A 139     202.750  -3.581  50.317 -0.25 +0.22    +0.277 C 
+ATOM     43  O39 SER A 139     201.960  -3.835  49.407 -0.36 -0.28    -0.268 OA
+ATOM     44  N41 SER A 139     204.025  -3.287  50.105 -0.31 -0.17    -0.224 NA
+BRANCH  44  45
+ATOM     45  C42 SER A 139     204.599  -3.296  48.775 -0.24 +0.18    +0.207 C 
+BRANCH  45  46
+ATOM     46  C43 SER A 139     204.400  -2.010  48.046 -0.29 +0.01    +0.009 A 
+ATOM     47  C48 SER A 139     204.078  -2.017  46.698 -0.23 -0.00    -0.002 A 
+ATOM     48  C47 SER A 139     203.798  -0.844  46.033 -0.22 -0.00    -0.000 A 
+ATOM     49  C46 SER A 139     203.846   0.361  46.721 -0.27 -0.00    -0.000 A 
+ATOM     50  C45 SER A 139     204.179   0.380  48.079 -0.35 -0.00    -0.000 A 
+ATOM     51  C44 SER A 139     204.455  -0.806  48.729 -0.33 -0.00    -0.002 A 
+ENDBRANCH  45  46
+BRANCH  45  52
+ATOM     52  C49 SER A 139     206.124  -3.343  48.901 -0.19 +0.22    +0.260 C 
+ATOM     53  N51 SER A 139     206.768  -4.330  48.253 -0.09 -0.23    -0.314 N 
+ATOM     54  C53 SER A 139     206.063  -5.413  47.485 -0.10 +0.11    +0.128 C 
+ATOM     55  C52 SER A 139     208.251  -4.345  48.296 -0.16 +0.07    +0.128 C 
+ATOM     56  O50 SER A 139     206.725  -2.498  49.576 -0.66 -0.27    -0.270 OA
+ENDBRANCH  45  52
+ENDBRANCH  44  45
+ENDBRANCH  41  42
+ENDBRANCH  39  41
+ENDBRANCH   4  38
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 139
+TER
+ENDMDL
+MODEL        2
+USER    Run = 2
+USER    DPF = dpf_files/ligand_2f9u.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -13.11 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =  245.53 pM (picomolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -19.08 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -12.23 kcal/mol
+USER        Internal Moving-Moving Receptor =   -6.85 kcal/mol
+USER    (3) Torsional Free Energy           =   +5.97 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2f9u
+USER    NEWDPF about 198.340000 -6.239000 49.576000
+USER    NEWDPF tran0 192.436502 1.351969 59.375414
+USER    NEWDPF quaternion0 0.153769 -0.411649 0.874803 0.204009
+USER    NEWDPF axisangle0 0.157073 -0.420492 0.893596 156.456977
+USER    NEWDPF quat0 0.157073 -0.420492 0.893596 156.456977
+USER    NEWDPF dihe0 64.46 25.05 -95.15 21.84 79.54 -9.50 20.71 169.49 16.84 -6.41 -159.82 -13.57 174.22 -175.36 160.04 -147.79 -30.74 8.86 16.20 13.63 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A 139
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  C34 
+REMARK    4  A    between atoms: C1   and  O3  
+REMARK       I    between atoms: C1   and  N8  
+REMARK    5  A    between atoms: O3   and  C4  
+REMARK    6  A    between atoms: N8   and  C9  
+REMARK    7  A    between atoms: C9   and  C10 
+REMARK    8  A    between atoms: C9   and  C16 
+REMARK       I    between atoms: C16  and  N20 
+REMARK    9  A    between atoms: C18  and  C21 
+REMARK       I    between atoms: C18  and  N27 
+REMARK   10  A    between atoms: N27  and  C28 
+REMARK   11  A    between atoms: C28  and  C29 
+REMARK   12  A    between atoms: C28  and  C34 
+REMARK   13  A    between atoms: C29  and  C30 
+REMARK   14  A    between atoms: C30  and  C31 
+REMARK   15  A    between atoms: C34  and  C40 
+REMARK       I    between atoms: N36  and  C40 
+REMARK   16  A    between atoms: N36  and  C37 
+REMARK   17  A    between atoms: C37  and  C38 
+REMARK       I    between atoms: C38  and  N41 
+REMARK   18  A    between atoms: N41  and  C42 
+REMARK   19  A    between atoms: C42  and  C43 
+REMARK   20  A    between atoms: C42  and  C49 
+REMARK       I    between atoms: C49  and  N51 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  SER A 139     197.956  -1.798  54.548 +0.00 +0.00    +0.395 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 139     198.575  -3.182  54.418 +0.00 +0.00    +0.193 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 139     198.280  -3.489  53.097 -0.15 -0.10    -0.322 OA
+BRANCH   3   4
+ATOM      4  C34 SER A 139     198.898  -4.697  52.629 -0.19 +0.14    +0.313 C 
+ATOM      5  O33 SER A 139     198.511  -5.818  53.527 -0.42 -0.07    -0.183 OA
+BRANCH   4   6
+ATOM      6  C28 SER A 139     198.575  -4.960  51.148 -0.21 +0.10    +0.170 C 
+BRANCH   6   7
+ATOM      7  N27 SER A 139     197.843  -6.208  51.034 -0.11 -0.12    -0.233 NA
+ATOM      8  C18 SER A 139     196.522  -6.254  51.153 -0.17 +0.12    +0.272 C 
+ATOM      9  O19 SER A 139     195.832  -5.273  51.452 -0.27 -0.10    -0.269 OA
+BRANCH   8  10
+ATOM     10  C21 SER A 139     195.899  -7.636  51.042 -0.08 +0.09    +0.164 C 
+ATOM     11  N20 SER A 139     196.076  -8.084  49.657 -0.08 -0.19    -0.314 N 
+ATOM     12  C16 SER A 139     195.803  -7.359  48.561 -0.17 +0.17    +0.256 C 
+ATOM     13  C25 SER A 139     196.660  -9.456  49.772 -0.08 +0.04    +0.084 C 
+ATOM     14  O17 SER A 139     195.275  -6.243  48.634 -0.66 -0.21    -0.270 OA
+ATOM     15  C26 SER A 139     197.583  -9.264  50.950 -0.17 +0.01    +0.025 C 
+ATOM     16  C24 SER A 139     195.617 -10.411  50.370 -0.10 +0.01    +0.022 C 
+ATOM     17  C22 SER A 139     196.485  -8.789  51.885 -0.28 +0.01    +0.032 C 
+ATOM     18  C23 SER A 139     195.530  -9.985  51.832 -0.21 +0.00    +0.004 C 
+BRANCH  12  19
+ATOM     19  C9  SER A 139     196.067  -7.997  47.197 -0.12 +0.12    +0.187 C 
+BRANCH  19  20
+ATOM     20  C10 SER A 139     195.181  -9.246  47.085 -0.13 +0.02    +0.032 C 
+ATOM     21  C15 SER A 139     195.595 -10.115  45.902 -0.08 +0.00    +0.002 C 
+ATOM     22  C14 SER A 139     194.735 -11.370  45.779 -0.05 +0.00    +0.000 C 
+ATOM     23  C13 SER A 139     193.251 -11.005  45.680 -0.11 +0.00    +0.000 C 
+ATOM     24  C12 SER A 139     192.811 -10.113  46.844 -0.20 +0.00    +0.000 C 
+ATOM     25  C11 SER A 139     193.698  -8.883  46.950 -0.26 +0.00    +0.002 C 
+ENDBRANCH  19  20
+BRANCH  19  26
+ATOM     26  N8  SER A 139     197.464  -8.371  47.075 -0.03 -0.15    -0.205 NA
+ATOM     27  C1  SER A 139     198.393  -7.544  46.618 -0.06 +0.38    +0.384 C 
+ATOM     28  O2  SER A 139     198.144  -6.437  46.132 -0.18 -0.26    -0.236 OA
+BRANCH  27  29
+ATOM     29  O3  SER A 139     199.561  -8.164  46.796 -0.06 -0.33    -0.289 OA
+BRANCH  29  30
+ATOM     30  C4  SER A 139     200.433  -7.891  47.902 -0.09 +0.11    +0.103 C 
+ATOM     31  C7  SER A 139     201.931  -7.918  47.475 -0.08 +0.04    +0.030 C 
+ATOM     32  C6  SER A 139     200.168  -9.042  48.902 -0.08 +0.02    +0.030 C 
+ATOM     33  C5  SER A 139     199.921  -6.531  48.465 -0.17 +0.03    +0.030 C 
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+ENDBRANCH  19  26
+ENDBRANCH  12  19
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  34
+ATOM     34  C29 SER A 139     197.777  -3.838  50.465 -0.47 +0.02    +0.030 C 
+BRANCH  34  35
+ATOM     35  C30 SER A 139     198.037  -3.716  48.965 -0.43 +0.00    +0.002 C 
+BRANCH  35  36
+ATOM     36  C31 SER A 139     196.804  -3.243  48.189 -0.57 +0.00    +0.000 C 
+ATOM     37  C32 SER A 139     196.513  -4.092  46.966 -0.60 +0.00    +0.000 C 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH   6  34
+ENDBRANCH   4   6
+BRANCH   4  38
+ATOM     38  C40 SER A 139     200.403  -4.516  52.603 -0.23 +0.17    +0.308 C 
+ATOM     39  N36 SER A 139     200.993  -3.358  52.354 -0.39 -0.15    -0.224 NA
+ATOM     40  O35 SER A 139     201.041  -5.538  52.832 -0.13 -0.12    -0.265 OA
+BRANCH  39  41
+ATOM     41  C37 SER A 139     202.396  -3.239  51.987 -0.17 +0.13    +0.218 C 
+BRANCH  41  42
+ATOM     42  C38 SER A 139     202.750  -3.497  50.538 -0.24 +0.21    +0.277 C 
+ATOM     43  O39 SER A 139     201.896  -3.818  49.711 -0.41 -0.26    -0.268 OA
+ATOM     44  N41 SER A 139     204.026  -3.323  50.229 -0.31 -0.16    -0.224 NA
+BRANCH  44  45
+ATOM     45  C42 SER A 139     204.523  -3.553  48.887 -0.24 +0.18    +0.207 C 
+BRANCH  45  46
+ATOM     46  C43 SER A 139     204.329  -2.381  47.985 -0.28 +0.01    +0.009 A 
+ATOM     47  C48 SER A 139     204.146  -2.573  46.624 -0.22 -0.00    -0.002 A 
+ATOM     48  C47 SER A 139     203.870  -1.510  45.793 -0.19 -0.00    -0.000 A 
+ATOM     49  C46 SER A 139     203.781  -0.231  46.322 -0.25 -0.00    -0.000 A 
+ATOM     50  C45 SER A 139     203.973  -0.025  47.692 -0.32 -0.00    -0.000 A 
+ATOM     51  C44 SER A 139     204.246  -1.102  48.511 -0.33 -0.00    -0.002 A 
+ENDBRANCH  45  46
+BRANCH  45  52
+ATOM     52  C49 SER A 139     206.050  -3.646  48.940 -0.19 +0.22    +0.260 C 
+ATOM     53  N51 SER A 139     206.636  -4.614  48.213 -0.09 -0.23    -0.314 N 
+ATOM     54  C53 SER A 139     205.867  -5.636  47.423 -0.09 +0.11    +0.128 C 
+ATOM     55  C52 SER A 139     208.119  -4.670  48.188 -0.14 +0.07    +0.128 C 
+ATOM     56  O50 SER A 139     206.705  -2.855  49.631 -0.69 -0.27    -0.270 OA
+ENDBRANCH  45  52
+ENDBRANCH  44  45
+ENDBRANCH  41  42
+ENDBRANCH  39  41
+ENDBRANCH   4  38
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 139
+TER
+ENDMDL
+MODEL        3
+USER    Run = 3
+USER    DPF = dpf_files/ligand_2f9u.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -13.28 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =  184.62 pM (picomolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -19.25 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -12.86 kcal/mol
+USER        Internal Moving-Moving Receptor =   -6.38 kcal/mol
+USER    (3) Torsional Free Energy           =   +5.97 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2f9u
+USER    NEWDPF about 198.340000 -6.239000 49.576000
+USER    NEWDPF tran0 189.597325 -14.629015 39.272271
+USER    NEWDPF quaternion0 -0.216151 0.857143 -0.089171 0.458949
+USER    NEWDPF axisangle0 -0.243286 0.964748 -0.100366 125.361391
+USER    NEWDPF quat0 -0.243286 0.964748 -0.100366 125.361391
+USER    NEWDPF dihe0 176.99 175.08 -165.63 41.38 -90.61 -26.41 -128.44 180.00 -73.17 99.18 27.62 -81.53 -13.93 -0.69 -37.02 26.55 -68.40 8.50 -1.25 -0.83 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A 139
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  C34 
+REMARK    4  A    between atoms: C1   and  O3  
+REMARK       I    between atoms: C1   and  N8  
+REMARK    5  A    between atoms: O3   and  C4  
+REMARK    6  A    between atoms: N8   and  C9  
+REMARK    7  A    between atoms: C9   and  C10 
+REMARK    8  A    between atoms: C9   and  C16 
+REMARK       I    between atoms: C16  and  N20 
+REMARK    9  A    between atoms: C18  and  C21 
+REMARK       I    between atoms: C18  and  N27 
+REMARK   10  A    between atoms: N27  and  C28 
+REMARK   11  A    between atoms: C28  and  C29 
+REMARK   12  A    between atoms: C28  and  C34 
+REMARK   13  A    between atoms: C29  and  C30 
+REMARK   14  A    between atoms: C30  and  C31 
+REMARK   15  A    between atoms: C34  and  C40 
+REMARK       I    between atoms: N36  and  C40 
+REMARK   16  A    between atoms: N36  and  C37 
+REMARK   17  A    between atoms: C37  and  C38 
+REMARK       I    between atoms: C38  and  N41 
+REMARK   18  A    between atoms: N41  and  C42 
+REMARK   19  A    between atoms: C42  and  C43 
+REMARK   20  A    between atoms: C42  and  C49 
+REMARK       I    between atoms: C49  and  N51 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  SER A 139     197.956  -1.798  54.548 +0.00 +0.00    +0.395 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 139     198.575  -3.182  54.418 +0.00 +0.00    +0.193 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 139     198.000  -3.628  53.236 -0.27 -0.09    -0.322 OA
+BRANCH   3   4
+ATOM      4  C34 SER A 139     198.771  -4.627  52.555 -0.19 +0.14    +0.313 C 
+ATOM      5  O33 SER A 139     199.023  -5.762  53.484 -0.41 -0.08    -0.183 OA
+BRANCH   4   6
+ATOM      6  C28 SER A 139     198.106  -5.053  51.235 -0.22 +0.09    +0.170 C 
+BRANCH   6   7
+ATOM      7  N27 SER A 139     198.551  -6.390  50.887 -0.08 -0.13    -0.233 NA
+ATOM      8  C18 SER A 139     199.522  -6.594  50.006 -0.07 +0.19    +0.272 C 
+ATOM      9  O19 SER A 139     200.053  -5.684  49.358 -0.11 -0.24    -0.269 OA
+BRANCH   8  10
+ATOM     10  C21 SER A 139     199.856  -8.048  49.719 -0.09 +0.11    +0.164 C 
+ATOM     11  N20 SER A 139     199.098  -8.443  48.528 -0.01 -0.23    -0.314 N 
+ATOM     12  C16 SER A 139     197.792  -8.214  48.322 -0.02 +0.17    +0.256 C 
+ATOM     13  C25 SER A 139     200.108  -9.078  47.625 -0.04 +0.07    +0.084 C 
+ATOM     14  O17 SER A 139     197.074  -7.710  49.195 -0.06 -0.17    -0.270 OA
+ATOM     15  C26 SER A 139     201.300  -8.186  47.877 -0.10 +0.03    +0.025 C 
+ATOM     16  C24 SER A 139     200.594 -10.396  48.245 -0.03 +0.01    +0.022 C 
+ATOM     17  C22 SER A 139     201.313  -8.427  49.377 -0.12 +0.02    +0.032 C 
+ATOM     18  C23 SER A 139     201.459  -9.951  49.419 -0.10 +0.00    +0.004 C 
+BRANCH  12  19
+ATOM     19  C9  SER A 139     197.180  -8.692  47.004 -0.04 +0.13    +0.187 C 
+BRANCH  19  20
+ATOM     20  C10 SER A 139     196.819  -7.451  46.177 -0.19 +0.02    +0.032 C 
+ATOM     21  C15 SER A 139     197.933  -6.409  46.225 -0.29 +0.00    +0.002 C 
+ATOM     22  C14 SER A 139     197.601  -5.170  45.398 -0.44 +0.00    +0.000 C 
+ATOM     23  C13 SER A 139     196.274  -4.554  45.850 -0.43 +0.00    +0.000 C 
+ATOM     24  C12 SER A 139     195.140  -5.582  45.834 -0.40 +0.00    +0.000 C 
+ATOM     25  C11 SER A 139     195.509  -6.810  46.650 -0.34 +0.00    +0.002 C 
+ENDBRANCH  19  20
+BRANCH  19  26
+ATOM     26  N8  SER A 139     195.987  -9.480  47.258 -0.03 -0.11    -0.205 NA
+ATOM     27  C1  SER A 139     195.277 -10.042  46.290 -0.02 +0.20    +0.384 C 
+ATOM     28  O2  SER A 139     195.479  -9.842  45.089 -0.05 -0.13    -0.236 OA
+BRANCH  27  29
+ATOM     29  O3  SER A 139     194.365 -10.804  46.895 -0.03 -0.13    -0.289 OA
+BRANCH  29  30
+ATOM     30  C4  SER A 139     193.061 -10.328  47.257 -0.14 +0.04    +0.103 C 
+ATOM     31  C7  SER A 139     191.993 -11.460  47.177 -0.10 +0.01    +0.030 C 
+ATOM     32  C6  SER A 139     192.734  -9.244  46.203 -0.20 +0.01    +0.030 C 
+ATOM     33  C5  SER A 139     193.264  -9.697  48.668 -0.23 +0.01    +0.030 C 
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+ENDBRANCH  19  26
+ENDBRANCH  12  19
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  34
+ATOM     34  C29 SER A 139     196.569  -5.020  51.262 -0.43 +0.01    +0.030 C 
+BRANCH  34  35
+ATOM     35  C30 SER A 139     195.920  -5.223  49.894 -0.47 +0.00    +0.002 C 
+BRANCH  35  36
+ATOM     36  C31 SER A 139     196.286  -4.118  48.898 -0.55 +0.00    +0.000 C 
+ATOM     37  C32 SER A 139     196.805  -2.862  49.573 -0.50 +0.00    +0.000 C 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH   6  34
+ENDBRANCH   4   6
+BRANCH   4  38
+ATOM     38  C40 SER A 139     200.074  -4.018  52.075 -0.23 +0.19    +0.308 C 
+ATOM     39  N36 SER A 139     201.228  -4.666  52.083 -0.22 -0.12    -0.224 NA
+ATOM     40  O35 SER A 139     199.977  -2.863  51.675 -0.97 -0.23    -0.265 OA
+BRANCH  39  41
+ATOM     41  C37 SER A 139     202.517  -4.004  51.960 -0.40 +0.12    +0.218 C 
+BRANCH  41  42
+ATOM     42  C38 SER A 139     203.245  -4.160  50.643 -0.28 +0.19    +0.277 C 
+ATOM     43  O39 SER A 139     203.725  -5.239  50.293 -0.21 -0.18    -0.268 OA
+ATOM     44  N41 SER A 139     203.300  -3.068  49.894 -0.25 -0.18    -0.224 NA
+BRANCH  44  45
+ATOM     45  C42 SER A 139     203.982  -3.055  48.616 -0.26 +0.19    +0.207 C 
+BRANCH  45  46
+ATOM     46  C43 SER A 139     204.114  -1.685  48.040 -0.31 +0.01    +0.009 A 
+ATOM     47  C48 SER A 139     203.925  -1.479  46.682 -0.24 -0.00    -0.002 A 
+ATOM     48  C47 SER A 139     203.948  -0.209  46.151 -0.23 -0.00    -0.000 A 
+ATOM     49  C46 SER A 139     204.170   0.878  46.984 -0.27 -0.00    -0.000 A 
+ATOM     50  C45 SER A 139     204.371   0.681  48.354 -0.37 -0.00    -0.000 A 
+ATOM     51  C44 SER A 139     204.342  -0.599  48.870 -0.32 -0.00    -0.002 A 
+ENDBRANCH  45  46
+BRANCH  45  52
+ATOM     52  C49 SER A 139     205.448  -3.433  48.840 -0.20 +0.22    +0.260 C 
+ATOM     53  N51 SER A 139     205.910  -4.524  48.204 -0.07 -0.26    -0.314 N 
+ATOM     54  C53 SER A 139     205.045  -5.415  47.356 -0.11 +0.14    +0.128 C 
+ATOM     55  C52 SER A 139     207.349  -4.861  48.344 -0.18 +0.08    +0.128 C 
+ATOM     56  O50 SER A 139     206.167  -2.751  49.581 -0.83 -0.27    -0.270 OA
+ENDBRANCH  45  52
+ENDBRANCH  44  45
+ENDBRANCH  41  42
+ENDBRANCH  39  41
+ENDBRANCH   4  38
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 139
+TER
+ENDMDL
+MODEL        4
+USER    Run = 4
+USER    DPF = dpf_files/ligand_2f9u.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -13.19 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =  214.24 pM (picomolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -19.16 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -12.74 kcal/mol
+USER        Internal Moving-Moving Receptor =   -6.41 kcal/mol
+USER    (3) Torsional Free Energy           =   +5.97 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2f9u
+USER    NEWDPF about 198.340000 -6.239000 49.576000
+USER    NEWDPF tran0 209.350345 -5.313650 43.504857
+USER    NEWDPF quaternion0 -0.310079 -0.689232 -0.621402 -0.206568
+USER    NEWDPF axisangle0 -0.316914 -0.704424 -0.635100 -156.157415
+USER    NEWDPF quat0 -0.316914 -0.704424 -0.635100 -156.157415
+USER    NEWDPF dihe0 49.47 126.07 104.32 55.56 -63.91 -86.53 -115.13 179.28 7.07 -33.74 -4.84 152.96 25.80 -23.99 1.43 6.07 -10.42 17.78 4.00 -9.39 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A 139
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  C34 
+REMARK    4  A    between atoms: C1   and  O3  
+REMARK       I    between atoms: C1   and  N8  
+REMARK    5  A    between atoms: O3   and  C4  
+REMARK    6  A    between atoms: N8   and  C9  
+REMARK    7  A    between atoms: C9   and  C10 
+REMARK    8  A    between atoms: C9   and  C16 
+REMARK       I    between atoms: C16  and  N20 
+REMARK    9  A    between atoms: C18  and  C21 
+REMARK       I    between atoms: C18  and  N27 
+REMARK   10  A    between atoms: N27  and  C28 
+REMARK   11  A    between atoms: C28  and  C29 
+REMARK   12  A    between atoms: C28  and  C34 
+REMARK   13  A    between atoms: C29  and  C30 
+REMARK   14  A    between atoms: C30  and  C31 
+REMARK   15  A    between atoms: C34  and  C40 
+REMARK       I    between atoms: N36  and  C40 
+REMARK   16  A    between atoms: N36  and  C37 
+REMARK   17  A    between atoms: C37  and  C38 
+REMARK       I    between atoms: C38  and  N41 
+REMARK   18  A    between atoms: N41  and  C42 
+REMARK   19  A    between atoms: C42  and  C43 
+REMARK   20  A    between atoms: C42  and  C49 
+REMARK       I    between atoms: C49  and  N51 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  SER A 139     197.956  -1.798  54.548 +0.00 +0.00    +0.395 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 139     198.575  -3.182  54.418 +0.00 +0.00    +0.193 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 139     197.853  -3.704  53.354 -0.29 -0.09    -0.322 OA
+BRANCH   3   4
+ATOM      4  C34 SER A 139     198.490  -4.817  52.709 -0.20 +0.13    +0.313 C 
+ATOM      5  O33 SER A 139     198.572  -5.951  53.668 -0.45 -0.07    -0.183 OA
+BRANCH   4   6
+ATOM      6  C28 SER A 139     197.791  -5.181  51.388 -0.24 +0.08    +0.170 C 
+BRANCH   6   7
+ATOM      7  N27 SER A 139     196.877  -6.284  51.621 -0.16 -0.08    -0.233 NA
+ATOM      8  C18 SER A 139     197.014  -7.446  50.996 -0.15 +0.13    +0.272 C 
+ATOM      9  O19 SER A 139     197.859  -7.649  50.117 -0.07 -0.15    -0.269 OA
+BRANCH   8  10
+ATOM     10  C21 SER A 139     195.962  -8.494  51.318 -0.15 +0.08    +0.164 C 
+ATOM     11  N20 SER A 139     195.513  -9.067  50.045 -0.07 -0.18    -0.314 N 
+ATOM     12  C16 SER A 139     195.159  -8.367  48.956 -0.15 +0.16    +0.256 C 
+ATOM     13  C25 SER A 139     195.602 -10.547  50.239 -0.07 +0.04    +0.084 C 
+ATOM     14  O17 SER A 139     195.093  -7.132  48.968 -0.80 -0.21    -0.270 OA
+ATOM     15  C26 SER A 139     196.868 -10.640  51.056 -0.10 +0.01    +0.025 C 
+ATOM     16  C24 SER A 139     194.556 -10.995  51.269 -0.13 +0.01    +0.022 C 
+ATOM     17  C22 SER A 139     196.365  -9.725  52.159 -0.25 +0.02    +0.032 C 
+ATOM     18  C23 SER A 139     195.101 -10.471  52.594 -0.24 +0.00    +0.004 C 
+BRANCH  12  19
+ATOM     19  C9  SER A 139     194.729  -9.147  47.712 -0.14 +0.09    +0.187 C 
+BRANCH  19  20
+ATOM     20  C10 SER A 139     195.238  -8.384  46.482 -0.20 +0.02    +0.032 C 
+ATOM     21  C15 SER A 139     196.749  -8.185  46.538 -0.13 +0.00    +0.002 C 
+ATOM     22  C14 SER A 139     197.279  -7.439  45.317 -0.23 +0.00    +0.000 C 
+ATOM     23  C13 SER A 139     196.570  -6.093  45.152 -0.32 +0.00    +0.000 C 
+ATOM     24  C12 SER A 139     195.049  -6.258  45.113 -0.19 +0.00    +0.000 C 
+ATOM     25  C11 SER A 139     194.555  -7.020  46.332 -0.35 +0.00    +0.002 C 
+ENDBRANCH  19  20
+BRANCH  19  26
+ATOM     26  N8  SER A 139     193.283  -9.258  47.660 -0.15 -0.07    -0.205 NA
+ATOM     27  C1  SER A 139     192.628 -10.336  48.070 -0.07 +0.13    +0.384 C 
+ATOM     28  O2  SER A 139     193.183 -11.386  48.405 -0.04 -0.10    -0.236 OA
+BRANCH  27  29
+ATOM     29  O3  SER A 139     191.333 -10.022  48.023 -0.13 -0.05    -0.289 OA
+BRANCH  29  30
+ATOM     30  C4  SER A 139     190.393 -10.696  47.175 -0.20 +0.03    +0.103 C 
+ATOM     31  C7  SER A 139     190.354 -12.228  47.461 -0.06 +0.01    +0.030 C 
+ATOM     32  C6  SER A 139     190.922 -10.460  45.740 -0.28 +0.01    +0.030 C 
+ATOM     33  C5  SER A 139     189.053  -9.936  47.412 -0.31 +0.01    +0.030 C 
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+ENDBRANCH  19  26
+ENDBRANCH  12  19
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  34
+ATOM     34  C29 SER A 139     197.028  -4.018  50.734 -0.49 +0.02    +0.030 C 
+BRANCH  34  35
+ATOM     35  C30 SER A 139     196.242  -4.415  49.486 -0.51 +0.00    +0.002 C 
+BRANCH  35  36
+ATOM     36  C31 SER A 139     196.828  -3.813  48.205 -0.57 +0.00    +0.000 C 
+ATOM     37  C32 SER A 139     195.769  -3.482  47.169 -0.61 +0.00    +0.000 C 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH   6  34
+ENDBRANCH   4   6
+BRANCH   4  38
+ATOM     38  C40 SER A 139     199.871  -4.403  52.238 -0.20 +0.17    +0.308 C 
+ATOM     39  N36 SER A 139     200.987  -4.975  52.661 -0.22 -0.11    -0.224 NA
+ATOM     40  O35 SER A 139     199.876  -3.484  51.426 -0.66 -0.21    -0.265 OA
+BRANCH  39  41
+ATOM     41  C37 SER A 139     202.303  -4.379  52.495 -0.38 +0.10    +0.218 C 
+BRANCH  41  42
+ATOM     42  C38 SER A 139     202.827  -4.258  51.081 -0.29 +0.17    +0.277 C 
+ATOM     43  O39 SER A 139     203.789  -3.539  50.807 -0.32 -0.17    -0.268 OA
+ATOM     44  N41 SER A 139     202.199  -4.999  50.179 -0.15 -0.17    -0.224 NA
+BRANCH  44  45
+ATOM     45  C42 SER A 139     202.572  -4.974  48.779 -0.19 +0.24    +0.207 C 
+BRANCH  45  46
+ATOM     46  C43 SER A 139     204.008  -5.305  48.552 -0.18 +0.01    +0.009 A 
+ATOM     47  C48 SER A 139     204.741  -4.613  47.600 -0.16 -0.00    -0.002 A 
+ATOM     48  C47 SER A 139     206.090  -4.840  47.445 -0.11 -0.00    -0.000 A 
+ATOM     49  C46 SER A 139     206.723  -5.779  48.247 -0.17 -0.00    -0.000 A 
+ATOM     50  C45 SER A 139     205.992  -6.490  49.204 -0.17 -0.00    -0.000 A 
+ATOM     51  C44 SER A 139     204.640  -6.248  49.347 -0.19 -0.00    -0.002 A 
+ENDBRANCH  45  46
+BRANCH  45  52
+ATOM     52  C49 SER A 139     201.875  -6.136  48.067 -0.02 +0.43    +0.260 C 
+ATOM     53  N51 SER A 139     200.530  -6.157  48.087 -0.10 -0.45    -0.314 N 
+ATOM     54  C53 SER A 139     199.698  -5.148  48.828 -0.22 +0.13    +0.128 C 
+ATOM     55  C52 SER A 139     199.835  -7.231  47.334 -0.12 +0.17    +0.128 C 
+ATOM     56  O50 SER A 139     202.538  -7.014  47.500 -0.22 -0.48    -0.270 OA
+ENDBRANCH  45  52
+ENDBRANCH  44  45
+ENDBRANCH  41  42
+ENDBRANCH  39  41
+ENDBRANCH   4  38
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 139
+TER
+ENDMDL
+MODEL        5
+USER    Run = 5
+USER    DPF = dpf_files/ligand_2f9u.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -13.42 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =  145.26 pM (picomolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -19.39 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -12.97 kcal/mol
+USER        Internal Moving-Moving Receptor =   -6.42 kcal/mol
+USER    (3) Torsional Free Energy           =   +5.97 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2f9u
+USER    NEWDPF about 198.340000 -6.239000 49.576000
+USER    NEWDPF tran0 186.490969 -11.432985 38.501362
+USER    NEWDPF quaternion0 0.374006 -0.229101 -0.539857 -0.718461
+USER    NEWDPF axisangle0 0.537699 -0.329373 -0.776140 -88.144832
+USER    NEWDPF quat0 0.537699 -0.329373 -0.776140 -88.144832
+USER    NEWDPF dihe0 69.97 150.05 -141.50 56.77 -70.98 -43.30 -4.03 165.06 6.09 63.05 -9.66 -176.91 11.38 -44.47 -13.88 16.52 -6.45 9.82 5.38 -3.00 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A 139
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  C34 
+REMARK    4  A    between atoms: C1   and  O3  
+REMARK       I    between atoms: C1   and  N8  
+REMARK    5  A    between atoms: O3   and  C4  
+REMARK    6  A    between atoms: N8   and  C9  
+REMARK    7  A    between atoms: C9   and  C10 
+REMARK    8  A    between atoms: C9   and  C16 
+REMARK       I    between atoms: C16  and  N20 
+REMARK    9  A    between atoms: C18  and  C21 
+REMARK       I    between atoms: C18  and  N27 
+REMARK   10  A    between atoms: N27  and  C28 
+REMARK   11  A    between atoms: C28  and  C29 
+REMARK   12  A    between atoms: C28  and  C34 
+REMARK   13  A    between atoms: C29  and  C30 
+REMARK   14  A    between atoms: C30  and  C31 
+REMARK   15  A    between atoms: C34  and  C40 
+REMARK       I    between atoms: N36  and  C40 
+REMARK   16  A    between atoms: N36  and  C37 
+REMARK   17  A    between atoms: C37  and  C38 
+REMARK       I    between atoms: C38  and  N41 
+REMARK   18  A    between atoms: N41  and  C42 
+REMARK   19  A    between atoms: C42  and  C43 
+REMARK   20  A    between atoms: C42  and  C49 
+REMARK       I    between atoms: C49  and  N51 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  SER A 139     197.956  -1.798  54.548 +0.00 +0.00    +0.395 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 139     198.575  -3.182  54.418 +0.00 +0.00    +0.193 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 139     197.961  -3.648  53.264 -0.27 -0.09    -0.322 OA
+BRANCH   3   4
+ATOM      4  C34 SER A 139     198.635  -4.758  52.653 -0.20 +0.13    +0.313 C 
+ATOM      5  O33 SER A 139     198.751  -5.860  53.646 -0.48 -0.07    -0.183 OA
+BRANCH   4   6
+ATOM      6  C28 SER A 139     197.952  -5.183  51.343 -0.23 +0.08    +0.170 C 
+BRANCH   6   7
+ATOM      7  N27 SER A 139     197.003  -6.245  51.623 -0.16 -0.08    -0.233 NA
+ATOM      8  C18 SER A 139     197.225  -7.497  51.242 -0.15 +0.12    +0.272 C 
+ATOM      9  O19 SER A 139     198.194  -7.835  50.553 -0.09 -0.14    -0.269 OA
+BRANCH   8  10
+ATOM     10  C21 SER A 139     196.127  -8.491  51.578 -0.19 +0.08    +0.164 C 
+ATOM     11  N20 SER A 139     195.618  -9.024  50.310 -0.07 -0.18    -0.314 N 
+ATOM     12  C16 SER A 139     195.277  -8.294  49.237 -0.15 +0.16    +0.256 C 
+ATOM     13  C25 SER A 139     195.633 -10.510  50.486 -0.08 +0.04    +0.084 C 
+ATOM     14  O17 SER A 139     195.277  -7.057  49.264 -0.77 -0.21    -0.270 OA
+ATOM     15  C26 SER A 139     196.911 -10.679  51.272 -0.12 +0.01    +0.025 C 
+ATOM     16  C24 SER A 139     194.589 -10.913  51.536 -0.15 +0.01    +0.022 C 
+ATOM     17  C22 SER A 139     196.483  -9.751  52.396 -0.27 +0.02    +0.032 C 
+ATOM     18  C23 SER A 139     195.191 -10.435  52.853 -0.25 +0.00    +0.004 C 
+BRANCH  12  19
+ATOM     19  C9  SER A 139     194.778  -9.035  47.995 -0.15 +0.10    +0.187 C 
+BRANCH  19  20
+ATOM     20  C10 SER A 139     195.194  -8.220  46.764 -0.22 +0.02    +0.032 C 
+ATOM     21  C15 SER A 139     195.005  -9.020  45.479 -0.17 +0.00    +0.002 C 
+ATOM     22  C14 SER A 139     195.401  -8.223  44.239 -0.21 +0.00    +0.000 C 
+ATOM     23  C13 SER A 139     196.845  -7.726  44.350 -0.19 +0.00    +0.000 C 
+ATOM     24  C12 SER A 139     197.072  -6.937  45.642 -0.28 +0.00    +0.000 C 
+ATOM     25  C11 SER A 139     196.650  -7.750  46.856 -0.16 +0.00    +0.002 C 
+ENDBRANCH  19  20
+BRANCH  19  26
+ATOM     26  N8  SER A 139     193.332  -9.169  48.033 -0.16 -0.07    -0.205 NA
+ATOM     27  C1  SER A 139     192.722 -10.277  48.427 -0.08 +0.13    +0.384 C 
+ATOM     28  O2  SER A 139     193.312 -11.334  48.667 -0.04 -0.10    -0.236 OA
+BRANCH  27  29
+ATOM     29  O3  SER A 139     191.422  -9.984  48.483 -0.15 -0.05    -0.289 OA
+BRANCH  29  30
+ATOM     30  C4  SER A 139     190.457 -10.519  47.566 -0.20 +0.03    +0.103 C 
+ATOM     31  C7  SER A 139     189.001 -10.166  47.992 -0.32 +0.01    +0.030 C 
+ATOM     32  C6  SER A 139     190.654 -12.051  47.641 -0.07 +0.01    +0.030 C 
+ATOM     33  C5  SER A 139     190.903  -9.964  46.179 -0.31 +0.01    +0.030 C 
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+ENDBRANCH  19  26
+ENDBRANCH  12  19
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  34
+ATOM     34  C29 SER A 139     197.234  -4.042  50.603 -0.47 +0.02    +0.030 C 
+BRANCH  34  35
+ATOM     35  C30 SER A 139     196.438  -4.498  49.382 -0.49 +0.00    +0.002 C 
+BRANCH  35  36
+ATOM     36  C31 SER A 139     197.288  -4.546  48.109 -0.44 +0.00    +0.000 C 
+ATOM     37  C32 SER A 139     196.687  -3.747  46.966 -0.63 +0.00    +0.000 C 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH   6  34
+ENDBRANCH   4   6
+BRANCH   4  38
+ATOM     38  C40 SER A 139     200.003  -4.314  52.173 -0.21 +0.18    +0.308 C 
+ATOM     39  N36 SER A 139     201.118  -4.526  52.853 -0.27 -0.11    -0.224 NA
+ATOM     40  O35 SER A 139     199.998  -3.734  51.092 -0.68 -0.21    -0.265 OA
+BRANCH  39  41
+ATOM     41  C37 SER A 139     202.362  -3.820  52.588 -0.36 +0.11    +0.218 C 
+BRANCH  41  42
+ATOM     42  C38 SER A 139     203.212  -4.333  51.446 -0.31 +0.15    +0.277 C 
+ATOM     43  O39 SER A 139     204.389  -3.997  51.313 -0.39 -0.18    -0.268 OA
+ATOM     44  N41 SER A 139     202.607  -5.184  50.629 -0.17 -0.14    -0.224 NA
+BRANCH  44  45
+ATOM     45  C42 SER A 139     203.283  -5.745  49.477 -0.16 +0.18    +0.207 C 
+BRANCH  45  46
+ATOM     46  C43 SER A 139     202.744  -7.077  49.076 -0.14 +0.01    +0.009 A 
+ATOM     47  C48 SER A 139     203.546  -7.976  48.391 -0.08 -0.00    -0.002 A 
+ATOM     48  C47 SER A 139     203.096  -9.244  48.098 -0.04 -0.00    -0.000 A 
+ATOM     49  C46 SER A 139     201.820  -9.624  48.488 -0.05 -0.00    -0.000 A 
+ATOM     50  C45 SER A 139     200.998  -8.722  49.172 -0.09 -0.00    -0.000 A 
+ATOM     51  C44 SER A 139     201.467  -7.456  49.459 -0.13 -0.00    -0.002 A 
+ENDBRANCH  45  46
+BRANCH  45  52
+ATOM     52  C49 SER A 139     202.942  -4.897  48.249 -0.16 +0.34    +0.260 C 
+ATOM     53  N51 SER A 139     203.883  -4.043  47.807 -0.12 -0.37    -0.314 N 
+ATOM     54  C53 SER A 139     205.201  -3.835  48.497 -0.21 +0.11    +0.128 C 
+ATOM     55  C52 SER A 139     203.602  -3.270  46.571 -0.15 +0.18    +0.128 C 
+ATOM     56  O50 SER A 139     201.840  -5.004  47.697 -0.61 -0.53    -0.270 OA
+ENDBRANCH  45  52
+ENDBRANCH  44  45
+ENDBRANCH  41  42
+ENDBRANCH  39  41
+ENDBRANCH   4  38
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 139
+TER
+ENDMDL
+MODEL        6
+USER    Run = 6
+USER    DPF = dpf_files/ligand_2f9u.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -13.05 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =  273.63 pM (picomolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -19.01 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -12.27 kcal/mol
+USER        Internal Moving-Moving Receptor =   -6.74 kcal/mol
+USER    (3) Torsional Free Energy           =   +5.97 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2f9u
+USER    NEWDPF about 198.340000 -6.239000 49.576000
+USER    NEWDPF tran0 193.091181 -7.177863 53.586998
+USER    NEWDPF quaternion0 -0.032269 -0.958100 0.194859 0.207445
+USER    NEWDPF axisangle0 -0.032987 -0.979405 0.199192 156.054714
+USER    NEWDPF quat0 -0.032987 -0.979405 0.199192 156.054714
+USER    NEWDPF dihe0 179.93 22.00 49.11 25.92 54.74 -3.94 -28.83 6.17 37.50 81.77 -151.54 -114.74 -86.69 107.04 162.81 -155.22 -30.42 -0.78 18.41 22.58 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A 139
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  C34 
+REMARK    4  A    between atoms: C1   and  O3  
+REMARK       I    between atoms: C1   and  N8  
+REMARK    5  A    between atoms: O3   and  C4  
+REMARK    6  A    between atoms: N8   and  C9  
+REMARK    7  A    between atoms: C9   and  C10 
+REMARK    8  A    between atoms: C9   and  C16 
+REMARK       I    between atoms: C16  and  N20 
+REMARK    9  A    between atoms: C18  and  C21 
+REMARK       I    between atoms: C18  and  N27 
+REMARK   10  A    between atoms: N27  and  C28 
+REMARK   11  A    between atoms: C28  and  C29 
+REMARK   12  A    between atoms: C28  and  C34 
+REMARK   13  A    between atoms: C29  and  C30 
+REMARK   14  A    between atoms: C30  and  C31 
+REMARK   15  A    between atoms: C34  and  C40 
+REMARK       I    between atoms: N36  and  C40 
+REMARK   16  A    between atoms: N36  and  C37 
+REMARK   17  A    between atoms: C37  and  C38 
+REMARK       I    between atoms: C38  and  N41 
+REMARK   18  A    between atoms: N41  and  C42 
+REMARK   19  A    between atoms: C42  and  C43 
+REMARK   20  A    between atoms: C42  and  C49 
+REMARK       I    between atoms: C49  and  N51 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  SER A 139     197.956  -1.798  54.548 +0.00 +0.00    +0.395 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 139     198.575  -3.182  54.418 +0.00 +0.00    +0.193 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 139     198.468  -3.401  53.052 -0.09 -0.11    -0.322 OA
+BRANCH   3   4
+ATOM      4  C34 SER A 139     199.093  -4.614  52.606 -0.19 +0.15    +0.313 C 
+ATOM      5  O33 SER A 139     198.702  -5.722  53.518 -0.43 -0.07    -0.183 OA
+BRANCH   4   6
+ATOM      6  C28 SER A 139     198.782  -4.900  51.127 -0.21 +0.10    +0.170 C 
+BRANCH   6   7
+ATOM      7  N27 SER A 139     198.047  -6.147  51.027 -0.10 -0.12    -0.233 NA
+ATOM      8  C18 SER A 139     196.746  -6.211  51.278 -0.16 +0.11    +0.272 C 
+ATOM      9  O19 SER A 139     196.086  -5.253  51.695 -0.21 -0.08    -0.269 OA
+BRANCH   8  10
+ATOM     10  C21 SER A 139     196.121  -7.592  51.163 -0.18 +0.08    +0.164 C 
+ATOM     11  N20 SER A 139     196.216  -7.998  49.758 -0.08 -0.18    -0.314 N 
+ATOM     12  C16 SER A 139     195.877  -7.242  48.701 -0.17 +0.17    +0.256 C 
+ATOM     13  C25 SER A 139     196.809  -9.371  49.796 -0.08 +0.04    +0.084 C 
+ATOM     14  O17 SER A 139     195.352  -6.131  48.839 -0.64 -0.21    -0.270 OA
+ATOM     15  C26 SER A 139     197.800  -9.209  50.923 -0.16 +0.01    +0.025 C 
+ATOM     16  C24 SER A 139     195.806 -10.347  50.426 -0.10 +0.01    +0.022 C 
+ATOM     17  C22 SER A 139     196.758  -8.767  51.935 -0.28 +0.01    +0.032 C 
+ATOM     18  C23 SER A 139     195.804  -9.965  51.903 -0.22 +0.00    +0.004 C 
+BRANCH  12  19
+ATOM     19  C9  SER A 139     196.061  -7.839  47.305 -0.13 +0.12    +0.187 C 
+BRANCH  19  20
+ATOM     20  C10 SER A 139     195.025  -8.957  47.134 -0.17 +0.02    +0.032 C 
+ATOM     21  C15 SER A 139     194.482  -8.997  45.709 -0.18 +0.00    +0.002 C 
+ATOM     22  C14 SER A 139     193.458 -10.112  45.512 -0.17 +0.00    +0.000 C 
+ATOM     23  C13 SER A 139     192.310  -9.980  46.517 -0.24 +0.00    +0.000 C 
+ATOM     24  C12 SER A 139     192.826  -9.915  47.956 -0.20 +0.00    +0.000 C 
+ATOM     25  C11 SER A 139     193.857  -8.809  48.115 -0.28 +0.00    +0.002 C 
+ENDBRANCH  19  20
+BRANCH  19  26
+ATOM     26  N8  SER A 139     197.400  -8.380  47.159 -0.03 -0.15    -0.205 NA
+ATOM     27  C1  SER A 139     198.486  -7.619  47.135 -0.04 +0.36    +0.384 C 
+ATOM     28  O2  SER A 139     198.455  -6.386  47.098 -0.15 -0.25    -0.236 OA
+BRANCH  27  29
+ATOM     29  O3  SER A 139     199.524  -8.455  47.150 -0.04 -0.29    -0.289 OA
+BRANCH  29  30
+ATOM     30  C4  SER A 139     200.560  -8.401  48.141 -0.07 +0.10    +0.103 C 
+ATOM     31  C7  SER A 139     200.280  -7.300  49.208 -0.12 +0.02    +0.030 C 
+ATOM     32  C6  SER A 139     201.838  -8.031  47.351 -0.08 +0.04    +0.030 C 
+ATOM     33  C5  SER A 139     200.642  -9.859  48.688 -0.06 +0.02    +0.030 C 
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+ENDBRANCH  19  26
+ENDBRANCH  12  19
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  34
+ATOM     34  C29 SER A 139     197.993  -3.786  50.419 -0.47 +0.02    +0.030 C 
+BRANCH  34  35
+ATOM     35  C30 SER A 139     198.190  -3.752  48.905 -0.37 +0.00    +0.002 C 
+BRANCH  35  36
+ATOM     36  C31 SER A 139     196.918  -3.347  48.154 -0.56 +0.00    +0.000 C 
+ATOM     37  C32 SER A 139     195.669  -3.450  49.008 -0.46 +0.00    +0.000 C 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH   6  34
+ENDBRANCH   4   6
+BRANCH   4  38
+ATOM     38  C40 SER A 139     200.597  -4.429  52.589 -0.24 +0.17    +0.308 C 
+ATOM     39  N36 SER A 139     201.309  -4.358  51.476 -0.25 -0.15    -0.224 NA
+ATOM     40  O35 SER A 139     201.112  -4.350  53.699 -0.38 -0.13    -0.265 OA
+BRANCH  39  41
+ATOM     41  C37 SER A 139     202.754  -4.529  51.440 -0.32 +0.12    +0.218 C 
+BRANCH  41  42
+ATOM     42  C38 SER A 139     203.424  -4.411  50.088 -0.23 +0.21    +0.277 C 
+ATOM     43  O39 SER A 139     203.790  -5.404  49.459 -0.14 -0.22    -0.268 OA
+ATOM     44  N41 SER A 139     203.557  -3.175  49.629 -0.25 -0.18    -0.224 NA
+BRANCH  44  45
+ATOM     45  C42 SER A 139     204.199  -2.899  48.360 -0.24 +0.19    +0.207 C 
+BRANCH  45  46
+ATOM     46  C43 SER A 139     204.073  -1.473  47.940 -0.31 +0.01    +0.009 A 
+ATOM     47  C48 SER A 139     204.331  -0.456  48.845 -0.32 -0.00    -0.002 A 
+ATOM     48  C47 SER A 139     204.313   0.863  48.449 -0.38 -0.00    -0.000 A 
+ATOM     49  C46 SER A 139     204.025   1.177  47.128 -0.29 -0.00    -0.000 A 
+ATOM     50  C45 SER A 139     203.753   0.159  46.209 -0.25 -0.00    -0.000 A 
+ATOM     51  C44 SER A 139     203.778  -1.158  46.623 -0.22 -0.00    -0.002 A 
+ENDBRANCH  45  46
+BRANCH  45  52
+ATOM     52  C49 SER A 139     205.714  -3.031  48.538 -0.17 +0.22    +0.260 C 
+ATOM     53  N51 SER A 139     206.412  -3.567  47.521 -0.03 -0.25    -0.314 N 
+ATOM     54  C53 SER A 139     205.773  -4.099  46.269 -0.08 +0.12    +0.128 C 
+ATOM     55  C52 SER A 139     207.890  -3.629  47.643 -0.12 +0.08    +0.128 C 
+ATOM     56  O50 SER A 139     206.259  -2.656  49.584 -0.80 -0.27    -0.270 OA
+ENDBRANCH  45  52
+ENDBRANCH  44  45
+ENDBRANCH  41  42
+ENDBRANCH  39  41
+ENDBRANCH   4  38
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 139
+TER
+ENDMDL
+MODEL        7
+USER    Run = 7
+USER    DPF = dpf_files/ligand_2f9u.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -11.28 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    5.36 nM (nanomolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -17.25 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -8.61 kcal/mol
+USER        Internal Moving-Moving Receptor =   -8.64 kcal/mol
+USER    (3) Torsional Free Energy           =   +5.97 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2f9u
+USER    NEWDPF about 198.340000 -6.239000 49.576000
+USER    NEWDPF tran0 207.884368 3.809157 53.124757
+USER    NEWDPF quaternion0 -0.066785 -0.239188 0.794875 -0.553627
+USER    NEWDPF axisangle0 -0.080196 -0.287221 0.954501 -112.767656
+USER    NEWDPF quat0 -0.080196 -0.287221 0.954501 -112.767656
+USER    NEWDPF dihe0 -43.97 119.26 59.47 81.24 -98.56 -34.84 4.31 152.77 -7.72 62.29 -25.81 -68.66 151.63 142.28 14.54 17.58 -75.37 48.49 100.96 71.96 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A 139
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  C34 
+REMARK    4  A    between atoms: C1   and  O3  
+REMARK       I    between atoms: C1   and  N8  
+REMARK    5  A    between atoms: O3   and  C4  
+REMARK    6  A    between atoms: N8   and  C9  
+REMARK    7  A    between atoms: C9   and  C10 
+REMARK    8  A    between atoms: C9   and  C16 
+REMARK       I    between atoms: C16  and  N20 
+REMARK    9  A    between atoms: C18  and  C21 
+REMARK       I    between atoms: C18  and  N27 
+REMARK   10  A    between atoms: N27  and  C28 
+REMARK   11  A    between atoms: C28  and  C29 
+REMARK   12  A    between atoms: C28  and  C34 
+REMARK   13  A    between atoms: C29  and  C30 
+REMARK   14  A    between atoms: C30  and  C31 
+REMARK   15  A    between atoms: C34  and  C40 
+REMARK       I    between atoms: N36  and  C40 
+REMARK   16  A    between atoms: N36  and  C37 
+REMARK   17  A    between atoms: C37  and  C38 
+REMARK       I    between atoms: C38  and  N41 
+REMARK   18  A    between atoms: N41  and  C42 
+REMARK   19  A    between atoms: C42  and  C43 
+REMARK   20  A    between atoms: C42  and  C49 
+REMARK       I    between atoms: C49  and  N51 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  SER A 139     197.956  -1.798  54.548 +0.00 +0.00    +0.395 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 139     198.575  -3.182  54.418 +0.00 +0.00    +0.193 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 139     199.473  -2.982  53.379 +0.25 -0.15    -0.322 OA
+BRANCH   3   4
+ATOM      4  C34 SER A 139     199.027  -3.498  52.117 -0.17 +0.18    +0.313 C 
+ATOM      5  O33 SER A 139     198.384  -2.401  51.345 -0.56 -0.11    -0.183 OA
+BRANCH   4   6
+ATOM      6  C28 SER A 139     200.167  -4.196  51.356 -0.29 +0.12    +0.170 C 
+BRANCH   6   7
+ATOM      7  N27 SER A 139     199.797  -4.327  49.958 -0.37 -0.20    -0.233 NA
+ATOM      8  C18 SER A 139     199.474  -5.501  49.430 -0.11 +0.23    +0.272 C 
+ATOM      9  O19 SER A 139     199.548  -6.568  50.050 -0.08 -0.18    -0.269 OA
+BRANCH   8  10
+ATOM     10  C21 SER A 139     199.142  -5.486  47.948 -0.16 +0.18    +0.164 C 
+ATOM     11  N20 SER A 139     199.597  -6.761  47.386 -0.09 -0.43    -0.314 N 
+ATOM     12  C16 SER A 139     200.801  -7.318  47.590 -0.04 +0.39    +0.256 C 
+ATOM     13  C25 SER A 139     198.424  -7.282  46.618 -0.16 +0.09    +0.084 C 
+ATOM     14  O17 SER A 139     201.691  -6.734  48.220 -0.33 -0.38    -0.270 OA
+ATOM     15  C26 SER A 139     197.295  -6.868  47.531 -0.17 +0.02    +0.025 C 
+ATOM     16  C24 SER A 139     198.163  -6.381  45.403 -0.27 +0.03    +0.022 C 
+ATOM     17  C22 SER A 139     197.663  -5.394  47.514 -0.31 +0.03    +0.032 C 
+ATOM     18  C23 SER A 139     197.597  -5.101  46.013 -0.44 +0.00    +0.004 C 
+BRANCH  12  19
+ATOM     19  C9  SER A 139     201.088  -8.666  46.926 -0.06 +0.24    +0.187 C 
+BRANCH  19  20
+ATOM     20  C10 SER A 139     202.331  -9.264  47.598 -0.05 +0.03    +0.032 C 
+ATOM     21  C15 SER A 139     202.637 -10.658  47.059 -0.01 +0.00    +0.002 C 
+ATOM     22  C14 SER A 139     203.878 -11.267  47.705 -0.00 +0.00    +0.000 C 
+ATOM     23  C13 SER A 139     203.735 -11.304  49.229 -0.03 +0.00    +0.000 C 
+ATOM     24  C12 SER A 139     203.406  -9.922  49.798 -0.12 +0.00    +0.000 C 
+ATOM     25  C11 SER A 139     202.178  -9.335  49.122 -0.10 +0.00    +0.002 C 
+ENDBRANCH  19  20
+BRANCH  19  26
+ATOM     26  N8  SER A 139     201.333  -8.488  45.506 -0.26 -0.41    -0.205 NA
+ATOM     27  C1  SER A 139     200.513  -8.949  44.571 -0.03 +0.53    +0.384 C 
+ATOM     28  O2  SER A 139     199.548  -9.680  44.808 -0.04 -0.21    -0.236 OA
+BRANCH  27  29
+ATOM     29  O3  SER A 139     200.966  -8.468  43.413 -0.51 -0.45    -0.289 OA
+BRANCH  29  30
+ATOM     30  C4  SER A 139     202.034  -9.078  42.674 -0.06 +0.11    +0.103 C 
+ATOM     31  C7  SER A 139     202.363 -10.504  43.209 -0.01 +0.02    +0.030 C 
+ATOM     32  C6  SER A 139     203.252  -8.153  42.911 -0.07 +0.04    +0.030 C 
+ATOM     33  C5  SER A 139     201.559  -9.011  41.191 -0.04 +0.02    +0.030 C 
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+ENDBRANCH  19  26
+ENDBRANCH  12  19
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  34
+ATOM     34  C29 SER A 139     201.526  -3.482  51.457 -0.45 +0.02    +0.030 C 
+BRANCH  34  35
+ATOM     35  C30 SER A 139     202.417  -3.667  50.231 -0.40 +0.00    +0.002 C 
+BRANCH  35  36
+ATOM     36  C31 SER A 139     203.730  -4.384  50.560 -0.44 +0.00    +0.000 C 
+ATOM     37  C32 SER A 139     203.903  -5.684  49.797 -0.27 +0.00    +0.000 C 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH   6  34
+ENDBRANCH   4   6
+BRANCH   4  38
+ATOM     38  C40 SER A 139     198.055  -4.637  52.353 -0.21 +0.12    +0.308 C 
+ATOM     39  N36 SER A 139     198.428  -5.842  52.754 -0.19 -0.08    -0.224 NA
+ATOM     40  O35 SER A 139     196.881  -4.355  52.142 -0.33 -0.09    -0.265 OA
+BRANCH  39  41
+ATOM     41  C37 SER A 139     197.577  -7.017  52.652 -0.19 +0.06    +0.218 C 
+BRANCH  41  42
+ATOM     42  C38 SER A 139     197.094  -7.396  51.269 -0.16 +0.12    +0.277 C 
+ATOM     43  O39 SER A 139     196.468  -6.604  50.563 -0.20 -0.14    -0.268 OA
+ATOM     44  N41 SER A 139     197.419  -8.617  50.871 -0.09 -0.11    -0.224 NA
+BRANCH  44  45
+ATOM     45  C42 SER A 139     197.009  -9.133  49.580 -0.05 +0.11    +0.207 C 
+BRANCH  45  46
+ATOM     46  C43 SER A 139     197.943 -10.163  49.041 -0.03 +0.00    +0.009 A 
+ATOM     47  C48 SER A 139     197.856 -10.555  47.714 -0.01 -0.00    -0.002 A 
+ATOM     48  C47 SER A 139     198.771 -11.433  47.177 +0.00 -0.00    -0.000 A 
+ATOM     49  C46 SER A 139     199.788 -11.937  47.975 -0.00 -0.00    -0.000 A 
+ATOM     50  C45 SER A 139     199.879 -11.556  49.318 -0.04 -0.00    -0.000 A 
+ATOM     51  C44 SER A 139     198.955 -10.673  49.839 -0.08 -0.00    -0.002 A 
+ENDBRANCH  45  46
+BRANCH  45  52
+ATOM     52  C49 SER A 139     195.728  -9.949  49.764 -0.05 +0.14    +0.260 C 
+ATOM     53  N51 SER A 139     194.597  -9.454  49.230 -0.08 -0.17    -0.314 N 
+ATOM     54  C53 SER A 139     194.523  -8.122  48.538 -0.22 +0.08    +0.128 C 
+ATOM     55  C52 SER A 139     193.360 -10.270  49.328 -0.14 +0.06    +0.128 C 
+ATOM     56  O50 SER A 139     195.748 -11.022  50.382 -0.02 -0.14    -0.270 OA
+ENDBRANCH  45  52
+ENDBRANCH  44  45
+ENDBRANCH  41  42
+ENDBRANCH  39  41
+ENDBRANCH   4  38
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 139
+TER
+ENDMDL
+MODEL        8
+USER    Run = 8
+USER    DPF = dpf_files/ligand_2f9u.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -12.39 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =  826.05 pM (picomolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -18.36 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -12.47 kcal/mol
+USER        Internal Moving-Moving Receptor =   -5.88 kcal/mol
+USER    (3) Torsional Free Energy           =   +5.97 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2f9u
+USER    NEWDPF about 198.340000 -6.239000 49.576000
+USER    NEWDPF tran0 203.401631 -6.303945 58.100974
+USER    NEWDPF quaternion0 -0.435084 0.424159 -0.082623 0.789914
+USER    NEWDPF axisangle0 -0.709510 0.691695 -0.134737 75.644957
+USER    NEWDPF quat0 -0.709510 0.691695 -0.134737 75.644957
+USER    NEWDPF dihe0 30.61 56.64 97.40 16.07 -13.67 15.96 -126.03 41.98 -40.62 -1.19 2.59 148.98 23.81 -45.63 -21.26 20.81 -16.45 -37.30 26.67 32.72 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A 139
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  C34 
+REMARK    4  A    between atoms: C1   and  O3  
+REMARK       I    between atoms: C1   and  N8  
+REMARK    5  A    between atoms: O3   and  C4  
+REMARK    6  A    between atoms: N8   and  C9  
+REMARK    7  A    between atoms: C9   and  C10 
+REMARK    8  A    between atoms: C9   and  C16 
+REMARK       I    between atoms: C16  and  N20 
+REMARK    9  A    between atoms: C18  and  C21 
+REMARK       I    between atoms: C18  and  N27 
+REMARK   10  A    between atoms: N27  and  C28 
+REMARK   11  A    between atoms: C28  and  C29 
+REMARK   12  A    between atoms: C28  and  C34 
+REMARK   13  A    between atoms: C29  and  C30 
+REMARK   14  A    between atoms: C30  and  C31 
+REMARK   15  A    between atoms: C34  and  C40 
+REMARK       I    between atoms: N36  and  C40 
+REMARK   16  A    between atoms: N36  and  C37 
+REMARK   17  A    between atoms: C37  and  C38 
+REMARK       I    between atoms: C38  and  N41 
+REMARK   18  A    between atoms: N41  and  C42 
+REMARK   19  A    between atoms: C42  and  C43 
+REMARK   20  A    between atoms: C42  and  C49 
+REMARK       I    between atoms: C49  and  N51 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  SER A 139     197.956  -1.798  54.548 +0.00 +0.00    +0.395 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 139     198.575  -3.182  54.418 +0.00 +0.00    +0.193 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 139     198.687  -3.302  53.040 -0.03 -0.12    -0.322 OA
+BRANCH   3   4
+ATOM      4  C34 SER A 139     199.192  -4.573  52.606 -0.19 +0.15    +0.313 C 
+ATOM      5  O33 SER A 139     199.235  -5.500  53.768 -0.55 -0.08    -0.183 OA
+BRANCH   4   6
+ATOM      6  C28 SER A 139     198.391  -5.123  51.413 -0.22 +0.09    +0.170 C 
+BRANCH   6   7
+ATOM      7  N27 SER A 139     197.503  -6.172  51.879 -0.16 -0.08    -0.233 NA
+ATOM      8  C18 SER A 139     197.762  -7.454  51.656 -0.15 +0.11    +0.272 C 
+ATOM      9  O19 SER A 139     198.714  -7.846  50.971 -0.11 -0.13    -0.269 OA
+BRANCH   8  10
+ATOM     10  C21 SER A 139     196.724  -8.435  52.175 -0.25 +0.06    +0.164 C 
+ATOM     11  N20 SER A 139     196.058  -9.023  51.009 -0.08 -0.16    -0.314 N 
+ATOM     12  C16 SER A 139     195.573  -8.340  49.960 -0.12 +0.15    +0.256 C 
+ATOM     13  C25 SER A 139     196.107 -10.499  51.245 -0.11 +0.04    +0.084 C 
+ATOM     14  O17 SER A 139     195.569  -7.103  49.934 -0.47 -0.18    -0.270 OA
+ATOM     15  C26 SER A 139     197.478 -10.633  51.863 -0.17 +0.01    +0.025 C 
+ATOM     16  C24 SER A 139     195.212 -10.859  52.439 -0.20 +0.02    +0.022 C 
+ATOM     17  C22 SER A 139     197.194  -9.658  52.993 -0.30 +0.01    +0.032 C 
+ATOM     18  C23 SER A 139     195.979 -10.323  53.644 -0.31 +0.00    +0.004 C 
+BRANCH  12  19
+ATOM     19  C9  SER A 139     194.921  -9.135  48.828 -0.14 +0.10    +0.187 C 
+BRANCH  19  20
+ATOM     20  C10 SER A 139     195.421  -8.553  47.499 -0.18 +0.02    +0.032 C 
+ATOM     21  C15 SER A 139     196.930  -8.336  47.520 -0.10 +0.00    +0.002 C 
+ATOM     22  C14 SER A 139     197.451  -7.770  46.202 -0.15 +0.00    +0.000 C 
+ATOM     23  C13 SER A 139     196.730  -6.466  45.848 -0.33 +0.00    +0.000 C 
+ATOM     24  C12 SER A 139     195.210  -6.647  45.840 -0.38 +0.00    +0.000 C 
+ATOM     25  C11 SER A 139     194.726  -7.230  47.157 -0.34 +0.00    +0.002 C 
+ENDBRANCH  19  20
+BRANCH  19  26
+ATOM     26  N8  SER A 139     193.475  -9.027  48.902 -0.23 -0.09    -0.205 NA
+ATOM     27  C1  SER A 139     192.661 -10.015  48.559 -0.09 +0.12    +0.384 C 
+ATOM     28  O2  SER A 139     193.042 -11.059  48.023 -0.05 -0.09    -0.236 OA
+BRANCH  27  29
+ATOM     29  O3  SER A 139     191.435  -9.620  48.903 -0.14 -0.03    -0.289 OA
+BRANCH  29  30
+ATOM     30  C4  SER A 139     190.244 -10.293  48.471 -0.22 +0.02    +0.103 C 
+ATOM     31  C7  SER A 139     190.317 -11.826  48.743 -0.08 +0.01    +0.030 C 
+ATOM     32  C6  SER A 139     190.189 -10.049  46.945 -0.28 +0.01    +0.030 C 
+ATOM     33  C5  SER A 139     189.093  -9.537  49.202 -0.37 -0.00    +0.030 C 
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+ENDBRANCH  19  26
+ENDBRANCH  12  19
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  34
+ATOM     34  C29 SER A 139     197.573  -4.063  50.657 -0.45 +0.02    +0.030 C 
+BRANCH  34  35
+ATOM     35  C30 SER A 139     197.482  -4.306  49.152 -0.44 +0.00    +0.002 C 
+BRANCH  35  36
+ATOM     36  C31 SER A 139     196.645  -3.244  48.433 -0.59 +0.00    +0.000 C 
+ATOM     37  C32 SER A 139     196.254  -3.652  47.025 -0.66 +0.00    +0.000 C 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH   6  34
+ENDBRANCH   4   6
+BRANCH   4  38
+ATOM     38  C40 SER A 139     200.573  -4.388  52.007 -0.22 +0.19    +0.308 C 
+ATOM     39  N36 SER A 139     201.693  -4.600  52.680 -0.29 -0.11    -0.224 NA
+ATOM     40  O35 SER A 139     200.574  -4.022  50.837 -0.62 -0.22    -0.265 OA
+BRANCH  39  41
+ATOM     41  C37 SER A 139     202.990  -4.105  52.247 -0.36 +0.10    +0.218 C 
+BRANCH  41  42
+ATOM     42  C38 SER A 139     203.586  -4.737  51.008 -0.21 +0.16    +0.277 C 
+ATOM     43  O39 SER A 139     204.482  -4.186  50.368 -0.38 -0.21    -0.268 OA
+ATOM     44  N41 SER A 139     203.096  -5.926  50.688 -0.11 -0.12    -0.224 NA
+BRANCH  44  45
+ATOM     45  C42 SER A 139     203.550  -6.647  49.516 -0.14 +0.16    +0.207 C 
+BRANCH  45  46
+ATOM     46  C43 SER A 139     204.727  -7.522  49.789 -0.18 +0.01    +0.009 A 
+ATOM     47  C48 SER A 139     204.546  -8.782  50.336 -0.19 -0.00    -0.002 A 
+ATOM     48  C47 SER A 139     205.612  -9.638  50.505 -0.17 -0.00    -0.000 A 
+ATOM     49  C46 SER A 139     206.884  -9.231  50.129 -0.21 -0.00    -0.000 A 
+ATOM     50  C45 SER A 139     207.079  -7.957  49.585 -0.23 -0.00    -0.000 A 
+ATOM     51  C44 SER A 139     205.999  -7.113  49.421 -0.15 -0.00    -0.002 A 
+ENDBRANCH  45  46
+BRANCH  45  52
+ATOM     52  C49 SER A 139     202.486  -7.679  49.134 -0.08 +0.22    +0.260 C 
+ATOM     53  N51 SER A 139     202.541  -8.195  47.893 -0.03 -0.35    -0.314 N 
+ATOM     54  C53 SER A 139     203.540  -7.756  46.859 -0.06 +0.18    +0.128 C 
+ATOM     55  C52 SER A 139     201.568  -9.255  47.531 -0.04 +0.12    +0.128 C 
+ATOM     56  O50 SER A 139     201.615  -8.015  49.947 -0.11 -0.18    -0.270 OA
+ENDBRANCH  45  52
+ENDBRANCH  44  45
+ENDBRANCH  41  42
+ENDBRANCH  39  41
+ENDBRANCH   4  38
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 139
+TER
+ENDMDL
+MODEL        9
+USER    Run = 9
+USER    DPF = dpf_files/ligand_2f9u.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -13.69 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =   92.63 pM (picomolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -19.65 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -14.27 kcal/mol
+USER        Internal Moving-Moving Receptor =   -5.38 kcal/mol
+USER    (3) Torsional Free Energy           =   +5.97 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2f9u
+USER    NEWDPF about 198.340000 -6.239000 49.576000
+USER    NEWDPF tran0 185.142393 -6.310524 54.399059
+USER    NEWDPF quaternion0 0.339851 0.690851 -0.317094 -0.553785
+USER    NEWDPF axisangle0 0.408152 0.829691 -0.380821 -112.745849
+USER    NEWDPF quat0 0.408152 0.829691 -0.380821 -112.745849
+USER    NEWDPF dihe0 -16.85 -39.86 121.63 -13.82 74.67 -16.39 107.33 178.58 -29.40 -10.79 6.42 15.19 -7.34 2.37 3.35 8.62 1.07 15.15 -8.48 -10.66 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A 139
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  C34 
+REMARK    4  A    between atoms: C1   and  O3  
+REMARK       I    between atoms: C1   and  N8  
+REMARK    5  A    between atoms: O3   and  C4  
+REMARK    6  A    between atoms: N8   and  C9  
+REMARK    7  A    between atoms: C9   and  C10 
+REMARK    8  A    between atoms: C9   and  C16 
+REMARK       I    between atoms: C16  and  N20 
+REMARK    9  A    between atoms: C18  and  C21 
+REMARK       I    between atoms: C18  and  N27 
+REMARK   10  A    between atoms: N27  and  C28 
+REMARK   11  A    between atoms: C28  and  C29 
+REMARK   12  A    between atoms: C28  and  C34 
+REMARK   13  A    between atoms: C29  and  C30 
+REMARK   14  A    between atoms: C30  and  C31 
+REMARK   15  A    between atoms: C34  and  C40 
+REMARK       I    between atoms: N36  and  C40 
+REMARK   16  A    between atoms: N36  and  C37 
+REMARK   17  A    between atoms: C37  and  C38 
+REMARK       I    between atoms: C38  and  N41 
+REMARK   18  A    between atoms: N41  and  C42 
+REMARK   19  A    between atoms: C42  and  C43 
+REMARK   20  A    between atoms: C42  and  C49 
+REMARK       I    between atoms: C49  and  N51 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  SER A 139     197.956  -1.798  54.548 +0.00 +0.00    +0.395 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 139     198.575  -3.182  54.418 +0.00 +0.00    +0.193 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 139     197.833  -3.715  53.373 -0.29 -0.08    -0.322 OA
+BRANCH   3   4
+ATOM      4  C34 SER A 139     198.565  -4.634  52.550 -0.20 +0.13    +0.313 C 
+ATOM      5  O33 SER A 139     198.989  -5.795  53.378 -0.38 -0.08    -0.183 OA
+BRANCH   4   6
+ATOM      6  C28 SER A 139     197.764  -5.034  51.299 -0.25 +0.08    +0.170 C 
+BRANCH   6   7
+ATOM      7  N27 SER A 139     196.900  -6.154  51.624 -0.16 -0.08    -0.233 NA
+ATOM      8  C18 SER A 139     197.042  -7.337  51.041 -0.15 +0.13    +0.272 C 
+ATOM      9  O19 SER A 139     197.847  -7.551  50.127 -0.07 -0.15    -0.269 OA
+BRANCH   8  10
+ATOM     10  C21 SER A 139     196.043  -8.402  51.460 -0.17 +0.08    +0.164 C 
+ATOM     11  N20 SER A 139     195.583  -9.073  50.240 -0.06 -0.18    -0.314 N 
+ATOM     12  C16 SER A 139     195.171  -8.459  49.120 -0.15 +0.15    +0.256 C 
+ATOM     13  C25 SER A 139     195.737 -10.533  50.526 -0.08 +0.04    +0.084 C 
+ATOM     14  O17 SER A 139     195.055  -7.229  49.056 -0.80 -0.21    -0.270 OA
+ATOM     15  C26 SER A 139     197.028 -10.524  51.309 -0.13 +0.01    +0.025 C 
+ATOM     16  C24 SER A 139     194.739 -10.953  51.613 -0.15 +0.01    +0.022 C 
+ATOM     17  C22 SER A 139     196.518  -9.559  52.365 -0.28 +0.02    +0.032 C 
+ATOM     18  C23 SER A 139     195.298 -10.324  52.885 -0.27 +0.00    +0.004 C 
+BRANCH  12  19
+ATOM     19  C9  SER A 139     194.739  -9.334  47.942 -0.13 +0.09    +0.187 C 
+BRANCH  19  20
+ATOM     20  C10 SER A 139     195.421  -8.790  46.680 -0.15 +0.02    +0.032 C 
+ATOM     21  C15 SER A 139     194.673  -7.584  46.121 -0.30 +0.00    +0.002 C 
+ATOM     22  C14 SER A 139     195.342  -7.018  44.871 -0.28 +0.00    +0.000 C 
+ATOM     23  C13 SER A 139     195.491  -8.099  43.797 -0.19 +0.00    +0.000 C 
+ATOM     24  C12 SER A 139     196.220  -9.332  44.335 -0.13 +0.00    +0.000 C 
+ATOM     25  C11 SER A 139     195.541  -9.860  45.589 -0.09 +0.00    +0.002 C 
+ENDBRANCH  19  20
+BRANCH  19  26
+ATOM     26  N8  SER A 139     193.297  -9.290  47.781 -0.16 -0.07    -0.205 NA
+ATOM     27  C1  SER A 139     192.562 -10.375  47.578 -0.08 +0.13    +0.384 C 
+ATOM     28  O2  SER A 139     193.039 -11.495  47.372 -0.03 -0.10    -0.236 OA
+BRANCH  27  29
+ATOM     29  O3  SER A 139     191.291  -9.977  47.638 -0.12 -0.05    -0.289 OA
+BRANCH  29  30
+ATOM     30  C4  SER A 139     190.445 -10.223  48.770 -0.22 +0.02    +0.103 C 
+ATOM     31  C7  SER A 139     190.793  -9.284  49.964 -0.32 -0.00    +0.030 C 
+ATOM     32  C6  SER A 139     190.743 -11.687  49.170 -0.09 +0.01    +0.030 C 
+ATOM     33  C5  SER A 139     189.000 -10.079  48.203 -0.33 +0.01    +0.030 C 
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+ENDBRANCH  19  26
+ENDBRANCH  12  19
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  34
+ATOM     34  C29 SER A 139     196.920  -3.899  50.697 -0.50 +0.02    +0.030 C 
+BRANCH  34  35
+ATOM     35  C30 SER A 139     197.357  -3.476  49.296 -0.55 +0.00    +0.002 C 
+BRANCH  35  36
+ATOM     36  C31 SER A 139     196.783  -4.381  48.202 -0.50 +0.00    +0.000 C 
+ATOM     37  C32 SER A 139     196.500  -3.638  46.909 -0.64 +0.00    +0.000 C 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH   6  34
+ENDBRANCH   4   6
+BRANCH   4  38
+ATOM     38  C40 SER A 139     199.765  -3.928  51.950 -0.23 +0.19    +0.308 C 
+ATOM     39  N36 SER A 139     200.926  -4.524  51.729 -0.21 -0.14    -0.224 NA
+ATOM     40  O35 SER A 139     199.577  -2.746  51.683 -0.87 -0.22    -0.265 OA
+BRANCH  39  41
+ATOM     41  C37 SER A 139     202.163  -3.798  51.488 -0.35 +0.14    +0.218 C 
+BRANCH  41  42
+ATOM     42  C38 SER A 139     202.613  -3.669  50.049 -0.23 +0.23    +0.277 C 
+ATOM     43  O39 SER A 139     201.810  -3.684  49.116 -0.38 -0.30    -0.268 OA
+ATOM     44  N41 SER A 139     203.918  -3.512  49.877 -0.27 -0.18    -0.224 NA
+BRANCH  44  45
+ATOM     45  C42 SER A 139     204.504  -3.396  48.557 -0.22 +0.19    +0.207 C 
+BRANCH  45  46
+ATOM     46  C43 SER A 139     204.352  -2.034  47.968 -0.29 +0.01    +0.009 A 
+ATOM     47  C48 SER A 139     204.072  -1.886  46.619 -0.23 -0.00    -0.002 A 
+ATOM     48  C47 SER A 139     203.834  -0.641  46.079 -0.23 -0.00    -0.000 A 
+ATOM     49  C46 SER A 139     203.882   0.479  46.896 -0.28 -0.00    -0.000 A 
+ATOM     50  C45 SER A 139     204.172   0.342  48.258 -0.35 -0.00    -0.000 A 
+ATOM     51  C44 SER A 139     204.406  -0.914  48.781 -0.34 -0.00    -0.002 A 
+ENDBRANCH  45  46
+BRANCH  45  52
+ATOM     52  C49 SER A 139     206.025  -3.504  48.685 -0.18 +0.22    +0.260 C 
+ATOM     53  N51 SER A 139     206.655  -4.368  47.870 -0.06 -0.23    -0.314 N 
+ATOM     54  C53 SER A 139     205.936  -5.270  46.906 -0.08 +0.12    +0.128 C 
+ATOM     55  C52 SER A 139     208.138  -4.429  47.924 -0.14 +0.07    +0.128 C 
+ATOM     56  O50 SER A 139     206.636  -2.817  49.513 -0.73 -0.26    -0.270 OA
+ENDBRANCH  45  52
+ENDBRANCH  44  45
+ENDBRANCH  41  42
+ENDBRANCH  39  41
+ENDBRANCH   4  38
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 139
+TER
+ENDMDL
+MODEL       10
+USER    Run = 10
+USER    DPF = dpf_files/ligand_2f9u.dpf
+USER  
+USER    Estimated Free Energy of Binding    =  -11.67 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    2.77 nM (nanomolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -17.64 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =  -10.20 kcal/mol
+USER        Internal Moving-Moving Receptor =   -7.44 kcal/mol
+USER    (3) Torsional Free Energy           =   +5.97 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move 2f9u
+USER    NEWDPF about 198.340000 -6.239000 49.576000
+USER    NEWDPF tran0 199.431851 -0.561648 42.354855
+USER    NEWDPF quaternion0 -0.295436 0.132281 -0.917432 0.231380
+USER    NEWDPF axisangle0 -0.303677 0.135970 -0.943023 153.243286
+USER    NEWDPF quat0 -0.303677 0.135970 -0.943023 153.243286
+USER    NEWDPF dihe0 7.63 7.82 7.59 84.55 43.96 6.68 19.03 -94.56 -180.00 -130.82 -47.38 167.93 132.11 -180.00 -12.35 6.33 -175.29 -23.32 23.23 -3.33 
+USER  keepresnum = 1 
+USER  
+BEGIN_RES SER A 139
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  C34 
+REMARK    4  A    between atoms: C1   and  O3  
+REMARK       I    between atoms: C1   and  N8  
+REMARK    5  A    between atoms: O3   and  C4  
+REMARK    6  A    between atoms: N8   and  C9  
+REMARK    7  A    between atoms: C9   and  C10 
+REMARK    8  A    between atoms: C9   and  C16 
+REMARK       I    between atoms: C16  and  N20 
+REMARK    9  A    between atoms: C18  and  C21 
+REMARK       I    between atoms: C18  and  N27 
+REMARK   10  A    between atoms: N27  and  C28 
+REMARK   11  A    between atoms: C28  and  C29 
+REMARK   12  A    between atoms: C28  and  C34 
+REMARK   13  A    between atoms: C29  and  C30 
+REMARK   14  A    between atoms: C30  and  C31 
+REMARK   15  A    between atoms: C34  and  C40 
+REMARK       I    between atoms: N36  and  C40 
+REMARK   16  A    between atoms: N36  and  C37 
+REMARK   17  A    between atoms: C37  and  C38 
+REMARK       I    between atoms: C38  and  N41 
+REMARK   18  A    between atoms: N41  and  C42 
+REMARK   19  A    between atoms: C42  and  C43 
+REMARK   20  A    between atoms: C42  and  C49 
+REMARK       I    between atoms: C49  and  N51 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  SER A 139     197.956  -1.798  54.548 +0.00 +0.00    +0.395 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 139     198.575  -3.182  54.418 +0.00 +0.00    +0.193 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 139     197.955  -3.651  53.268 -0.27 -0.09    -0.322 OA
+BRANCH   3   4
+ATOM      4  C34 SER A 139     198.363  -4.972  52.884 -0.21 +0.12    +0.313 C 
+ATOM      5  O33 SER A 139     198.876  -5.688  54.084 -0.62 -0.08    -0.183 OA
+BRANCH   4   6
+ATOM      6  C28 SER A 139     197.235  -5.724  52.159 -0.17 +0.05    +0.170 C 
+BRANCH   6   7
+ATOM      7  N27 SER A 139     197.436  -5.618  50.725 -0.13 -0.12    -0.233 NA
+ATOM      8  C18 SER A 139     196.539  -5.038  49.937 -0.25 +0.16    +0.272 C 
+ATOM      9  O19 SER A 139     195.444  -4.631  50.339 -0.40 -0.15    -0.269 OA
+BRANCH   8  10
+ATOM     10  C21 SER A 139     196.873  -5.031  48.455 -0.28 +0.12    +0.164 C 
+ATOM     11  N20 SER A 139     195.807  -5.762  47.764 -0.14 -0.23    -0.314 N 
+ATOM     12  C16 SER A 139     195.318  -6.958  48.128 -0.19 +0.18    +0.256 C 
+ATOM     13  C25 SER A 139     195.386  -4.859  46.648 -0.27 +0.06    +0.084 C 
+ATOM     14  O17 SER A 139     195.809  -7.606  49.060 -0.26 -0.17    -0.270 OA
+ATOM     15  C26 SER A 139     195.481  -3.517  47.331 -0.47 +0.02    +0.025 C 
+ATOM     16  C24 SER A 139     196.522  -4.746  45.622 -0.25 +0.02    +0.022 C 
+ATOM     17  C22 SER A 139     196.943  -3.680  47.710 -0.57 +0.02    +0.032 C 
+ATOM     18  C23 SER A 139     197.572  -3.898  46.332 -0.07 +0.00    +0.004 C 
+BRANCH  12  19
+ATOM     19  C9  SER A 139     194.191  -7.557  47.285 -0.22 +0.10    +0.187 C 
+BRANCH  19  20
+ATOM     20  C10 SER A 139     193.923  -8.977  47.802 -0.26 +0.01    +0.032 C 
+ATOM     21  C15 SER A 139     193.007  -9.747  46.857 -0.22 +0.00    +0.002 C 
+ATOM     22  C14 SER A 139     192.738 -11.168  47.346 -0.11 +0.00    +0.000 C 
+ATOM     23  C13 SER A 139     192.155 -11.155  48.761 -0.13 +0.00    +0.000 C 
+ATOM     24  C12 SER A 139     193.043 -10.369  49.729 -0.17 +0.00    +0.000 C 
+ATOM     25  C11 SER A 139     193.307  -8.967  49.205 -0.11 +0.00    +0.002 C 
+ENDBRANCH  19  20
+BRANCH  19  26
+ATOM     26  N8  SER A 139     194.577  -7.605  45.886 -0.17 -0.11    -0.205 NA
+ATOM     27  C1  SER A 139     195.439  -8.492  45.408 -0.07 +0.23    +0.384 C 
+ATOM     28  O2  SER A 139     196.091  -9.263  46.118 -0.05 -0.14    -0.236 OA
+BRANCH  27  29
+ATOM     29  O3  SER A 139     195.427  -8.342  44.083 -0.13 -0.18    -0.289 OA
+BRANCH  29  30
+ATOM     30  C4  SER A 139     195.367  -9.446  43.169 -0.13 +0.06    +0.103 C 
+ATOM     31  C7  SER A 139     196.235 -10.645  43.657 -0.05 +0.02    +0.030 C 
+ATOM     32  C6  SER A 139     195.957  -8.894  41.850 -0.13 +0.02    +0.030 C 
+ATOM     33  C5  SER A 139     193.843  -9.738  43.023 -0.12 +0.02    +0.030 C 
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+ENDBRANCH  19  26
+ENDBRANCH  12  19
+ENDBRANCH   8  10
+ENDBRANCH   6   7
+BRANCH   6  34
+ATOM     34  C29 SER A 139     197.111  -7.207  52.546 -0.06 +0.01    +0.030 C 
+BRANCH  34  35
+ATOM     35  C30 SER A 139     196.662  -8.112  51.401 -0.27 +0.00    +0.002 C 
+BRANCH  35  36
+ATOM     36  C31 SER A 139     197.556  -9.345  51.239 -0.19 +0.00    +0.000 C 
+ATOM     37  C32 SER A 139     197.004 -10.349  50.244 -0.08 +0.00    +0.000 C 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH   6  34
+ENDBRANCH   4   6
+BRANCH   4  38
+ATOM     38  C40 SER A 139     199.429  -4.878  51.810 -0.14 +0.17    +0.308 C 
+ATOM     39  N36 SER A 139     199.424  -3.960  50.857 -0.38 -0.17    -0.224 NA
+ATOM     40  O35 SER A 139     200.308  -5.729  51.892 -0.11 -0.14    -0.265 OA
+BRANCH  39  41
+ATOM     41  C37 SER A 139     200.220  -4.064  49.644 -0.16 +0.22    +0.218 C 
+BRANCH  41  42
+ATOM     42  C38 SER A 139     200.336  -5.435  49.015 -0.14 +0.29    +0.277 C 
+ATOM     43  O39 SER A 139     200.991  -5.623  47.989 -0.71 -0.45    -0.268 OA
+ATOM     44  N41 SER A 139     199.712  -6.409  49.662 -0.06 -0.17    -0.224 NA
+BRANCH  44  45
+ATOM     45  C42 SER A 139     199.713  -7.772  49.172 -0.06 +0.16    +0.207 C 
+BRANCH  45  46
+ATOM     46  C43 SER A 139     199.543  -7.860  47.692 -0.09 +0.01    +0.009 A 
+ATOM     47  C48 SER A 139     198.467  -7.241  47.077 -0.14 -0.00    -0.002 A 
+ATOM     48  C47 SER A 139     198.347  -7.231  45.705 -0.20 -0.00    -0.000 A 
+ATOM     49  C46 SER A 139     199.314  -7.856  44.929 -0.10 -0.00    -0.000 A 
+ATOM     50  C45 SER A 139     200.399  -8.492  45.540 -0.01 -0.00    -0.000 A 
+ATOM     51  C44 SER A 139     200.503  -8.490  46.917 -0.08 -0.00    -0.002 A 
+ENDBRANCH  45  46
+BRANCH  45  52
+ATOM     52  C49 SER A 139     201.116  -8.356  49.352 -0.07 +0.19    +0.260 C 
+ATOM     53  N51 SER A 139     201.218  -9.690  49.489 -0.05 -0.21    -0.314 N 
+ATOM     54  C53 SER A 139     200.030 -10.609  49.545 -0.07 +0.07    +0.128 C 
+ATOM     55  C52 SER A 139     202.576 -10.283  49.584 -0.08 +0.08    +0.128 C 
+ATOM     56  O50 SER A 139     202.108  -7.616  49.370 -0.08 -0.22    -0.270 OA
+ENDBRANCH  45  52
+ENDBRANCH  44  45
+ENDBRANCH  41  42
+ENDBRANCH  39  41
+ENDBRANCH   4  38
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 139
+TER
+ENDMDL
