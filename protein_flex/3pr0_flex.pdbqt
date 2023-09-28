@@ -1,0 +1,16 @@
+BEGIN_RES SER A 241
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+ROOT
+ATOM      1  CA  SER A 241     -10.917  41.739  -1.032  1.00 26.80     0.200 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 241     -11.666  40.573  -1.674  1.00 27.13     0.199 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 241     -12.963  40.975  -2.071  1.00 28.92    -0.398 OA
+ATOM      4  HG  SER A 241     -13.429  40.250  -2.470  1.00  0.00     0.209 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 241

@@ -1,0 +1,12 @@
+BEGIN_RES CYS B 164
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+ROOT
+ATOM      1  CA  CYS B 164      -0.434  96.723  45.246  1.00 41.48     0.186 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS B 164      -1.622  96.919  44.296  1.00 42.30     0.120 C 
+ATOM      3  SG  CYS B 164      -1.623  95.873  42.813  1.00 46.26    -0.095 SA
+ENDBRANCH   1   2
+END_RES CYS B 164

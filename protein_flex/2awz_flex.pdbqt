@@ -1,0 +1,12 @@
+BEGIN_RES CYS B 366
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+ROOT
+ATOM      1  CA  CYS B 366      15.057  39.932 124.535  1.00 35.15     0.186 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS B 366      15.919  39.639 125.767  1.00 37.87     0.120 C 
+ATOM      3  SG  CYS B 366      16.847  38.092 125.635  1.00 42.71    -0.095 SA
+ENDBRANCH   1   2
+END_RES CYS B 366

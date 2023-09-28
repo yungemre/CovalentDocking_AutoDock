@@ -1,0 +1,16 @@
+BEGIN_RES SER A 139
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+ROOT
+ATOM      1  CA  SER A 139     197.306  -2.012  54.361  1.00 15.17     0.200 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 139     198.033  -3.333  54.137  1.00 17.03     0.199 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 139     197.445  -3.900  52.974  1.00 19.03    -0.398 OA
+ATOM      4  HG  SER A 139     197.898  -4.723  52.834  1.00  0.00     0.209 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 139

@@ -1,0 +1,12 @@
+BEGIN_RES SER B 195
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+ROOT
+ATOM      1  CA  SER B 195       7.805  26.706  53.068  1.00 14.97     0.238 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER B 195       6.721  25.615  53.142  1.00 15.49     0.266 C 
+ATOM      3  OG  SER B 195       6.991  24.463  52.850  1.00 20.14    -0.304 OA
+ENDBRANCH   1   2
+END_RES SER B 195

@@ -1,0 +1,16 @@
+BEGIN_RES SER A  84
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+ROOT
+ATOM      1  CA  SER A  84     -14.487 -10.830   6.944  1.00  4.51     0.200 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.080 -10.254   6.891  1.00  5.00     0.199 C 
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.143 -11.231   6.461  1.00  6.87    -0.398 OA
+ATOM      4  HG  SER A  84     -11.264 -10.871   6.428  1.00  0.00     0.209 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84
