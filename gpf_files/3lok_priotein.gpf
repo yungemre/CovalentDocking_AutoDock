@@ -1,0 +1,17 @@
+npts 60 60 60                        # num.grid points in xyz
+gridfld 3lok_rigid.maps.fld          # grid_data_file
+spacing 0.375                        # spacing(A)
+receptor_types A C NA OA N SA HD     # receptor atom types
+ligand_types A C NA OA Br SA         # ligand atom types
+receptor 3lok_rigid.pdbqt            # macromolecule
+gridcenter 5.891 -38.235 29.204      # xyz-coordinates or auto
+smooth 0.5                           # store minimum energy w/in rad(A)
+map 3lok_rigid.A.map                 # atom-specific affinity map
+map 3lok_rigid.C.map                 # atom-specific affinity map
+map 3lok_rigid.NA.map                # atom-specific affinity map
+map 3lok_rigid.OA.map                # atom-specific affinity map
+map 3lok_rigid.Br.map                # atom-specific affinity map
+map 3lok_rigid.SA.map                # atom-specific affinity map
+elecmap 3lok_rigid.e.map             # electrostatic potential map
+dsolvmap 3lok_rigid.d.map              # desolvation potential map
+dielectric -0.1465                   # <0, AD4 distance-dep.diel;>0, constant
