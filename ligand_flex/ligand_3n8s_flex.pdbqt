@@ -1,0 +1,77 @@
+BEGIN_RES SER A  84
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  CAL 
+REMARK    4  A    between atoms: CAL  and  CBC 
+REMARK    5  A    between atoms: CAM  and  CAX 
+REMARK    6  A    between atoms: CAM  and  SAT 
+REMARK    7  A    between atoms: CAV  and  CAY 
+REMARK    8  A    between atoms: CAW  and  CBB 
+REMARK       I    between atoms: CAW  and  NAR 
+REMARK    9  A    between atoms: CAZ  and  CBB 
+REMARK   10  A    between atoms: NAR  and  CBC 
+REMARK   11  A    between atoms: SAT  and  CBA 
+REMARK   12  A    between atoms: CBC  and  CBD 
+ROOT
+ATOM      1  CA  SER A  84     -14.396 -10.699   7.082  1.00  3.66     0.395 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  84     -13.077  -9.949   6.999  1.00  3.79     0.192 C 
+BRANCH   2   3
+ATOM      3  OG  SER A  84     -12.014 -10.852   6.741  1.00  5.74    -0.324 OA
+BRANCH   3   4
+HETATM    4  CAL SER A  84     -11.704 -11.101   5.470  1.00 21.21     0.298 C 
+HETATM    5  OAD SER A  84     -12.521 -10.681   4.442  1.00 19.13    -0.188 OA
+BRANCH   4   6
+HETATM    6  CBC SER A  84     -10.428 -11.619   4.914  1.00 22.84     0.211 C 
+BRANCH   6   7
+HETATM    7  CBD SER A  84      -9.374 -10.597   5.142  1.00 26.17     0.112 C 
+HETATM    8  SAU SER A  84      -7.754 -10.698   4.407  1.00 23.67    -0.093 SA
+HETATM    9  CAN SER A  84      -8.066  -9.731   2.907  1.00 27.69     0.088 C 
+HETATM   10  CAX SER A  84      -8.878  -8.459   3.194  1.00 29.48     0.002 C 
+HETATM   11  CAY SER A  84      -9.796  -8.380   4.209  1.00 27.56     0.140 C 
+HETATM   12  NAS SER A  84     -10.004  -9.325   5.060  1.00 25.79    -0.236 NA
+BRANCH  10  13
+HETATM   13  CAM SER A  84      -8.714  -7.292   2.273  1.00 31.89     0.090 C 
+BRANCH  13  14
+HETATM   14  SAT SER A  84      -6.985  -7.024   1.771  1.00 42.86    -0.070 SA
+BRANCH  14  15
+HETATM   15  CBA SER A  84      -6.364  -5.664   2.817  1.00 44.08     0.211 A 
+HETATM   16  NBE SER A  84      -5.762  -4.571   2.379  1.00 45.32    -0.207 N 
+HETATM   17  NAQ SER A  84      -5.521  -3.882   3.346  1.00 45.53    -0.043 NA
+HETATM   18  CAA SER A  84      -5.499  -4.252   0.908  1.00 45.26     0.158 C 
+HETATM   19  NAO SER A  84      -5.885  -4.466   4.347  1.00 45.78    -0.022 NA
+HETATM   20  NAP SER A  84      -6.403  -5.555   4.130  1.00 45.16    -0.102 NA
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+BRANCH  11  21
+HETATM   21  CAV SER A  84     -10.497  -7.115   4.387  1.00 27.04     0.229 C 
+HETATM   22  OAE SER A  84     -10.433  -6.282   3.617  1.00 28.22    -0.643 OA
+HETATM   23  OAB SER A  84     -11.209  -7.040   5.265  1.00 28.64    -0.643 OA
+ENDBRANCH  11  21
+ENDBRANCH   6   7
+BRANCH   6  24
+HETATM   24  NAR SER A  84     -10.483 -11.977   3.501  1.00 21.79    -0.226 NA
+HETATM   25  CAW SER A  84      -9.733 -12.959   2.999  1.00 23.09     0.287 C 
+HETATM   26  OAC SER A  84      -9.009 -13.684   3.664  1.00 20.84    -0.267 OA
+BRANCH  25  27
+HETATM   27  CBB SER A  84      -9.992 -13.280   1.512  1.00 24.06     0.254 C 
+HETATM   28  OAF SER A  84      -9.916 -14.644   1.239  1.00 24.87    -0.208 OA
+BRANCH  27  29
+HETATM   29  CAZ SER A  84      -9.112 -12.512   0.569  1.00 25.19     0.017 A 
+HETATM   30  CAK SER A  84      -7.758 -12.702   0.539  1.00 25.75    -0.001 A 
+HETATM   31  CAI SER A  84      -6.926 -12.002  -0.330  1.00 26.01    -0.000 A 
+HETATM   32  CAG SER A  84      -7.456 -11.105  -1.215  1.00 25.36    -0.000 A 
+HETATM   33  CAH SER A  84      -8.798 -10.939  -1.196  1.00 25.83    -0.000 A 
+HETATM   34  CAJ SER A  84      -9.635 -11.620  -0.306  1.00 25.79    -0.001 A 
+ENDBRANCH  27  29
+ENDBRANCH  25  27
+ENDBRANCH   6  24
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  84

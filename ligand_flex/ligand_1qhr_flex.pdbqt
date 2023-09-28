@@ -1,0 +1,55 @@
+BEGIN_RES SER B 195
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+REMARK    3  A    between atoms: OG   and  C15 
+REMARK    4  A    between atoms: C1   and  C16 
+REMARK    5  A    between atoms: C1   and  C2  
+REMARK    6  A    between atoms: C2   and  C3  
+REMARK    7  A    between atoms: C3   and  C4  
+REMARK    8  A    between atoms: C4   and  C5  
+REMARK    9  A    between atoms: C10  and  C16 
+REMARK   10  A    between atoms: C15  and  C16 
+ROOT
+ATOM      1  CA  SER B 195       7.805  26.706  53.068  1.00 14.97     0.395 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER B 195       6.721  25.615  53.142  1.00 15.49     0.199 C 
+BRANCH   2   3
+ATOM      3  OG  SER B 195       6.991  24.463  52.850  1.00 20.14    -0.299 OA
+BRANCH   3   4
+HETATM    4  C15 SER B 195       7.766  23.549  53.139  0.87 22.86     0.272 C 
+HETATM    5  O8  SER B 195       8.525  23.627  54.065  0.87 21.08    -0.264 OA
+BRANCH   4   6
+HETATM    6  C16 SER B 195       7.737  22.245  52.386  0.87 24.13     0.089 C 
+BRANCH   6   7
+HETATM    7  C1  SER B 195       8.370  22.240  50.996  0.87 22.18     0.010 C 
+BRANCH   7   8
+HETATM    8  C2  SER B 195       9.103  23.497  50.589  0.87 20.66     0.001 C 
+BRANCH   8   9
+HETATM    9  C3  SER B 195      10.223  23.131  49.673  0.87 19.72     0.008 C 
+BRANCH   9  10
+HETATM   10  C4  SER B 195       9.729  22.468  48.412  0.87 18.67     0.070 C 
+BRANCH  10  11
+HETATM   11  C5  SER B 195      10.836  22.268  47.435  0.87 17.45     0.182 C 
+HETATM   12  N7  SER B 195      11.417  21.109  47.273  0.87 17.89    -0.130 N 
+HETATM   13  N6  SER B 195      11.226  23.261  46.664  0.87 18.56    -0.130 N 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   6  14
+HETATM   14  C10 SER B 195       6.341  21.640  52.466  0.87 26.39     0.040 C 
+HETATM   15  C12 SER B 195       6.269  20.257  51.837  0.87 28.72     0.003 C 
+HETATM   16  C11 SER B 195       5.102  19.565  52.516  0.87 29.43     0.003 C 
+HETATM   17  C14 SER B 195       4.730  20.380  53.743  0.87 27.43     0.033 C 
+HETATM   18  C13 SER B 195       5.849  21.370  53.879  0.87 27.01     0.153 C 
+HETATM   19  O9  SER B 195       5.332  22.521  54.466  0.87 26.97    -0.223 OA
+ENDBRANCH   6  14
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER B 195
