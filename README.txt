@@ -75,7 +75,7 @@ Requirements:
 
    Use AutoDockTools to generate GPF files for Autogrid:
    
-   The rigid files PDBQT files created in step 3 must be placed in the working directory!
+   The rigid PDBQT files created in step 3 must be placed in the working directory!
    
 	<path>/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_gpf4.py -r protein_rigid.pdbqt\
                 -x ligand_flex.pdbqt\
